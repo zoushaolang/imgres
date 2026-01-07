@@ -1,0 +1,2284 @@
+{
+"skeleton": {
+	"hash": "cg0kufIases",
+	"spine": "4.2.43",
+	"x": -661.33,
+	"y": 1.01,
+	"width": 1356.98,
+	"height": 2437.96,
+	"images": "./images/",
+	"audio": "./audio"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "All", "parent": "root", "y": -59.36 },
+	{ "name": "All2", "parent": "All", "x": 221.95, "y": 731.66, "icon": "gear" },
+	{ "name": "All3", "parent": "All2", "length": 416.72, "rotation": 171.47 },
+	{ "name": "All4", "parent": "All3", "length": 248.11, "rotation": -51.72, "x": 417.53, "y": -1.72 },
+	{ "name": "All5", "parent": "All4", "length": 308.81, "rotation": -5.73, "x": 248.11 },
+	{ "name": "All6", "parent": "All5", "length": 302.78, "rotation": 14.8, "x": 308.81 },
+	{ "name": "All7", "parent": "All6", "length": 457.48, "rotation": 121.53, "x": 326.8, "y": -2.87 },
+	{ "name": "All8", "parent": "All2", "length": 344.74, "rotation": 8.83, "x": 10.39, "y": 1.7 },
+	{ "name": "mulan_30", "parent": "All3", "length": 389.12, "rotation": 25.47, "x": 306, "y": 64.7 },
+	{ "name": "mulan_29", "parent": "mulan_30", "length": 483.24, "rotation": 67.98, "x": 375.77, "y": -7.12 },
+	{ "name": "mulan_31", "parent": "mulan_29", "length": 137.33, "rotation": 23.23, "x": 483.43, "y": -2.13 },
+	{ "name": "mulan_34", "parent": "All3", "length": 460.05, "rotation": -27.72, "x": 664.76, "y": 362.9 },
+	{ "name": "mulan_33", "parent": "mulan_34", "length": 455.41, "rotation": 128.43, "x": 465.51, "y": 0.93 },
+	{ "name": "mulan_35", "parent": "mulan_33", "length": 199.65, "rotation": 45.83, "x": 455.41 },
+	{ "name": "mulan_37", "parent": "All8", "length": 436.31, "rotation": -88.01, "x": 333.27, "y": -227.22 },
+	{ "name": "mulan_38", "parent": "mulan_37", "length": 144, "rotation": 9.74, "x": 438.67, "y": -0.45 },
+	{ "name": "mulan_39", "parent": "All8", "length": 384.42, "rotation": -148.65, "x": 202.94, "y": -282.51 },
+	{ "name": "mulan_36", "parent": "mulan_39", "length": 293.79, "rotation": 99.48, "x": 373.26, "y": -9.48 },
+	{ "name": "mulan_40", "parent": "mulan_36", "length": 100.2, "rotation": -84.87, "x": 292.23, "y": 1.84 },
+	{ "name": "All9", "parent": "All7", "x": -111.1, "y": -116.45, "color": "abe323ff" },
+	{ "name": "All10", "parent": "All9", "x": -48.21, "y": 135, "color": "abe323ff" },
+	{ "name": "All11", "parent": "All6", "x": 230.78, "y": -161.5, "color": "abe323ff" },
+	{ "name": "All12", "parent": "All11", "x": -152.76, "y": -28.02, "color": "abe323ff" },
+	{ "name": "All13", "parent": "All5", "x": 315.36, "y": -216.84, "color": "abe323ff" },
+	{ "name": "All14", "parent": "All13", "x": -197.07, "y": -10.95, "color": "abe323ff" },
+	{ "name": "All15", "parent": "All7", "x": 398.22, "y": 80.85 },
+	{ "name": "All16", "parent": "All2", "x": -73.09, "y": 442.91 },
+	{ "name": "All17", "parent": "All16", "length": 168.88, "rotation": 98.65 },
+	{ "name": "All18", "parent": "All17", "length": 156.07, "rotation": -8.65, "x": 168.88 },
+	{ "name": "All19", "parent": "All18", "length": 156.11, "rotation": -17.59, "x": 156.07 },
+	{ "name": "All20", "parent": "All19", "length": 92.55, "rotation": 45.66, "x": 156.11 },
+	{ "name": "All21", "parent": "All20", "length": 184.04, "rotation": 21.33, "x": 92.55 },
+	{ "name": "mulan_10", "parent": "All21", "length": 75.21, "rotation": -122.58, "x": 173.77, "y": 1.65 },
+	{ "name": "mulan_11", "parent": "mulan_10", "length": 73.55, "rotation": -58.13, "x": 75.21 },
+	{ "name": "mulan_12", "parent": "mulan_11", "length": 59.19, "rotation": -19.95, "x": 73.55 },
+	{ "name": "mulan_13", "parent": "mulan_12", "length": 44.5, "rotation": -12.35, "x": 59.19 },
+	{ "name": "mulan_14", "parent": "mulan_13", "length": 29.49, "rotation": 18.2, "x": 44.5 },
+	{ "name": "mulan_20", "parent": "All21", "length": 62.74, "rotation": 149.28, "x": 182.21, "y": 41.96 },
+	{ "name": "mulan_21", "parent": "mulan_20", "length": 52.85, "rotation": 10.73, "x": 62.73 },
+	{ "name": "mulan_22", "parent": "mulan_21", "length": 35.3, "rotation": 5.13, "x": 52.19, "y": -0.27 },
+	{ "name": "mulan_23", "parent": "mulan_22", "length": 37.84, "rotation": -7.21, "x": 35.3 },
+	{ "name": "mulan_24", "parent": "mulan_23", "length": 38.52, "rotation": 0.74, "x": 38.51, "y": -0.35 },
+	{ "name": "mulan_28", "parent": "All16", "length": 365.44, "rotation": -141.77, "x": 37.45, "y": -85.7 },
+	{ "name": "mulan_27", "parent": "mulan_28", "length": 656.56, "rotation": 83.29, "x": 361.93, "y": 0.73 },
+	{ "name": "mulan_32", "parent": "mulan_27", "length": 132.73, "rotation": -96.5, "x": 655.72, "y": -1.37 },
+	{ "name": "mulan_07", "parent": "All19", "length": 261.3, "rotation": -101.69, "x": 263.64, "y": -120.63 },
+	{ "name": "mulan_04", "parent": "mulan_07", "length": 221.07, "rotation": -14.87, "x": 261.73, "y": 5.54 },
+	{ "name": "mulan_05", "parent": "mulan_04", "length": 90.24, "rotation": -9.17, "x": 218.95, "y": 4.39 },
+	{ "name": "mulan_06", "parent": "mulan_05", "x": 152.18, "y": -79.27, "color": "abe323ff" },
+	{ "name": "mulan_08", "parent": "mulan_05", "x": 244.1, "y": -24.68, "color": "abe323ff" },
+	{ "name": "mulan_09", "parent": "mulan_05", "x": 253.25, "y": 63.34, "color": "abe323ff" },
+	{ "name": "mulan_010", "parent": "mulan_05", "x": 228.68, "y": 155.98, "color": "abe323ff" },
+	{
+		"name": "mulan_011",
+		"parent": "mulan_08",
+		"length": 54.8,
+		"rotation": -59.87,
+		"x": 12.28,
+		"y": -8.63,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_012", "parent": "mulan_011", "length": 52.66, "rotation": -28.14, "x": 54.8, "color": "abe323ff" },
+	{ "name": "mulan_013", "parent": "mulan_012", "length": 44.63, "rotation": -23.98, "x": 52.66, "color": "abe323ff" },
+	{
+		"name": "mulan_014",
+		"parent": "mulan_013",
+		"length": 35.09,
+		"rotation": -9.63,
+		"x": 45.63,
+		"y": -0.26,
+		"color": "abe323ff"
+	},
+	{
+		"name": "mulan_015",
+		"parent": "mulan_07",
+		"length": 89.01,
+		"rotation": 7.16,
+		"x": 164.52,
+		"y": 22.64,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_016", "parent": "mulan_015", "length": 93.49, "rotation": 18.79, "x": 89.01, "color": "abe323ff" },
+	{ "name": "mulan_017", "parent": "mulan_016", "length": 94.86, "rotation": -3.25, "x": 93.49, "color": "abe323ff" },
+	{
+		"name": "mulan_018",
+		"parent": "mulan_017",
+		"length": 93.44,
+		"rotation": 3.8,
+		"x": 95.99,
+		"y": 0.13,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_019", "parent": "mulan_018", "length": 83.85, "rotation": -3.42, "x": 93.44, "color": "abe323ff" },
+	{
+		"name": "mulan_020",
+		"parent": "mulan_019",
+		"length": 63.1,
+		"rotation": -14.83,
+		"x": 86.94,
+		"y": -0.58,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_021", "parent": "mulan_020", "length": 41.03, "rotation": -9.49, "x": 63.1, "color": "abe323ff" },
+	{
+		"name": "mulan_022",
+		"parent": "mulan_07",
+		"length": 323.95,
+		"rotation": -3.95,
+		"x": 79.94,
+		"y": -57.02,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_023", "parent": "mulan_022", "length": 241.18, "rotation": 11.64, "x": 323.95, "color": "abe323ff" },
+	{ "name": "mulan_024", "parent": "mulan_023", "length": 187, "rotation": 8.6, "x": 241.18, "color": "abe323ff" },
+	{ "name": "mulan_025", "parent": "mulan_024", "length": 185.27, "rotation": 18.06, "x": 187, "color": "abe323ff" },
+	{ "name": "mulan_026", "parent": "mulan_025", "length": 147.93, "rotation": 10.51, "x": 185.27, "color": "abe323ff" },
+	{ "name": "mulan_027", "parent": "mulan_026", "length": 93.96, "rotation": 19.3, "x": 147.93, "color": "abe323ff" },
+	{ "name": "mulan_028", "parent": "mulan_027", "length": 40.8, "rotation": 41.88, "x": 93.96, "color": "abe323ff" },
+	{
+		"name": "mulan_029",
+		"parent": "mulan_022",
+		"length": 212.98,
+		"rotation": 50.03,
+		"x": 169.08,
+		"y": 35.82,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_030", "parent": "mulan_029", "length": 134.89, "rotation": 12.2, "x": 212.98, "color": "abe323ff" },
+	{ "name": "mulan_031", "parent": "mulan_030", "length": 152.5, "rotation": -9.35, "x": 134.89, "color": "abe323ff" },
+	{ "name": "mulan_032", "parent": "mulan_031", "length": 129.51, "rotation": -8.23, "x": 152.5, "color": "abe323ff" },
+	{ "name": "mulan_033", "parent": "mulan_032", "length": 80.75, "rotation": 45.9, "x": 129.51, "color": "abe323ff" },
+	{ "name": "mulan_034", "parent": "mulan_033", "length": 101.17, "rotation": 92.22, "x": 80.75, "color": "abe323ff" },
+	{ "name": "mulan_035", "parent": "mulan_034", "length": 57.93, "rotation": 2.77, "x": 101.17, "color": "abe323ff" },
+	{ "name": "mulan_036", "parent": "mulan_035", "length": 47.88, "rotation": -54.6, "x": 57.93, "color": "abe323ff" },
+	{
+		"name": "mulan_41",
+		"parent": "All8",
+		"length": 157.77,
+		"rotation": -16.18,
+		"x": 392.09,
+		"y": 90.19,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_42", "parent": "mulan_41", "length": 186.34, "rotation": -42.78, "x": 157.77, "color": "abe323ff" },
+	{ "name": "mulan_43", "parent": "mulan_42", "length": 144.94, "rotation": 40.78, "x": 186.34, "color": "abe323ff" },
+	{ "name": "mulan_44", "parent": "mulan_43", "length": 154.83, "rotation": 80.33, "x": 144.94, "color": "abe323ff" },
+	{ "name": "mulan_45", "parent": "mulan_44", "length": 130.67, "rotation": 53.53, "x": 154.83, "color": "abe323ff" },
+	{ "name": "mulan_46", "parent": "mulan_45", "length": 102.17, "rotation": 38.25, "x": 130.67, "color": "abe323ff" },
+	{ "name": "mulan_47", "parent": "mulan_46", "length": 90.37, "rotation": -96.94, "x": 102.17, "color": "abe323ff" },
+	{ "name": "mulan_48", "parent": "mulan_47", "length": 99.66, "rotation": -44.02, "x": 90.37, "color": "abe323ff" },
+	{ "name": "mulan_49", "parent": "mulan_48", "length": 64.64, "rotation": -60.46, "x": 99.66, "color": "abe323ff" },
+	{
+		"name": "mulan_25",
+		"parent": "All16",
+		"length": 181.41,
+		"rotation": -49.88,
+		"x": 115.79,
+		"y": 27.36,
+		"color": "abe323ff"
+	},
+	{
+		"name": "mulan_26",
+		"parent": "All16",
+		"length": 237.4,
+		"rotation": -56.07,
+		"x": 69.44,
+		"y": -19.53,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_50", "parent": "mulan_26", "length": 146.54, "rotation": 4.62, "x": 237.4, "color": "abe323ff" },
+	{ "name": "mulan_51", "parent": "mulan_50", "length": 151.99, "rotation": 17.01, "x": 146.54, "color": "abe323ff" },
+	{ "name": "mulan_52", "parent": "mulan_51", "length": 147.36, "rotation": 8.5, "x": 151.99, "color": "abe323ff" },
+	{ "name": "mulan_53", "parent": "mulan_52", "length": 120.07, "rotation": 8.59, "x": 147.36, "color": "abe323ff" },
+	{ "name": "mulan_54", "parent": "mulan_53", "length": 116.52, "rotation": 14.71, "x": 120.07, "color": "abe323ff" },
+	{ "name": "mulan_55", "parent": "mulan_54", "length": 82.37, "rotation": 2.64, "x": 116.52, "color": "abe323ff" },
+	{ "name": "mulan_56", "parent": "All19", "length": 254.3, "rotation": 178.37, "x": 14.03, "y": 51.67 },
+	{ "name": "mulan_57", "parent": "mulan_56", "length": 139.33, "rotation": -105.48, "x": 260.68, "y": -8.27 },
+	{ "name": "mulan_58", "parent": "mulan_57", "length": 80.35, "rotation": -26.63, "x": 139.33 },
+	{ "name": "mulan_59", "parent": "mulan_58", "x": 74.78, "y": -111.2, "color": "abe323ff" },
+	{ "name": "All22", "parent": "All7", "x": 282.96, "y": 150.57 },
+	{ "name": "All23", "parent": "All7", "x": 189.42, "y": 410.11, "color": "abe323ff" },
+	{ "name": "All24", "parent": "All7", "x": 36.5, "y": 517.99, "color": "abe323ff" },
+	{
+		"name": "mulan_60",
+		"parent": "All4",
+		"length": 62.15,
+		"rotation": 127.54,
+		"x": 102.77,
+		"y": 287.81,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_61", "parent": "mulan_60", "length": 49.6, "rotation": -31.03, "x": 62.15, "color": "abe323ff" },
+	{ "name": "mulan_62", "parent": "mulan_61", "length": 46.57, "rotation": -12.62, "x": 49.6, "color": "abe323ff" },
+	{ "name": "mulan_63", "parent": "mulan_62", "length": 45.33, "rotation": 38.3, "x": 46.57, "color": "abe323ff" },
+	{ "name": "mulan_64", "parent": "All21", "length": 53.6, "rotation": -132.56, "x": 151.28, "y": -198.8 },
+	{ "name": "mulan_65", "parent": "mulan_64", "length": 129.88, "rotation": -47.19, "x": 53.6, "color": "abe323ff" },
+	{ "name": "mulan_66", "parent": "mulan_65", "length": 150.84, "rotation": 31.42, "x": 129.88, "color": "abe323ff" },
+	{ "name": "mulan_67", "parent": "mulan_66", "length": 147.22, "rotation": 24.88, "x": 150.84, "color": "abe323ff" },
+	{ "name": "mulan_68", "parent": "mulan_67", "length": 113.65, "rotation": 29.43, "x": 147.22, "color": "abe323ff" },
+	{ "name": "mulan_69", "parent": "mulan_68", "length": 117.75, "rotation": 32.09, "x": 113.65, "color": "abe323ff" },
+	{ "name": "mulan_70", "parent": "mulan_69", "length": 98.89, "rotation": 68.5, "x": 117.75, "color": "abe323ff" },
+	{ "name": "mulan_71", "parent": "mulan_70", "length": 87.28, "rotation": 49.59, "x": 98.89, "color": "abe323ff" },
+	{ "name": "mulan_72", "parent": "mulan_71", "length": 38.7, "rotation": 42.93, "x": 87.28, "color": "abe323ff" },
+	{ "name": "mulan_73", "parent": "mulan_72", "length": 35.11, "rotation": 17.47, "x": 38.7, "color": "abe323ff" },
+	{
+		"name": "mulan_74",
+		"parent": "mulan_68",
+		"length": 96.86,
+		"rotation": -45.38,
+		"x": 16.51,
+		"y": -7.64,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_75", "parent": "mulan_74", "length": 87.58, "rotation": -16.23, "x": 97.92, "color": "abe323ff" },
+	{
+		"name": "mulan_76",
+		"parent": "mulan_75",
+		"length": 86.55,
+		"rotation": -29.27,
+		"x": 94.47,
+		"y": -4.64,
+		"color": "abe323ff"
+	},
+	{
+		"name": "mulan_77",
+		"parent": "mulan_76",
+		"length": 28.66,
+		"rotation": -22.7,
+		"x": 81.28,
+		"y": 0.71,
+		"color": "abe323ff"
+	},
+	{
+		"name": "mulan_78",
+		"parent": "mulan_69",
+		"length": 105.99,
+		"rotation": -54.97,
+		"x": 39.67,
+		"y": -16.61,
+		"color": "abe323ff"
+	},
+	{
+		"name": "mulan_79",
+		"parent": "mulan_78",
+		"length": 86.06,
+		"rotation": -21.84,
+		"x": 107.82,
+		"y": -0.76,
+		"color": "abe323ff"
+	},
+	{
+		"name": "mulan_80",
+		"parent": "mulan_79",
+		"length": 66.39,
+		"rotation": -25.31,
+		"x": 95.94,
+		"y": -1.1,
+		"color": "abe323ff"
+	},
+	{
+		"name": "mulan_81",
+		"parent": "mulan_80",
+		"length": 37.86,
+		"rotation": -8.62,
+		"x": 70.81,
+		"y": -0.15,
+		"color": "abe323ff"
+	},
+	{ "name": "qi", "parent": "root", "x": -7.02, "y": -150.84, "icon": "T" },
+	{ "name": "mulan_82", "parent": "qi", "length": 915.47, "rotation": 96.02, "x": -512.13, "y": 293.04 },
+	{
+		"name": "mulan_83",
+		"parent": "mulan_82",
+		"length": 220,
+		"rotation": -108.12,
+		"x": 918.68,
+		"y": -6.13,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_84", "parent": "mulan_83", "length": 145.89, "rotation": 3, "x": 220, "color": "abe323ff" },
+	{ "name": "mulan_85", "parent": "mulan_84", "length": 124.73, "rotation": -0.66, "x": 145.89, "color": "abe323ff" },
+	{ "name": "mulan_86", "parent": "mulan_85", "length": 138.64, "rotation": -0.62, "x": 124.73, "color": "abe323ff" },
+	{ "name": "mulan_87", "parent": "mulan_86", "length": 124.85, "rotation": -3.87, "x": 138.64, "color": "abe323ff" },
+	{ "name": "mulan_88", "parent": "mulan_87", "length": 90.42, "rotation": 1.99, "x": 124.85, "color": "abe323ff" },
+	{ "name": "mulan_89", "parent": "qi", "length": 1508.99, "rotation": 95.72, "x": -318.85, "y": 373.4 },
+	{
+		"name": "mulan_90",
+		"parent": "mulan_89",
+		"length": 321.58,
+		"rotation": -112.65,
+		"x": 1510.98,
+		"y": -13.64,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_91", "parent": "mulan_90", "length": 249.91, "rotation": 4.57, "x": 321.58, "color": "abe323ff" },
+	{ "name": "mulan_92", "parent": "mulan_91", "length": 387.01, "rotation": -0.11, "x": 249.91, "color": "abe323ff" },
+	{
+		"name": "mulan_93",
+		"parent": "mulan_92",
+		"length": 274.21,
+		"rotation": -0.21,
+		"x": 369.96,
+		"y": -0.35,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_94", "parent": "mulan_93", "length": 219.44, "rotation": 4.8, "x": 274.21, "color": "abe323ff" },
+	{ "name": "mulan_95", "parent": "qi", "length": 1856.83, "rotation": 95.81, "x": 103.49, "y": 442.94 },
+	{ "name": "mulan_96", "parent": "mulan_95", "length": 450.46, "rotation": -122.85, "x": 1856.83, "color": "abe323ff" },
+	{ "name": "mulan_97", "parent": "mulan_96", "length": 308.96, "rotation": -2.99, "x": 450.46, "color": "abe323ff" },
+	{ "name": "mulan_98", "parent": "mulan_97", "length": 271.66, "rotation": 7.41, "x": 308.96, "color": "abe323ff" },
+	{ "name": "mulan_99", "parent": "mulan_98", "length": 234.23, "rotation": 7.1, "x": 271.66, "color": "abe323ff" },
+	{ "name": "mulan_100", "parent": "mulan_99", "length": 113.15, "rotation": 11.29, "x": 234.23, "color": "abe323ff" },
+	{ "name": "mulan_101", "parent": "mulan_100", "length": 96.22, "rotation": 1.75, "x": 113.15, "color": "abe323ff" },
+	{ "name": "mulan_102", "parent": "qi", "length": 877.1, "rotation": 98.75, "x": 743.16, "y": 404.84 },
+	{ "name": "mulan_103", "parent": "mulan_102", "length": 247.9, "rotation": -115.35, "x": 877.1, "color": "abe323ff" },
+	{ "name": "mulan_104", "parent": "mulan_103", "length": 213.66, "rotation": -3.95, "x": 247.9, "color": "abe323ff" },
+	{ "name": "mulan_105", "parent": "mulan_104", "length": 168.01, "rotation": -2.83, "x": 213.66, "color": "abe323ff" },
+	{ "name": "mulan_106", "parent": "mulan_105", "length": 134.54, "rotation": 7.2, "x": 168.01, "color": "abe323ff" },
+	{ "name": "mulan_107", "parent": "mulan_106", "length": 95.95, "rotation": 13.7, "x": 134.54, "color": "abe323ff" },
+	{ "name": "mulan_108", "parent": "qi", "length": 1225.22, "rotation": 101.88, "x": 650.36, "y": 460.45 },
+	{ "name": "mulan_109", "parent": "mulan_108", "length": 277.39, "rotation": -110.88, "x": 1225.22, "color": "abe323ff" },
+	{ "name": "mulan_110", "parent": "mulan_109", "length": 228.33, "rotation": -0.57, "x": 277.39, "color": "abe323ff" },
+	{ "name": "mulan_111", "parent": "mulan_110", "length": 190.58, "rotation": 4.68, "x": 228.33, "color": "abe323ff" },
+	{ "name": "mulan_112", "parent": "mulan_111", "length": 143.46, "rotation": -10.45, "x": 190.58, "color": "abe323ff" },
+	{ "name": "mulan_113", "parent": "mulan_112", "length": 94.63, "rotation": -11.95, "x": 143.46, "color": "abe323ff" },
+	{ "name": "mulan_114", "parent": "qi", "length": 1022.36, "rotation": 93.84, "x": -201.87, "y": 488.72 },
+	{ "name": "mulan_115", "parent": "mulan_114", "length": 305.51, "rotation": -104.91, "x": 1022.36, "color": "abe323ff" },
+	{ "name": "mulan_116", "parent": "mulan_115", "length": 200.79, "rotation": -2.06, "x": 305.51, "color": "abe323ff" },
+	{ "name": "mulan_117", "parent": "mulan_116", "length": 231.6, "rotation": -0.71, "x": 200.79, "color": "abe323ff" },
+	{ "name": "mulan_118", "parent": "mulan_117", "length": 152.58, "rotation": -6.14, "x": 231.6, "color": "abe323ff" },
+	{ "name": "mulan_119", "parent": "mulan_118", "length": 113.36, "rotation": 1.55, "x": 152.58, "color": "abe323ff" },
+	{ "name": "mulan_120", "parent": "qi", "length": 923.34, "rotation": 94.59, "x": 298.27, "y": 208.99 },
+	{ "name": "mulan_121", "parent": "mulan_120", "length": 280.49, "rotation": -121.62, "x": 923.34, "color": "abe323ff" },
+	{ "name": "mulan_122", "parent": "mulan_121", "length": 255.41, "rotation": 0.98, "x": 280.49, "color": "abe323ff" },
+	{
+		"name": "mulan_123",
+		"parent": "mulan_122",
+		"length": 146.77,
+		"rotation": 8.88,
+		"x": 258.87,
+		"y": 4.53,
+		"color": "abe323ff"
+	},
+	{ "name": "mulan_124", "parent": "mulan_123", "length": 129.25, "rotation": 2.32, "x": 146.77, "color": "abe323ff" },
+	{ "name": "mulan_15", "parent": "All21", "x": 112.44, "y": 6.9 },
+	{ "name": "All26", "parent": "All21", "x": 87.76, "y": 11.7 },
+	{ "name": "mulan_16", "parent": "All21", "x": 101.72, "y": 11.53 },
+	{ "name": "mulan_17", "parent": "All21", "length": 33.32, "rotation": -85.65, "x": 121.54, "y": 19.08 },
+	{ "name": "mulan_18", "parent": "All21", "x": 112.7, "y": 63.4 },
+	{ "name": "All27", "parent": "All21", "x": 93.98, "y": 64.25 },
+	{ "name": "mulan_19", "parent": "All21", "x": 103.95, "y": 63.33 },
+	{ "name": "mulan_125", "parent": "All21", "length": 13.85, "rotation": 57.04, "x": 126.68, "y": 57.56 },
+	{
+		"name": "mulan_037",
+		"parent": "mulan_07",
+		"length": 220.94,
+		"rotation": 8.86,
+		"x": -16.61,
+		"y": 20.66,
+		"color": "abe323ff"
+	},
+	{ "name": "eff", "parent": "All", "x": -93.34, "y": 236.27 },
+	{ "name": "mulan_02", "parent": "All", "x": -138.16, "y": 76.68 },
+	{ "name": "mulan_03", "parent": "All", "x": 977.84, "y": 142.68 },
+	{ "name": "mulan_038", "parent": "All", "x": 977.84, "y": 142.68 }
+],
+"slots": [
+	{ "name": "All", "bone": "All", "attachment": "All" },
+	{ "name": "mulan_50", "bone": "root", "attachment": "mulan_50" },
+	{ "name": "mulan_49", "bone": "mulan_95", "attachment": "mulan_49" },
+	{ "name": "mulan_48", "bone": "mulan_102", "attachment": "mulan_48" },
+	{ "name": "mulan_47", "bone": "mulan_108", "attachment": "mulan_47" },
+	{ "name": "mulan_46", "bone": "mulan_114", "attachment": "mulan_46" },
+	{ "name": "mulan_45", "bone": "mulan_120", "attachment": "mulan_45" },
+	{ "name": "mulan_44", "bone": "mulan_82", "attachment": "mulan_44" },
+	{ "name": "mulan_43", "bone": "mulan_89", "attachment": "mulan_43" },
+	{ "name": "mulan_42", "bone": "mulan_56", "attachment": "mulan_42" },
+	{ "name": "mulan_41", "bone": "mulan_57", "attachment": "mulan_41" },
+	{ "name": "mulan_40", "bone": "mulan_58", "attachment": "mulan_40" },
+	{ "name": "mulan_39", "bone": "mulan_41", "attachment": "mulan_39" },
+	{ "name": "mulan_38", "bone": "mulan_39", "attachment": "mulan_38" },
+	{ "name": "mulan_37", "bone": "mulan_37", "attachment": "mulan_37" },
+	{ "name": "mulan_36", "bone": "mulan_36", "attachment": "mulan_36" },
+	{ "name": "mulan_35", "bone": "root", "attachment": "mulan_35" },
+	{ "name": "mulan_34", "bone": "mulan_34", "attachment": "mulan_34" },
+	{ "name": "mulan_33", "bone": "mulan_33", "attachment": "mulan_33" },
+	{ "name": "mulan_32", "bone": "root", "attachment": "mulan_32" },
+	{ "name": "mulan_31", "bone": "mulan_60", "attachment": "mulan_31" },
+	{ "name": "mulan_30", "bone": "mulan_30", "attachment": "mulan_30" },
+	{ "name": "mulan_29", "bone": "mulan_29", "attachment": "mulan_29" },
+	{ "name": "mulan_28", "bone": "mulan_28", "attachment": "mulan_28" },
+	{ "name": "mulan_27", "bone": "mulan_27", "attachment": "mulan_27" },
+	{ "name": "mulan_26", "bone": "mulan_26", "attachment": "mulan_26" },
+	{ "name": "mulan_24", "bone": "root", "attachment": "mulan_24" },
+	{ "name": "mulan_23", "bone": "mulan_25", "attachment": "mulan_23" },
+	{ "name": "mulan_25", "bone": "root", "attachment": "mulan_25" },
+	{ "name": "mulan_22", "bone": "mulan_64", "attachment": "mulan_22" },
+	{ "name": "mulan_21", "bone": "All21", "attachment": "mulan_21" },
+	{ "name": "mulan_20", "bone": "mulan_20", "attachment": "mulan_20" },
+	{ "name": "mulan_19", "bone": "All21", "attachment": "mulan_19" },
+	{ "name": "mulan_18", "bone": "root", "attachment": "mulan_18" },
+	{ "name": "mulan_17", "bone": "All19", "attachment": "mulan_17" },
+	{ "name": "mulan_16", "bone": "mulan_18", "attachment": "mulan_16" },
+	{ "name": "mulan_15", "bone": "mulan_19", "attachment": "mulan_15" },
+	{ "name": "mulan_14", "bone": "mulan_125", "attachment": "mulan_14" },
+	{ "name": "mulan_13", "bone": "mulan_17", "attachment": "mulan_13" },
+	{ "name": "mulan_12", "bone": "mulan_16", "attachment": "mulan_12" },
+	{ "name": "mulan_11", "bone": "mulan_15", "attachment": "mulan_11" },
+	{ "name": "mulan_10", "bone": "mulan_10", "attachment": "mulan_10" },
+	{ "name": "mulan_09", "bone": "mulan_022", "attachment": "mulan_09" },
+	{ "name": "mulan_08", "bone": "mulan_037", "attachment": "mulan_08" },
+	{ "name": "mulan_07", "bone": "mulan_07", "attachment": "mulan_07" },
+	{ "name": "mulan_06", "bone": "mulan_015", "attachment": "mulan_06" },
+	{ "name": "mulan_05", "bone": "mulan_037", "attachment": "mulan_05" },
+	{ "name": "mulan_04", "bone": "mulan_04", "attachment": "mulan_04" },
+	{ "name": "mulan_03", "bone": "root", "attachment": "mulan_03" },
+	{ "name": "mulan_02", "bone": "mulan_02", "color": "ffffff2f", "attachment": "mulan_02" },
+	{ "name": "mulan_010", "bone": "mulan_03", "attachment": "mulan_02" },
+	{ "name": "mulan_011", "bone": "mulan_038", "attachment": "mulan_02" },
+	{ "name": "mulan_01", "bone": "eff", "color": "ffffff55", "attachment": "mulan_01" }
+],
+"physics": [
+	{
+		"name": "All9",
+		"order": 55,
+		"bone": "All9",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "All10",
+		"order": 56,
+		"bone": "All10",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "All11",
+		"order": 64,
+		"bone": "All11",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "All12",
+		"order": 65,
+		"bone": "All12",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "All13",
+		"order": 66,
+		"bone": "All13",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "All14",
+		"order": 67,
+		"bone": "All14",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "All23",
+		"order": 59,
+		"bone": "All23",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "All24",
+		"order": 58,
+		"bone": "All24",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "mulan_06",
+		"order": 50,
+		"bone": "mulan_06",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "mulan_07",
+		"order": 49,
+		"bone": "mulan_06",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "mulan_08",
+		"order": 44,
+		"bone": "mulan_08",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "mulan_09",
+		"order": 52,
+		"bone": "mulan_09",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "mulan_010",
+		"order": 54,
+		"bone": "mulan_010",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{ "name": "mulan_011", "order": 45, "bone": "mulan_011", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_012", "order": 46, "bone": "mulan_012", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_013", "order": 47, "bone": "mulan_013", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_014", "order": 48, "bone": "mulan_014", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_015", "order": 36, "bone": "mulan_015", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_016", "order": 37, "bone": "mulan_016", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_017", "order": 38, "bone": "mulan_017", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_018", "order": 39, "bone": "mulan_018", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_019", "order": 40, "bone": "mulan_019", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_020", "order": 41, "bone": "mulan_020", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_021", "order": 42, "bone": "mulan_021", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_022", "order": 21, "bone": "mulan_022", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_023", "order": 22, "bone": "mulan_023", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_024", "order": 23, "bone": "mulan_024", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_25", "order": 88, "bone": "mulan_25", "rotate": 1, "inertia": 0.2, "damping": 0.85 },
+	{ "name": "mulan_025", "order": 24, "bone": "mulan_025", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_26", "order": 81, "bone": "mulan_26", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_026", "order": 25, "bone": "mulan_026", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_027", "order": 26, "bone": "mulan_027", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_028", "order": 27, "bone": "mulan_028", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_029", "order": 28, "bone": "mulan_029", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_030", "order": 29, "bone": "mulan_030", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_031", "order": 30, "bone": "mulan_031", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_032", "order": 31, "bone": "mulan_032", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_033", "order": 32, "bone": "mulan_033", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_034", "order": 33, "bone": "mulan_034", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_035", "order": 34, "bone": "mulan_035", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_036", "order": 35, "bone": "mulan_036", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_037", "order": 100, "bone": "mulan_037", "rotate": 1, "inertia": 0.2, "damping": 0.85 },
+	{
+		"name": "mulan_038",
+		"order": 43,
+		"bone": "mulan_08",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "mulan_039",
+		"order": 51,
+		"bone": "mulan_09",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{
+		"name": "mulan_040",
+		"order": 53,
+		"bone": "mulan_010",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{ "name": "mulan_41", "order": 68, "bone": "mulan_41", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_42", "order": 69, "bone": "mulan_42", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_43", "order": 70, "bone": "mulan_43", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_44", "order": 71, "bone": "mulan_44", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_45", "order": 72, "bone": "mulan_45", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_46", "order": 73, "bone": "mulan_46", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_47", "order": 74, "bone": "mulan_47", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_48", "order": 75, "bone": "mulan_48", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_49", "order": 76, "bone": "mulan_49", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_50", "order": 82, "bone": "mulan_50", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_51", "order": 83, "bone": "mulan_51", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_52", "order": 84, "bone": "mulan_52", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_53", "order": 85, "bone": "mulan_53", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_54", "order": 86, "bone": "mulan_54", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_55", "order": 87, "bone": "mulan_55", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{
+		"name": "mulan_59",
+		"order": 57,
+		"bone": "mulan_59",
+		"x": 1,
+		"y": 1,
+		"inertia": 0.5,
+		"damping": 0.85
+	},
+	{ "name": "mulan_60", "order": 60, "bone": "mulan_60", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_61", "order": 61, "bone": "mulan_61", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_62", "order": 62, "bone": "mulan_62", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_63", "order": 63, "bone": "mulan_63", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_65", "order": 109, "bone": "mulan_65", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_66", "order": 110, "bone": "mulan_66", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_67", "order": 111, "bone": "mulan_67", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_68", "order": 112, "bone": "mulan_68", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_69", "order": 113, "bone": "mulan_69", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_70", "order": 114, "bone": "mulan_70", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_71", "order": 115, "bone": "mulan_71", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_72", "order": 116, "bone": "mulan_72", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_73", "order": 117, "bone": "mulan_73", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_74", "order": 101, "bone": "mulan_74", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_75", "order": 102, "bone": "mulan_75", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_76", "order": 103, "bone": "mulan_76", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_77", "order": 104, "bone": "mulan_77", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_78", "order": 105, "bone": "mulan_78", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_79", "order": 106, "bone": "mulan_79", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_80", "order": 107, "bone": "mulan_80", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_81", "order": 108, "bone": "mulan_81", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_83", "order": 10, "bone": "mulan_83", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_84", "order": 11, "bone": "mulan_84", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_85", "order": 12, "bone": "mulan_85", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_86", "order": 13, "bone": "mulan_86", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_87", "order": 14, "bone": "mulan_87", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_88", "order": 15, "bone": "mulan_88", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_90", "order": 95, "bone": "mulan_90", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_91", "order": 96, "bone": "mulan_91", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_92", "order": 97, "bone": "mulan_92", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_93", "order": 98, "bone": "mulan_93", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_94", "order": 99, "bone": "mulan_94", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_96", "order": 89, "bone": "mulan_96", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_97", "order": 90, "bone": "mulan_97", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_98", "order": 91, "bone": "mulan_98", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_99", "order": 92, "bone": "mulan_99", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_100", "order": 93, "bone": "mulan_100", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_101", "order": 94, "bone": "mulan_101", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_103", "bone": "mulan_103", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_104", "order": 1, "bone": "mulan_104", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_105", "order": 2, "bone": "mulan_105", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_106", "order": 3, "bone": "mulan_106", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_107", "order": 4, "bone": "mulan_107", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_109", "order": 5, "bone": "mulan_109", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_110", "order": 6, "bone": "mulan_110", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_111", "order": 7, "bone": "mulan_111", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_112", "order": 8, "bone": "mulan_112", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_113", "order": 9, "bone": "mulan_113", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_115", "order": 16, "bone": "mulan_115", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_116", "order": 17, "bone": "mulan_116", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_117", "order": 18, "bone": "mulan_117", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_118", "order": 19, "bone": "mulan_118", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_119", "order": 20, "bone": "mulan_119", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_121", "order": 77, "bone": "mulan_121", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_122", "order": 78, "bone": "mulan_122", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_123", "order": 79, "bone": "mulan_123", "rotate": 1, "inertia": 0.5, "damping": 0.85 },
+	{ "name": "mulan_124", "order": 80, "bone": "mulan_124", "rotate": 1, "inertia": 0.5, "damping": 0.85 }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"All": {
+				"All": {
+					"type": "clipping",
+					"end": "All",
+					"vertexCount": 4,
+					"vertices": [ -660.58, 2498.66, -661.33, 60.37, 693.86, 60.65, 695.65, 2497.73 ],
+					"color": "ce3a3aff"
+				}
+			},
+			"mulan_01": {
+				"mulan_01": { "x": 624.84, "y": 385.59, "width": 2011, "height": 1245 }
+			},
+			"mulan_02": {
+				"mulan_02": { "x": 608.66, "y": 645.68, "width": 2225, "height": 1588 }
+			},
+			"mulan_03": {
+				"mulan_03": {
+					"type": "mesh",
+					"uvs": [ 0.84052, 0.21564, 0.97546, 0.06352, 1, 0.17258, 1, 0.25869, 0.95836, 0.29314, 0.95075, 0.38211, 0.91464, 0.51988, 0.86713, 0.60886, 0.86143, 0.72367, 0.83197, 0.84709, 0.79396, 0.90737, 0.7455, 0.90737, 0.736, 0.64618, 0.78351, 0.69497, 0.81677, 0.69497, 0.83007, 0.65192, 0.83767, 0.59451, 0.79016, 0.57155, 0.75595, 0.49979, 0.73314, 0.59738, 0.69894, 0.51988, 0.12465, 1, 0, 1, 0, 0.90383, 0.66937, 0.34413, 0.66758, 0.25582, 0.73505, 0.28739, 0.75025, 0.19268, 0.81202, 0.12092, 0.79241, 0.77944, 0.81809, 0.75186, 0.84092, 0.68808, 0.85519, 0.58292, 0.79697, 0.44329, 0.81866, 0.50535, 0.86888, 0.41743, 0.88658, 0.35192, 0.88486, 0.32089, 0.84777, 0.36226, 0.76444, 0.43122, 0.94707, 0.27607, 0.88201, 0.43467, 0.81181, 0.53982, 0.78841, 0.50535, 0.855, 0.52078, 0.89783, 0.47904, 0.90889, 0.39279, 0.91533, 0.33436 ],
+					"triangles": [ 29, 13, 14, 11, 12, 13, 11, 13, 29, 11, 29, 10, 29, 14, 30, 9, 10, 29, 9, 29, 30, 30, 14, 31, 8, 9, 30, 8, 30, 31, 31, 16, 32, 31, 32, 7, 15, 16, 31, 14, 15, 31, 8, 31, 7, 43, 33, 34, 42, 43, 34, 17, 43, 42, 18, 43, 17, 42, 34, 16, 17, 42, 16, 44, 34, 35, 44, 35, 41, 44, 7, 32, 16, 34, 44, 16, 44, 32, 41, 35, 36, 41, 36, 46, 45, 41, 46, 45, 46, 6, 45, 44, 41, 45, 7, 44, 7, 45, 6, 47, 40, 5, 46, 36, 47, 46, 47, 5, 6, 46, 5, 21, 22, 23, 24, 21, 23, 18, 39, 43, 18, 20, 39, 39, 20, 26, 43, 39, 33, 34, 33, 38, 34, 38, 35, 38, 37, 36, 5, 40, 4, 40, 0, 1, 37, 0, 40, 38, 0, 37, 35, 38, 36, 0, 27, 28, 0, 33, 27, 26, 27, 39, 38, 33, 0, 27, 33, 39, 40, 1, 2, 3, 4, 2, 2, 4, 40, 47, 37, 40, 36, 37, 47, 24, 25, 26, 19, 20, 18, 20, 24, 26, 21, 24, 20 ],
+					"vertices": [ 1, 48, 78.53, 72.51, 1, 1, 48, 143.74, 296.84, 1, 5, 48, 214.49, 293.78, 0.98, 52, -14.19, 137.8, 0.01976, 51, -38.77, 230.43, 1.6E-4, 50, -29.61, 318.46, 8.0E-5, 54, -376.67, -56.38, 0, 1, 48, 251.57, 266.16, 1, 6, 48, 226.06, 200.94, 0.99429, 52, -2.61, 44.96, 0.00502, 51, -27.19, 137.59, 6.5E-4, 50, -18.03, 225.62, 5.0E-5, 49, 73.89, 280.21, 0, 54, -283.49, -48.03, 0, 6, 48, 257.02, 162.51, 0.00277, 52, 28.34, 6.53, 0.6549, 51, 3.77, 99.17, 0.23951, 50, 12.93, 187.19, 0.01991, 53, -169.05, 98.85, 0.0829, 54, -244.01, -18.42, 0, 6, 48, 281.38, 71.35, 6.7E-4, 52, 52.7, -84.64, 0.33391, 51, 28.12, 8, 0.34872, 50, 37.28, 96.03, 0.03977, 53, -77.98, 74.15, 0.22476, 54, -152.06, 2.76, 0.05216, 7, 52, 44.99, -174.98, 0.11424, 51, 20.42, -82.34, 0.24405, 50, 29.58, 5.68, 0.05966, 53, -3.7, 22.14, 0.36662, 54, -62.03, -8.07, 0.15753, 55, -101.5, -53.99, 0.05655, 56, -136.06, -77.59, 0.00134, 7, 52, 88.92, -219.22, 0.00501, 51, 64.34, -126.58, 0.12274, 50, 73.5, -38.56, 0.03977, 53, 56.61, 37.93, 0.34268, 54, -16.29, 34.3, 0.2634, 55, -76.94, 3.31, 0.16937, 56, -121.43, -16.99, 0.05703, 6, 51, 88.96, -204.5, 0.00832, 50, 98.12, -116.47, 0.01989, 53, 136.35, 20.11, 0.20082, 54, 62.43, 56.2, 0.26496, 55, -13.92, 55.32, 0.28231, 56, -68, 44.83, 0.22371, 4, 53, 190.39, -23.8, 0.05896, 54, 130.79, 42.96, 0.16007, 55, 53.92, 71.01, 0.28216, 56, -3.75, 71.65, 0.49881, 3, 54, 192.17, -6.14, 0.0542, 55, 129.96, 51.09, 0.20713, 56, 74.55, 64.74, 0.73867, 4, 53, 98.5, -165.47, 0.00312, 54, 116.58, -125.3, 0.09123, 55, 109.33, -88.5, 0.14787, 56, 77.58, -76.33, 0.75778, 6, 50, -14.35, -130.72, 0.00381, 49, 77.57, -76.13, 8.9E-4, 53, 92.23, -84.31, 0.07791, 54, 72.77, -56.69, 0.21622, 55, 41.42, -43.62, 0.14515, 56, 3.11, -43.45, 0.55601, 7, 48, 261.97, -112.14, 2.0E-5, 50, 17.87, -87.46, 0.05106, 49, 109.79, -32.87, 0.01478, 53, 70.98, -34.73, 0.20731, 54, 30.65, -22.99, 0.34175, 55, -10.76, -29.96, 0.12338, 56, -50.62, -38.71, 0.26171, 7, 48, 256.31, -81.02, 3.0E-5, 50, 12.22, -56.34, 0.1087, 49, 104.14, -1.75, 0.12915, 53, 41.23, -24, 0.33071, 54, -0.65, -27.57, 0.2858, 55, -37.5, -46.85, 0.0697, 56, -74.15, -59.85, 0.07592, 8, 48, 238.95, -52.72, 0.01505, 52, 10.27, -208.7, 0, 50, -5.14, -28.04, 0.15872, 49, 86.78, 26.55, 0.33784, 53, 8.04, -24.81, 0.31077, 54, -29.53, -43.94, 0.16037, 55, -57.24, -73.55, 0.01601, 56, -89.14, -89.47, 0.00124, 7, 48, 183.03, -107.17, 0.05837, 52, -45.64, -263.15, 0, 51, -70.22, -170.51, 0, 50, -61.06, -82.48, 0.11927, 49, 30.86, -27.89, 0.60597, 53, 27.06, -100.5, 0.18155, 54, 22.94, -101.71, 0.03484, 1, 48, 118.99, -128.65, 1, 1, 48, 138.92, -189.62, 1, 1, 48, 72.41, -209.27, 1, 1, 48, -277.16, -1110.35, 1, 1, 48, -397.92, -1272.51, 1, 1, 48, -439.34, -1241.67, 1, 1, 48, -31.93, -191.37, 1, 1, 48, -71.7, -165.37, 1, 1, 48, 7.26, -87.73, 1, 1, 48, -18.81, -37.57, 1, 1, 48, 10.12, 65.8, 1, 3, 54, 89.84, -12.26, 0.00188, 55, 38.96, 3.92, 0.74948, 56, -7.27, 3, 0.24864, 2, 54, 48.06, 2.2, 0.64506, 55, -5.1, 0.14, 0.35494, 3, 50, 38.3, -53.83, 7.0E-5, 53, 52.15, -0.18, 0.57266, 54, -2.25, -1.41, 0.42727, 3, 51, -2.33, -89.56, 0.00861, 50, 6.83, -1.54, 0.57872, 53, -8.87, -1.16, 0.41266, 1, 48, 134.39, -57.17, 1, 5, 48, 182.13, -48.86, 0.18767, 52, -46.55, -204.84, 0.06043, 51, -71.13, -112.2, 0.14655, 50, -61.97, -24.18, 0.22994, 49, 29.95, 30.41, 0.37541, 5, 48, 192.92, 44.68, 0.1781, 52, -35.76, -111.3, 0.13993, 51, -60.34, -18.67, 0.2396, 50, -51.18, 69.36, 0.23248, 49, 40.74, 123.95, 0.20989, 5, 48, 181.84, 88.71, 0.20423, 52, -46.83, -67.28, 0.27895, 51, -71.41, 25.36, 0.25864, 50, -62.25, 113.39, 0.18511, 49, 29.67, 167.98, 0.07308, 1, 48, 166.82, 96.43, 1, 1, 48, 148.7, 34.9, 1, 1, 48, 97.67, -95.62, 1, 1, 48, 207.78, 191.74, 1, 5, 48, 213.06, 56.23, 0.10321, 52, -15.62, -99.76, 0.08127, 51, -40.19, -7.12, 0.5704, 50, -31.04, 80.91, 0.23192, 49, 60.88, 135.5, 0.0132, 5, 48, 190.34, -68.83, 0.01293, 51, -62.91, -132.17, 0.00394, 50, -53.75, -44.14, 0.32593, 49, 38.17, 10.45, 0.64491, 53, -2.43, -74.94, 0.01229, 2, 49, 0.65, -8.94, 1, 54, 2.95, -131.24, 0, 4, 48, 223.98, -6.53, 0.04003, 51, -29.27, -69.88, 0.13333, 50, -20.12, 18.15, 0.77394, 49, 71.8, 72.74, 0.05269, 5, 48, 247.5, 62.58, 0.00675, 52, 18.82, -93.41, 0.00218, 51, -5.75, -0.77, 0.96581, 50, 3.4, 87.26, 0.02469, 49, 95.32, 141.85, 5.6E-4, 4, 48, 221.06, 104.62, 0.05941, 52, -7.62, -51.36, 0.44394, 51, -32.19, 41.28, 0.46417, 50, -23.04, 129.3, 0.03248, 4, 48, 202.14, 131.75, 0.08316, 52, -26.54, -24.23, 0.70792, 51, -51.11, 68.4, 0.18828, 50, -41.95, 156.43, 0.02063 ],
+					"hull": 29,
+					"edges": [ 44, 46, 48, 46, 48, 50, 50, 52, 52, 54, 54, 56, 56, 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 30, 32, 32, 34, 34, 36, 36, 38, 38, 40, 42, 44, 40, 42, 66, 68, 68, 70, 70, 72, 72, 74, 74, 76, 76, 66, 78, 66, 78, 36, 74, 80, 80, 8 ],
+					"width": 1622,
+					"height": 537
+				}
+			},
+			"mulan_04": {
+				"mulan_04": { "x": 110.44, "y": -22.05, "rotation": 44.15, "width": 264, "height": 201 }
+			},
+			"mulan_05": {
+				"mulan_05": { "x": 110.29, "y": 2.57, "rotation": 20.43, "width": 398, "height": 261 }
+			},
+			"mulan_06": {
+				"mulan_06": { "x": 214.84, "y": 49.87, "rotation": 22.13, "width": 677, "height": 168 }
+			},
+			"mulan_07": {
+				"mulan_07": { "x": 218.92, "y": -21.63, "rotation": 29.28, "width": 199, "height": 107 }
+			},
+			"mulan_08": {
+				"mulan_08": { "x": 278.61, "y": 11.91, "rotation": 20.43, "width": 76, "height": 51 }
+			},
+			"mulan_09": {
+				"mulan_09": {
+					"type": "mesh",
+					"uvs": [ 0.01778, 0.38089, 0.09273, 0.39166, 0.21011, 0.4536, 0.32479, 0.36608, 0.43443, 0.30684, 0.55271, 0.24356, 0.62404, 0.25029, 0.60689, 0.23144, 0.56806, 0.21125, 0.54368, 0.16008, 0.59425, 0.04564, 0.76852, 0.17893, 0.78567, 0.25164, 0.77755, 0.36473, 0.71795, 0.41051, 0.62404, 0.45763, 0.53194, 0.52226, 0.49312, 0.58554, 0.55452, 0.63805, 0.62856, 0.72826, 0.75226, 0.7323, 0.81186, 0.67036, 0.86784, 0.59901, 0.97078, 0.66498, 1, 0.73903, 1, 0.84674, 0.91028, 0.93964, 0.78267, 0.97717, 0.62724, 1, 0.5, 1, 0.40753, 0.94566, 0.25234, 0.88066, 0.11633, 0.74806, 0, 0.54266, 0, 0.45898, 0.70621, 0.13181, 0.64391, 0.13046, 0.61411, 0.11565, 0.07254, 0.49757, 0.27527, 0.6823, 0.46416, 0.80265, 0.61714, 0.84183, 0.74959, 0.82924, 0.88193, 0.79845, 0.92322, 0.72988, 0.37511, 0.47798, 0.4502, 0.4164, 0.56751, 0.35203, 0.667, 0.32824, 0.70079, 0.26526, 0.6548, 0.18969, 0.60787, 0.15611, 0.59286, 0.11133, 0.19715, 0.55143 ],
+					"triangles": [ 35, 36, 10, 36, 37, 10, 52, 10, 37, 11, 35, 10, 51, 52, 37, 51, 37, 36, 52, 9, 10, 9, 52, 51, 50, 36, 35, 51, 36, 50, 8, 9, 51, 7, 8, 51, 7, 51, 50, 6, 7, 50, 49, 50, 35, 49, 35, 11, 49, 11, 12, 6, 50, 49, 48, 6, 49, 47, 5, 6, 47, 6, 48, 4, 5, 47, 13, 49, 12, 14, 48, 49, 13, 14, 49, 46, 4, 47, 3, 4, 46, 15, 47, 48, 15, 48, 14, 45, 3, 46, 38, 0, 1, 38, 1, 2, 34, 0, 38, 16, 46, 47, 16, 47, 15, 33, 34, 38, 53, 38, 2, 17, 46, 16, 45, 46, 17, 2, 45, 53, 45, 2, 3, 39, 53, 45, 44, 22, 23, 21, 22, 44, 44, 23, 24, 32, 38, 53, 32, 53, 39, 33, 38, 32, 43, 21, 44, 17, 39, 45, 40, 17, 18, 40, 39, 17, 42, 19, 20, 19, 40, 18, 41, 19, 42, 41, 40, 19, 44, 24, 25, 43, 44, 25, 31, 32, 39, 30, 31, 39, 26, 43, 25, 40, 30, 39, 20, 43, 42, 43, 20, 21, 27, 43, 26, 27, 42, 43, 29, 40, 41, 30, 40, 29, 28, 41, 42, 28, 42, 27, 29, 41, 28 ],
+					"vertices": [ 2, 71, -174.73, 209.18, 0.10975, 64, -103.47, 36.29, 0.89025, 3, 71, -87.37, 173.34, 0.27538, 72, -256.92, 232.92, 0.05093, 64, -19.89, 80.22, 0.67369, 4, 71, 38.49, 80.94, 0.43257, 72, -153.43, 115.99, 0.14645, 73, -303.33, 67.62, 0.06634, 64, 131.78, 117.32, 0.35464, 7, 71, 197.43, 109.84, 0.38749, 72, 8.02, 110.64, 0.24196, 73, -143.15, 88.57, 0.18734, 74, -305.29, 45.32, 0.05383, 76, 357.08, 337.25, 0.00208, 77, 271.89, 324.51, 5.4E-4, 64, 211.73, 257.69, 0.12675, 8, 71, 343.45, 117.8, 0.22204, 72, 152.42, 87.56, 0.23563, 73, 3.08, 89.25, 0.30862, 74, -160.66, 66.93, 0.15481, 75, -153.88, 254.95, 0.00969, 76, 263.83, 224.6, 0.03708, 77, 173.32, 216.48, 0.02215, 64, 299.43, 374.71, 0.00998, 8, 71, 500.83, 125.88, 0.06054, 72, 307.96, 62.19, 0.14011, 73, 160.67, 89.47, 0.29722, 74, -4.73, 89.72, 0.27404, 75, -29, 158.84, 0.02256, 76, 162.97, 103.52, 0.09339, 77, 66.73, 100.42, 0.11106, 78, -76.77, 65.33, 0.00106, 8, 71, 584.83, 94.61, 1.8E-4, 72, 383.45, 13.87, 0.04459, 73, 243, 54.06, 0.17651, 74, 81.83, 66.46, 0.28822, 75, 14.54, 80.49, 0.03551, 76, 82.99, 63.05, 0.14585, 77, -15.11, 63.85, 0.27526, 78, -94.36, -22.56, 0.03387, 6, 73, 228.08, 76.22, 0.05522, 74, 63.88, 86.26, 0.20819, 75, 16.26, 107.16, 0.02908, 76, 109.57, 60.29, 0.13248, 77, 11.31, 59.82, 0.42959, 78, -75.77, -3.36, 0.14543, 6, 73, 187.94, 108.59, 2.8E-4, 74, 19.52, 112.55, 0.09163, 75, 4.27, 157.31, 0.0163, 76, 160.15, 70.34, 0.07648, 77, 62.31, 67.41, 0.44934, 78, -52.41, 42.62, 0.36596, 5, 74, -1.93, 160.78, 0.02368, 75, 23.98, 206.28, 0.03423, 76, 208.32, 48.75, 0.07698, 77, 109.38, 43.52, 0.33679, 78, -5.68, 67.15, 0.52833, 5, 74, 79.28, 242.56, 0.00205, 75, 139.23, 204.88, 0.09228, 76, 202.46, -66.36, 0.19482, 77, 97.98, -71.17, 0.18235, 78, 81.21, -8.58, 0.5285, 5, 74, 271.29, 89.41, 0.00549, 75, 162.87, -39.59, 0.29225, 76, -42.73, -80.54, 0.40043, 77, -147.62, -73.5, 0.07403, 78, -59.15, -210.13, 0.22779, 5, 74, 280.27, 25.21, 0.06149, 75, 123.02, -90.71, 0.56431, 76, -92.28, -38.74, 0.28812, 77, -195.09, -29.36, 0.00114, 78, -122.62, -223.26, 0.08494, 6, 73, 391.91, -101.32, 0.02512, 74, 251.45, -66, 0.20125, 75, 37.46, -133.49, 0.63951, 76, -131.72, 48.41, 0.13401, 65, 469.55, 485.04, 5.0E-5, 66, 298.33, 445.44, 6.0E-5, 7, 72, 421.11, -161.08, 0.02026, 73, 308.58, -112.45, 0.12429, 74, 170.57, -88.94, 0.33222, 75, -35.29, -91.38, 0.47938, 76, -86.83, 119.48, 0.03257, 65, 414.23, 421.74, 0.00665, 66, 234.17, 391.12, 0.00463, 8, 71, 534.43, -72.33, 9.1E-4, 72, 298.9, -138.64, 0.07789, 73, 184.36, -110.16, 0.24488, 74, 47.3, -104.46, 0.36937, 75, -132.23, -13.66, 0.23209, 76, -5.42, 213.35, 0.00107, 65, 319.32, 341.55, 0.04022, 66, 128.34, 326.03, 0.03356, 8, 71, 408.16, -90.98, 0.00182, 72, 171.54, -130.18, 0.14785, 73, 57.31, -122.5, 0.31882, 74, -76.67, -134.87, 0.23542, 75, -240.34, 54.2, 0.06482, 65, 231.94, 248.51, 0.0887, 66, 28.02, 247.1, 0.14042, 67, -74.55, 284.2, 0.00215, 8, 71, 346.17, -127.86, 0.00274, 72, 103.15, -153.12, 0.17832, 73, -6.44, -156.24, 0.24483, 74, -134.94, -177.39, 0.09723, 75, -311.43, 66.45, 3.3E-4, 65, 206.25, 181.11, 0.12424, 66, -7.45, 184.29, 0.29295, 67, -127.74, 235.49, 0.05936, 10, 71, 407.11, -192.38, 0.00182, 72, 149.08, -229.07, 0.13404, 73, 51.22, -223.73, 0.12799, 74, -68.21, -235.92, 0.00587, 65, 294.1, 168.38, 0.10583, 66, 77.5, 158.58, 0.39677, 67, -54.94, 184.71, 0.16292, 68, -202.49, 225.42, 0.06343, 69, -256.21, 328.58, 1.5E-4, 70, -41.33, 478.41, 0.00117, 10, 71, 474.08, -291.84, 9.1E-4, 72, 193.51, -340.44, 0.06512, 73, 113.14, -326.4, 0.02909, 74, 7.78, -328.67, 6.0E-5, 65, 408.35, 132.02, 0.05745, 66, 185.03, 105.53, 0.34456, 67, 30.85, 100.94, 0.2634, 68, -133.42, 127.42, 0.20118, 69, -223.41, 213.25, 0.01622, 70, -93.91, 370.65, 0.02201, 8, 72, 327.54, -418.62, 0.01439, 73, 258.09, -381.77, 0.00391, 65, 553.84, 185.95, 0.01531, 66, 336.95, 137.1, 0.18745, 67, 185.07, 83.87, 0.25377, 68, 15.1, 82.5, 0.36317, 69, -98.09, 121.77, 0.05596, 70, -61.69, 218.87, 0.10603, 8, 72, 418.15, -409.3, 0.00104, 73, 345.98, -357.86, 1.6E-4, 65, 604.16, 261.89, 1.5E-4, 66, 398.06, 204.66, 0.0547, 67, 264.1, 129.16, 0.15142, 68, 101.07, 112.61, 0.39831, 69, -7, 121.77, 0.0954, 70, 6.13, 158.06, 0.29882, 4, 67, 339.33, 182.74, 0.04879, 68, 184.81, 151.57, 0.28481, 69, 84.91, 130.86, 0.14813, 70, 80.63, 103.47, 0.51827, 4, 67, 463.01, 116.08, 0.00122, 68, 294.26, 63.47, 0.1259, 69, 159.09, 11.53, 0.24527, 70, 56.18, -34.89, 0.62761, 3, 68, 312.84, -6.35, 0.08903, 69, 153.54, -60.51, 0.39506, 70, 3.96, -84.82, 0.51591, 4, 67, 486.02, -39.42, 0.04353, 68, 288.52, -93.61, 0.19382, 69, 101.74, -134.83, 0.47076, 70, -84.22, -105.57, 0.2919, 5, 66, 569.24, 11.75, 0.036, 67, 367.06, -107.32, 0.16216, 68, 159.17, -138.67, 0.31668, 69, -35.23, -134.59, 0.38662, 70, -186.04, -13.95, 0.09853, 6, 65, 665.09, 8.5, 0.00759, 66, 420.41, -54.98, 0.17416, 67, 204.87, -124.63, 0.28216, 68, -3.46, -126.11, 0.32233, 69, -184.56, -68.98, 0.19748, 70, -253.42, 134.59, 0.01627, 5, 65, 490.93, -81.08, 0.0861, 66, 234.81, -117.52, 0.35252, 67, 9.03, -126.55, 0.3151, 68, -196.36, -92.29, 0.19329, 69, -355.44, 26.71, 0.05298, 6, 64, 687.68, -67.84, 0.03426, 65, 342.57, -139.81, 0.24145, 66, 79.33, -153.4, 0.45888, 67, -149.91, -112.47, 0.19783, 68, -350.07, -49.45, 0.06734, 69, -486.34, 117.95, 2.4E-4, 4, 64, 565.64, -93.16, 0.17875, 65, 217.93, -139.99, 0.38251, 66, -43.93, -134.94, 0.36091, 67, -261.38, -56.71, 0.07783, 4, 64, 372.9, -154.09, 0.43435, 65, 16.86, -160.79, 0.38174, 66, -245.84, -125.44, 0.18255, 67, -450.4, 14.92, 0.00136, 3, 64, 169.13, -154.27, 0.73253, 65, -182.76, -119.87, 0.22727, 66, -437.11, -55.13, 0.0402, 2, 64, -47.57, -89.73, 0.92138, 65, -381.98, -12.95, 0.07862, 3, 71, -215.05, 152.75, 0.00431, 64, -86.13, -30.87, 0.99481, 65, -407.88, 52.48, 8.8E-4, 4, 75, 154.04, 47.57, 0.13507, 76, 44.7, -75.08, 0.53321, 77, -60.02, -72.27, 0.12919, 78, -9.41, -138.01, 0.20253, 4, 75, 112.81, 113.94, 0.04299, 76, 112.62, -36.44, 0.42726, 77, 9.68, -36.95, 0.20919, 78, 2.18, -60.74, 0.32055, 5, 74, 92.04, 179.91, 5.0E-5, 75, 103.12, 152.12, 0.03179, 76, 151.14, -28.23, 0.26004, 77, 48.55, -30.61, 0.216, 78, 19.52, -25.38, 0.49212, 1, 64, 7.75, -8.16, 1, 4, 71, 61.13, -126.8, 0.00289, 72, -175.22, -91.84, 0, 64, 305.53, 1.21, 0.98675, 65, -17.8, 4.9, 0.01036, 2, 65, 239.69, -2.03, 0.54269, 66, -1.78, -1.78, 0.45731, 4, 72, 134.67, -417.04, 2.3E-4, 73, 67.53, -411.53, 2.0E-5, 66, 192.56, 9.24, 0.2878, 67, 8.15, 7.06, 0.71195, 3, 67, 174.53, 2.96, 0.84017, 68, -10.02, 4.86, 0.1598, 70, -141.81, 203.46, 2.0E-5, 2, 68, 156.79, -14.74, 0.35859, 69, 3.49, -16.85, 0.64141, 3, 68, 222.16, 26.91, 1.2E-4, 69, 78.95, 0.86, 0.92614, 70, -10.6, 10.66, 0.07374, 6, 71, 230.65, 1.51, 0.03388, 72, 17.59, -2.26, 0.96293, 73, -115.37, -21.28, 4.0E-5, 64, 316.09, 213.56, 1.0E-5, 65, 35.37, 210.75, 0.00288, 66, -171.98, 239.16, 2.5E-4, 4, 72, 125.05, -2.62, 0.77964, 73, -9.28, -4.18, 0.21924, 65, 103.86, 293.56, 7.5E-4, 66, -91.88, 310.79, 3.7E-4, 4, 73, 147.47, -2.68, 0.6402, 74, -4.6, -3.37, 0.35978, 65, 220.72, 398.04, 1.0E-5, 66, 39.3, 396.63, 1.0E-5, 2, 74, 121.65, -8.46, 0.79016, 75, -11.55, -0.24, 0.20984, 1, 75, 55.9, -7.31, 1, 2, 76, 75.59, -0.43, 0.99956, 78, -49.02, -67.6, 4.4E-4, 4, 74, 77.63, 148.11, 0.00168, 75, 70.26, 140.33, 1.4E-4, 77, 39.67, 3.15, 0.99233, 78, -13.15, -13.07, 0.00585, 1, 78, 26.7, 0.55, 1, 1, 71, -0.85, 6.87, 1 ],
+					"hull": 35,
+					"edges": [ 66, 64, 64, 62, 62, 60, 60, 58, 56, 58, 56, 54, 54, 52, 52, 50, 50, 48, 48, 46, 46, 44, 44, 42, 42, 40, 40, 38, 38, 36, 36, 34, 34, 32, 32, 30, 30, 28, 28, 26, 26, 24, 24, 22, 22, 70, 70, 72, 72, 74, 74, 20, 20, 18, 18, 16, 16, 14, 14, 12, 12, 10, 10, 8, 8, 6, 6, 4, 4, 2, 2, 0, 66, 68, 0, 68, 20, 22 ],
+					"width": 1254,
+					"height": 841
+				}
+			},
+			"mulan_10": {
+				"mulan_10": {
+					"type": "mesh",
+					"uvs": [ 0.77967, 0.21075, 0.93187, 0.33167, 0.89563, 0.58061, 0.93912, 0.7442, 1, 0.82599, 1, 1, 0.89925, 1, 0.6927, 0.93979, 0.54413, 0.81532, 0.46441, 0.59839, 0.26873, 0.3779, 0, 0.5, 0, 0.1254, 0.10204, 0, 0.43542, 0, 0.83765, 0.82955, 0.78692, 0.61973, 0.64922, 0.36367, 0.38469, 0.16452 ],
+					"triangles": [ 18, 13, 14, 18, 14, 0, 17, 18, 0, 18, 12, 13, 10, 18, 17, 10, 12, 18, 11, 12, 10, 1, 17, 0, 2, 17, 1, 9, 10, 17, 16, 9, 17, 2, 16, 17, 16, 2, 3, 8, 9, 16, 15, 16, 3, 15, 3, 4, 8, 16, 15, 7, 8, 15, 6, 15, 4, 7, 15, 6, 6, 4, 5 ],
+					"vertices": [ 4, 33, 153.82, -35.24, 0.21339, 34, 71.43, 48.16, 0.45114, 35, -18.42, 44.54, 0.28102, 36, -85.34, 26.91, 0.05445, 5, 33, 177.03, -69.41, 0.05114, 34, 112.71, 49.83, 0.33632, 35, 19.81, 60.2, 0.3926, 36, -51.34, 50.39, 0.18283, 37, -75.3, 77.8, 0.0371, 4, 34, 142.3, 4.58, 0.1558, 35, 63.07, 27.76, 0.34778, 36, -2.15, 27.95, 0.32863, 37, -35.58, 41.12, 0.1678, 4, 34, 172.41, -15.79, 0.03405, 35, 98.32, 18.9, 0.1906, 36, 34.18, 26.83, 0.36575, 37, -1.42, 28.71, 0.40961, 4, 34, 193.67, -20.52, 6.0E-4, 35, 119.91, 21.7, 0.0562, 36, 54.68, 34.19, 0.25488, 37, 20.35, 29.3, 0.68832, 3, 35, 152.72, 3.72, 0.00385, 36, 90.57, 23.63, 0.15654, 37, 51.15, 8.06, 0.83961, 4, 34, 202.4, -62.65, 0.00151, 35, 142.5, -14.92, 0.04123, 36, 84.57, 3.24, 0.18399, 37, 39.08, -9.44, 0.77327, 5, 33, 90.89, -179.96, 0.00171, 34, 161.12, -81.7, 0.03462, 35, 110.19, -46.91, 0.14373, 36, 59.85, -34.92, 0.29814, 37, 3.68, -37.97, 0.5218, 5, 33, 68.63, -145.27, 0.07668, 34, 119.9, -82.29, 0.1028, 35, 71.65, -61.53, 0.24134, 36, 25.34, -57.44, 0.33478, 37, -36.15, -48.58, 0.2444, 5, 33, 66.03, -95.76, 0.26276, 34, 76.48, -58.36, 0.16795, 35, 22.67, -53.85, 0.27184, 36, -24.16, -60.42, 0.22851, 37, -84.09, -35.95, 0.06894, 5, 33, 40.22, -38.44, 0.55654, 34, 14.17, -50, 0.16991, 35, -38.75, -67.26, 0.17212, 36, -81.29, -86.65, 0.09685, 37, -146.56, -43.03, 0.00459, 4, 33, -21.65, -47.16, 0.8149, 34, -11.09, -107.15, 0.10173, 35, -43, -129.6, 0.07067, 36, -72.1, -148.46, 0.01269, 3, 33, 1.66, 29.94, 0.90218, 34, -64.26, -46.65, 0.09504, 35, -113.61, -90.88, 0.00278, 3, 33, 30.07, 49.51, 0.76895, 34, -65.88, -12.19, 0.20824, 35, -126.9, -59.04, 0.02281, 4, 33, 97.4, 29.16, 0.48676, 34, -13.04, 34.24, 0.38936, 35, -93.08, 2.64, 0.12383, 36, -149.31, -29.99, 6.0E-5, 2, 36, 45.74, 1.11, 0.25066, 37, 1.53, 0.67, 0.74934, 2, 35, 59.41, 3.61, 0.49679, 36, -0.55, 3.57, 0.50321, 2, 34, 72.46, 5.29, 0.85411, 35, -2.83, 4.6, 0.14589, 2, 33, 76.92, -1.6, 0.10188, 34, 2.27, 0.61, 0.89812 ],
+					"hull": 15,
+					"edges": [ 22, 20, 20, 18, 18, 16, 16, 14, 10, 12, 14, 12, 28, 0, 0, 2, 2, 4, 4, 6, 10, 8, 6, 8, 26, 28, 22, 24, 26, 24 ],
+					"width": 211,
+					"height": 215
+				}
+			},
+			"mulan_010": {
+				"mulan_02": { "x": 608.66, "y": 645.68, "width": 2225, "height": 1588 }
+			},
+			"mulan_11": {
+				"mulan_11": { "x": -4.6, "y": -1.96, "rotation": -139.4, "width": 52, "height": 45 }
+			},
+			"mulan_011": {
+				"mulan_02": { "x": 608.66, "y": 645.68, "width": 2225, "height": 1588 }
+			},
+			"mulan_12": {
+				"mulan_12": { "x": -0.5, "y": -0.41, "rotation": -139.4, "width": 20, "height": 25 }
+			},
+			"mulan_13": {
+				"mulan_13": { "x": 22.31, "y": -1.13, "rotation": -53.75, "width": 61, "height": 56 }
+			},
+			"mulan_14": {
+				"mulan_14": { "x": 7.03, "y": -0.72, "rotation": 163.56, "width": 29, "height": 15 }
+			},
+			"mulan_15": {
+				"mulan_15": { "x": -0.77, "y": 0.83, "rotation": -139.4, "width": 18, "height": 15 }
+			},
+			"mulan_16": {
+				"mulan_16": { "x": -1.34, "y": 1.19, "rotation": -139.4, "width": 15, "height": 13 }
+			},
+			"mulan_17": {
+				"mulan_17": { "x": 172.63, "y": 12.73, "rotation": -72.41, "width": 105, "height": 130 }
+			},
+			"mulan_18": {
+				"mulan_18": {
+					"type": "mesh",
+					"uvs": [ 0.86787, 0.2512, 1, 0.41614, 1, 0.64356, 1, 0.86598, 0.72533, 0.95844, 0.5329, 0.84723, 0.4355, 0.87348, 0.15993, 0.77601, 0, 0.56109, 0, 0.40365, 0.11242, 0.30368, 0.37849, 0.23371, 0.39592, 0, 0.79185, 0, 0.6303, 0.82099, 0.67307, 0.73103 ],
+					"triangles": [ 5, 14, 4, 4, 14, 3, 6, 7, 5, 14, 15, 3, 15, 2, 3, 14, 5, 15, 15, 5, 7, 7, 8, 15, 15, 8, 11, 11, 9, 10, 1, 15, 11, 2, 15, 1, 13, 11, 12, 11, 13, 0, 1, 11, 0, 11, 8, 9 ],
+					"vertices": [ 2, 31, 268.71, -152.3, 0.08279, 32, 108.71, -205.93, 0.91721, 2, 31, 182.98, -144.46, 0.29528, 32, 31.7, -167.45, 0.70472, 2, 31, 86.46, -92.98, 0.62676, 32, -39.49, -84.4, 0.37324, 2, 31, -7.94, -42.64, 0.79431, 32, -109.12, -3.17, 0.20569, 2, 31, -14.48, 39.61, 0.82655, 32, -85.3, 75.82, 0.17345, 2, 31, 55.63, 57.39, 0.6997, 32, -13.52, 66.89, 0.3003, 2, 31, 56.09, 85.08, 0.41913, 32, -3.03, 92.51, 0.58087, 2, 31, 130.26, 124.53, 0.17892, 32, 80.42, 102.29, 0.82108, 2, 31, 240.52, 111.59, 0.05585, 32, 178.42, 50.13, 0.94415, 2, 31, 307.34, 75.95, 0.00504, 32, 227.7, -7.36, 0.99496, 1, 32, 237.4, -62.38, 1, 1, 32, 208.19, -131.74, 1, 2, 31, 431.51, -103.8, 5.2E-4, 32, 278, -219.97, 0.99948, 2, 31, 384.37, -192.19, 0.00936, 32, 201.95, -285.15, 0.99064, 2, 31, 55.17, 29.71, 0.7778, 32, -24.02, 41.27, 0.2222, 2, 31, 88.26, -0.2, 0.74556, 32, -4.07, 1.38, 0.25444 ],
+					"hull": 14,
+					"edges": [ 16, 14, 14, 12, 28, 30, 30, 4, 4, 2, 2, 0, 0, 26, 24, 26, 24, 22, 22, 20, 16, 18, 20, 18, 12, 10, 10, 28, 10, 8, 4, 6, 8, 6 ],
+					"width": 253,
+					"height": 481
+				}
+			},
+			"mulan_19": {
+				"mulan_19": { "x": 100.68, "y": 64, "rotation": -139.4, "width": 32, "height": 30 }
+			},
+			"mulan_20": {
+				"mulan_20": {
+					"type": "mesh",
+					"uvs": [ 0.47086, 0.26321, 0.58679, 0.44549, 0.70701, 0.54615, 0.87875, 0.64681, 1, 0.71754, 1, 0.82636, 1, 1, 0.69842, 1, 0.41504, 0.83997, 0.3077, 0.68762, 0.22612, 0.55975, 0, 0.55703, 0, 0.3149, 0, 0, 0.31199, 0, 0.21324, 0.30402, 0.39787, 0.53255, 0.48374, 0.65497, 0.66836, 0.77468 ],
+					"triangles": [ 15, 13, 14, 15, 14, 0, 12, 13, 15, 1, 16, 15, 1, 15, 0, 10, 11, 12, 15, 10, 12, 16, 10, 15, 2, 17, 16, 2, 16, 1, 9, 10, 16, 9, 16, 17, 18, 17, 2, 18, 2, 3, 18, 3, 4, 5, 18, 4, 8, 9, 17, 8, 17, 18, 7, 18, 5, 8, 18, 7, 7, 5, 6 ],
+					"vertices": [ 4, 38, 64.47, 38.15, 0.44192, 39, 8.81, 37.16, 0.44231, 40, -39.86, 41.16, 0.06067, 41, -79.73, 31.41, 0.05511, 5, 38, 109.99, 40.75, 0.1835, 39, 54.01, 31.24, 0.4875, 40, 4.64, 31.22, 0.11296, 41, -34.34, 27.13, 0.21228, 42, -72.49, 28.41, 0.00377, 5, 38, 137.77, 50.01, 0.03619, 39, 83.03, 35.17, 0.33636, 40, 33.9, 32.54, 0.14289, 41, -5.48, 32.1, 0.45286, 42, -43.56, 33.02, 0.03169, 4, 39, 115.78, 45.7, 0.14276, 40, 67.45, 40.09, 0.09622, 41, 26.86, 43.81, 0.63646, 42, -11.08, 44.3, 0.12456, 4, 39, 138.82, 53.17, 0.02265, 40, 91.07, 45.47, 0.04394, 41, 49.62, 52.11, 0.61468, 42, 11.79, 52.31, 0.31873, 4, 39, 160.82, 40.77, 7.1E-4, 40, 111.87, 31.16, 0.00283, 41, 72.05, 40.52, 0.42079, 42, 34.07, 40.43, 0.57568, 3, 40, 145.05, 8.32, 0.00641, 41, 107.83, 22.02, 0.19583, 42, 69.61, 21.47, 0.79776, 3, 40, 119.91, -28.2, 0.08729, 41, 87.48, -17.36, 0.09109, 42, 48.75, -17.65, 0.82163, 4, 39, 121.34, -35.69, 0.01391, 40, 65.71, -41.46, 0.26504, 41, 35.37, -37.32, 0.07334, 42, -3.62, -36.93, 0.64771, 4, 39, 82.8, -32.08, 0.07789, 40, 27.65, -34.42, 0.49103, 41, -3.27, -35.11, 0.08236, 42, -42.23, -34.22, 0.34872, 5, 38, 118.12, -17.96, 0.06913, 39, 51.07, -27.96, 0.1773, 40, -3.58, -27.48, 0.57459, 41, -35.13, -32.14, 0.05178, 42, -74.05, -30.84, 0.1272, 5, 38, 106.88, -49.25, 0.24937, 39, 34.2, -56.61, 0.2489, 40, -22.95, -54.5, 0.46443, 41, -50.96, -61.38, 0.02107, 42, -90.25, -59.87, 0.01623, 5, 38, 53.66, -31.26, 0.54073, 39, -14.73, -29.03, 0.22033, 40, -69.22, -22.65, 0.2386, 41, -100.86, -35.59, 7.0E-5, 42, -139.81, -33.44, 2.7E-4, 3, 38, -15.55, -7.87, 0.73001, 39, -78.38, 6.85, 0.19584, 40, -129.4, 18.77, 0.07415, 4, 38, -0.86, 35.58, 0.69707, 39, -55.86, 46.8, 0.28342, 40, -103.4, 56.55, 0.01774, 41, -144.7, 38.7, 0.00177, 3, 38, 61.31, -0.76, 0.75283, 39, -1.54, -0.48, 0.24647, 40, -53.53, 4.6, 7.0E-4, 2, 40, 5.53, -3.11, 0.99968, 42, -67.73, -5.6, 3.2E-4, 3, 40, 36.08, -8.81, 0.49635, 41, 1.88, -8.64, 0.46339, 42, -36.73, -7.82, 0.04026, 1, 41, 39.01, 2.71, 1 ],
+					"hull": 15,
+					"edges": [ 24, 26, 22, 24, 22, 20, 20, 18, 18, 16, 16, 14, 12, 10, 10, 8, 8, 6, 6, 4, 4, 2, 2, 0, 26, 28, 0, 28, 12, 14 ],
+					"width": 147,
+					"height": 232
+				}
+			},
+			"mulan_21": {
+				"mulan_21": { "x": 101.28, "y": 7.22, "rotation": -139.4, "width": 35, "height": 39 }
+			},
+			"mulan_22": {
+				"mulan_22": {
+					"type": "mesh",
+					"uvs": [ 0.74035, 0.1327, 0.75092, 0.22046, 0.79168, 0.21106, 0.90338, 0.21106, 0.95773, 0.26122, 1, 0.32077, 1, 0.43989, 0.95924, 0.41795, 0.9064, 0.39914, 0.81432, 0.41168, 0.73432, 0.48064, 0.69507, 0.58095, 0.81734, 0.67499, 0.88376, 0.80037, 0.89433, 0.88814, 0.8664, 1, 0.83395, 0.8662, 0.77507, 0.75022, 0.68601, 0.7032, 0.63469, 0.7126, 0.73281, 1, 0.69054, 1, 0.58336, 0.80037, 0.51242, 0.83799, 0.54412, 1, 0.5, 1, 0.38109, 0.91635, 0.22862, 0.93203, 0.10786, 0.8568, 0, 0.72201, 0, 0.361, 0.0822, 0.27062, 0.17126, 0.37406, 0.26032, 0.58722, 0.33127, 0.6217, 0.46713, 0.52766, 0.56374, 0.396, 0.60148, 0.25181, 0.56978, 0.17971, 0.5094, 0.16404, 0.52147, 0.28629, 0.43694, 0.36779, 0.39769, 0.17971, 0.43392, 0.07314, 0.52751, 0, 0.5894, 0, 0.6845, 0, 0.11239, 0.48691, 0.20749, 0.68439, 0.39165, 0.76276, 0.55619, 0.65931, 0.65733, 0.47123, 0.66488, 0.20166, 0.58638, 0.07941, 0.47317, 0.11389, 0.45505, 0.19852, 0.44901, 0.29256, 0.67394, 0.38033, 0.78111, 0.30823, 0.89282, 0.29256, 0.9698, 0.34585 ],
+					"triangles": [ 7, 60, 6, 60, 5, 6, 7, 8, 60, 60, 4, 5, 9, 59, 8, 60, 59, 4, 60, 8, 59, 59, 3, 4, 59, 2, 3, 11, 51, 10, 51, 57, 10, 10, 58, 9, 10, 57, 58, 51, 36, 57, 9, 58, 59, 36, 37, 57, 57, 1, 58, 57, 52, 1, 58, 2, 59, 58, 1, 2, 41, 56, 40, 41, 42, 56, 56, 55, 40, 56, 42, 55, 55, 39, 40, 42, 43, 55, 55, 54, 39, 55, 43, 54, 39, 54, 44, 54, 43, 44, 52, 37, 53, 52, 0, 1, 37, 38, 53, 52, 53, 46, 52, 46, 0, 46, 53, 45, 38, 39, 53, 39, 44, 53, 53, 44, 45, 37, 52, 57, 50, 23, 35, 19, 50, 51, 50, 36, 51, 50, 35, 36, 15, 16, 14, 16, 13, 14, 17, 12, 16, 16, 12, 13, 12, 17, 11, 17, 18, 11, 22, 19, 21, 21, 19, 20, 23, 50, 22, 22, 50, 19, 18, 19, 11, 51, 11, 19, 25, 23, 24, 25, 26, 23, 26, 27, 49, 26, 49, 23, 49, 27, 34, 23, 49, 35, 49, 34, 35, 28, 48, 27, 34, 48, 33, 34, 27, 48, 48, 28, 47, 28, 29, 47, 33, 48, 32, 48, 47, 32, 47, 31, 32, 29, 30, 47, 30, 31, 47 ],
+					"vertices": [ 9, 112, 153.1, -53.48, 0.0881, 113, -36.81, -52.49, 0.41256, 114, -127.93, 69.31, 0.0854, 115, -110.35, 197.34, 0.01067, 116, -82.94, 232.98, 8.0E-5, 121, 95.29, 71.72, 0.24091, 122, -38.59, 62.61, 0.11396, 123, -148.86, 0.07, 0.04535, 124, -217.22, -32.7, 0.00296, 7, 112, 119.27, -70.4, 0.08512, 113, -64.94, -27.22, 0.27338, 114, -126.92, 107.11, 0.02612, 121, 89.73, 34.31, 0.27176, 122, -29.84, 25.82, 0.192, 123, -125.21, -29.44, 0.12777, 124, -189.42, -58.34, 0.02386, 7, 112, 130.78, -104.08, 0.06166, 113, -92.06, -50.27, 0.13594, 114, -162.06, 112.82, 0.00344, 121, 123.92, 24.4, 0.23051, 122, 5.58, 29.34, 0.23942, 123, -94.7, -11.11, 0.23899, 124, -162, -35.65, 0.09003, 6, 112, 151.82, -198.73, 0.03218, 113, -172.41, -104.54, 0.0486, 121, 213.5, -12.69, 0.1468, 122, 102.54, 28.23, 0.21895, 123, -6.58, 29.34, 0.32645, 124, -80.94, 17.55, 0.22702, 6, 112, 141.58, -249.33, 0.01138, 113, -223.24, -113.56, 0.01135, 121, 249.06, -50.11, 0.06633, 122, 149.46, 6.73, 0.15296, 123, 45.03, 29.96, 0.34702, 124, -30, 25.91, 0.41096, 7, 118, 227.3, 205.46, 0, 112, 125.24, -290.54, 0.00224, 113, -267.58, -113.47, 0.00149, 121, 273.44, -87.15, 0.02403, 122, 185.87, -18.59, 0.09199, 123, 88.77, 22.64, 0.31131, 124, 14.33, 25.22, 0.56893, 10, 117, 373.59, 83.94, 5.4E-4, 118, 241.22, 157.66, 5.1E-4, 119, 48.67, 213.32, 0, 111, 338.67, -214.58, 5.5E-4, 112, 76.64, -301.35, 1.5E-4, 113, -295.44, -72.2, 5.0E-5, 121, 254.39, -133.15, 0.03021, 122, 185.3, -68.38, 0.08511, 123, 109.54, -22.61, 0.27533, 124, 41.65, -16.4, 0.60756, 9, 117, 338.21, 93.12, 0.00565, 118, 204.68, 156.57, 0.00754, 119, 17.33, 194.52, 0, 111, 320.35, -182.96, 0.00362, 112, 77.91, -264.82, 3.7E-4, 121, 225.2, -111.14, 0.08609, 122, 150.02, -58.8, 0.13198, 123, 73.55, -29.03, 0.25722, 124, 7.04, -28.15, 0.50753, 9, 117, 292.35, 100.98, 0.01935, 118, 158.45, 151.3, 0.02875, 119, -20.42, 167.32, 0.01071, 111, 293.73, -144.79, 0.01121, 112, 75.64, -218.34, 0.00109, 121, 185.84, -86.33, 0.17959, 122, 104.25, -50.41, 0.18678, 123, 28.6, -41.02, 0.23914, 124, -35.62, -46.74, 0.32338, 9, 117, 212.42, 95.74, 0.04352, 118, 83.18, 123.93, 0.06981, 119, -72.71, 106.64, 0.05519, 111, 233.86, -91.59, 0.02307, 112, 53.19, -141.46, 0.00215, 121, 109.99, -60.59, 0.26568, 122, 24.27, -54.73, 0.20338, 123, -41.86, -79.13, 0.18309, 124, -99.56, -94.97, 0.1541, 9, 117, 142.98, 66.91, 0.06607, 118, 24.56, 76.84, 0.11427, 119, -100.82, 36.9, 0.16883, 111, 164.56, -62.4, 0.03329, 112, 9.98, -79.92, 0.00303, 121, 34.8, -60.65, 0.29493, 122, -45.5, -82.76, 0.16242, 123, -92.94, -134.29, 0.10786, 124, -141.81, -157.17, 0.04929, 9, 117, 108.91, 24.98, 0.07491, 118, 3.57, 27.06, 0.13916, 119, -94.8, -16.78, 0.35655, 111, 110.79, -67.61, 0.03593, 112, -38.34, -55.76, 0.00318, 121, -12.71, -86.36, 0.24345, 122, -80.05, -124.29, 0.09602, 123, -106.41, -186.61, 0.04156, 124, -147.28, -210.92, 0.00924, 8, 117, 215.04, -14.33, 0.06121, 118, 116.46, 18.98, 0.12448, 119, 7.63, 31.36, 0.58621, 111, 157.36, -170.76, 0.02835, 112, -53.69, -167.89, 0.00246, 121, 70.3, -163.28, 0.14995, 122, 25.63, -164.82, 0.0376, 123, 6.44, -178.06, 0.00973, 8, 117, 272.7, -66.74, 0.03704, 118, 186.46, -15.22, 0.08649, 119, 85.42, 35.74, 0.78558, 111, 160.55, -248.61, 0.01648, 112, -92.34, -235.54, 0.0014, 121, 103.51, -233.76, 0.06387, 122, 82.67, -217.89, 0.00908, 123, 80.7, -201.64, 7.0E-5, 8, 109, 594.74, 12.47, 0, 117, 281.87, -103.42, 0.01895, 118, 205.52, -47.88, 0.0591, 119, 118.02, 16.57, 0.89732, 111, 140.88, -280.91, 0.00626, 112, -126.17, -252.45, 5.2E-4, 121, 97.95, -271.17, 0.01758, 122, 91.42, -254.68, 2.6E-4, 7, 109, 578.05, -37.48, 2.0E-5, 117, 257.63, -150.18, 0.0331, 118, 195.32, -99.55, 0.07454, 119, 134.38, -33.49, 0.88901, 111, 90.57, -296.5, 0.00143, 112, -177.07, -238.93, 1.1E-4, 121, 57.67, -305.09, 0.00179, 4, 109, 541.54, 13.39, 2.0E-4, 117, 229.46, -94.25, 0.10412, 118, 152.64, -53.73, 0.13074, 119, 74.74, -14.38, 0.76494, 4, 109, 483.53, 53.35, 7.7E-4, 117, 178.36, -45.77, 0.2513, 118, 90.02, -21.46, 0.18744, 119, 4.34, -16.85, 0.56049, 5, 109, 404.11, 60.77, 0.00197, 117, 101.05, -26.12, 0.45867, 118, 10.31, -24.2, 0.20392, 119, -63.86, -58.21, 0.33525, 111, 68.9, -97.91, 2.0E-4, 5, 109, 360.71, 49.97, 0.00384, 117, 56.5, -30.05, 0.67675, 118, -31.37, -40.43, 0.16283, 119, -92.28, -92.74, 0.15571, 111, 34.81, -68.96, 8.6E-4, 5, 109, 463.5, -55.49, 0.00683, 117, 141.67, -150.18, 0.8443, 118, 83.98, -131.97, 0.09634, 119, 53.1, -116.2, 0.04999, 111, 9.12, -213.96, 0.00253, 5, 109, 427.26, -61.18, 0.01594, 117, 104.98, -150.18, 0.9316, 118, 48.76, -142.22, 0.03778, 119, 27.38, -142.36, 0.00941, 111, -16.65, -187.85, 0.00527, 4, 109, 322.4, 6.81, 0.08721, 117, 11.95, -66.74, 0.89525, 118, -63.89, -88.11, 0.00916, 111, -22.6, -63.02, 0.00839, 6, 107, 390.96, -184.64, 6.0E-5, 108, 364.71, 122.01, 0.00495, 109, 264.01, -18.28, 0.25744, 117, -49.63, -82.46, 0.72758, 118, -118.62, -120.42, 2.5E-4, 111, -77.05, -30.23, 0.00972, 5, 107, 410.21, -255.15, 0.00338, 108, 429.52, 88.21, 0.0291, 109, 301.7, -80.91, 0.50089, 117, -22.12, -150.18, 0.45822, 111, -105.92, -97.38, 0.00841, 5, 107, 372.19, -250.59, 0.02119, 108, 400.34, 63.42, 0.08442, 109, 263.87, -86.86, 0.68249, 117, -60.41, -150.18, 0.20692, 111, -132.82, -70.13, 0.00498, 5, 107, 273.87, -203.58, 0.07475, 108, 299.04, 23.24, 0.16878, 109, 156.48, -68.34, 0.69751, 117, -163.63, -115.22, 0.05689, 111, -180.43, 27.9, 0.00207, 5, 107, 141.69, -194.32, 0.18701, 108, 202.42, -67.43, 0.24744, 109, 26.76, -95.35, 0.55833, 117, -295.96, -121.77, 0.00675, 111, -278.05, 117.49, 4.7E-4, 5, 107, 41.36, -150.6, 0.35112, 108, 102.17, -111.32, 0.29276, 109, -81.67, -80.56, 0.35417, 117, -400.79, -90.32, 0.00184, 111, -329.3, 214.19, 1.2E-4, 5, 107, -44.88, -83.51, 0.51538, 108, -5.66, -128.99, 0.29661, 109, -182.91, -39.44, 0.18764, 117, -494.41, -33.98, 3.5E-4, 111, -354.96, 320.4, 2.0E-5, 5, 107, -26.9, 66.32, 0.59736, 108, -103.35, -13.99, 0.29756, 109, -206.33, 109.63, 0.10506, 117, -494.41, 116.92, 2.0E-5, 111, -247.55, 426.4, 0, 5, 107, 48.44, 95.33, 0.55169, 108, -73.44, 61, 0.31263, 109, -141.71, 158.03, 0.12769, 111, -170.54, 402.15, 0.00795, 112, -27.11, 491.68, 4.0E-5, 6, 107, 120.05, 43.18, 0.4015, 108, 13.48, 78.09, 0.3296, 109, -58.63, 127.32, 0.21739, 111, -147.02, 316.75, 0.0447, 112, -52.55, 406.84, 0.00669, 113, 316.1, 307.58, 1.2E-4, 7, 107, 186.19, -54.49, 0.22674, 108, 130.08, 60.24, 0.29862, 109, 31.57, 51.3, 0.30145, 111, -156.14, 199.15, 0.12987, 112, -122.76, 312.05, 0.03668, 113, 202.17, 338.15, 0.00622, 114, 324.43, 140.56, 4.2E-4, 8, 107, 245.61, -76.14, 0.09384, 108, 186.34, 89.12, 0.21468, 109, 94.64, 46.62, 0.30856, 111, -123.14, 145.19, 0.24273, 112, -123.47, 248.8, 0.10272, 113, 143.06, 315.63, 0.03015, 114, 268.98, 170.96, 0.00729, 115, 249.47, 1.41, 4.0E-5, 9, 107, 367.38, -51.16, 0.02613, 108, 250.77, 195.42, 0.11048, 109, 205.04, 103.76, 0.23065, 111, -12.33, 88.86, 0.32208, 112, -59.52, 142.21, 0.19165, 113, 67.34, 217.06, 0.08071, 114, 144.83, 164.73, 0.03193, 115, 154.34, 81.41, 0.00487, 116, 134.74, 42.94, 0.00149, 9, 107, 457.2, -6.51, 0.00333, 108, 279.05, 291.66, 0.03772, 109, 279.33, 171.14, 0.12162, 111, 85.74, 67.83, 0.3129, 112, 12.4, 72.29, 0.25711, 113, 28.64, 124.52, 0.14699, 114, 49.28, 134.21, 0.08356, 115, 63.6, 124.15, 0.02197, 116, 61.01, 110.95, 0.0148, 8, 108, 265, 358.8, 0.00594, 109, 302.34, 235.77, 0.04113, 111, 151.65, 86.85, 0.22488, 112, 78.34, 53.39, 0.26021, 113, 35.23, 56.24, 0.19478, 114, 1.56, 84.94, 0.15151, 115, -4.91, 120.58, 0.05892, 116, -5.4, 128.11, 0.06263, 8, 108, 224.52, 363.95, 1.0E-5, 109, 270.48, 261.27, 0.00705, 111, 153.78, 127.6, 0.11753, 112, 101.79, 86.79, 0.19888, 113, 74.89, 46.67, 0.19552, 114, 19.98, 48.52, 0.20183, 115, -16.23, 81.37, 0.10925, 116, -27.97, 94.11, 0.16992, 6, 111, 121.63, 169.51, 0.04195, 112, 96.82, 139.37, 0.1145, 113, 122, 70.57, 0.14701, 114, 68.71, 28.15, 0.20516, 115, 5.58, 33.26, 0.16529, 116, -21.61, 41.67, 0.3261, 6, 111, 92.62, 126.16, 0.00915, 112, 49.21, 118.05, 0.04651, 113, 84.71, 107.05, 0.08196, 114, 72.32, 80.19, 0.17219, 115, 43.67, 68.9, 0.2191, 116, 25.42, 64.23, 0.47107, 6, 111, 16.83, 154.45, 4.2E-4, 112, 0.03, 182.29, 0.01226, 113, 126.45, 176.35, 0.03956, 114, 152.15, 93.32, 0.15404, 115, 111.06, 24.14, 0.27245, 116, 76.27, 1.31, 0.52128, 7, 111, 48.86, 233.92, 1.0E-5, 112, 69.39, 232.6, 0.00127, 113, 198.68, 130.26, 0.05457, 114, 163.87, 8.45, 0.19434, 115, 61.83, -45.98, 0.30324, 116, 8.26, -50.81, 0.44646, 121, -187.02, 167.36, 1.2E-4, 6, 112, 119.7, 211.57, 0.00321, 113, 197.55, 75.74, 0.14345, 114, 121.63, -26.03, 0.2691, 115, 7.41, -42.45, 0.28949, 116, -42.58, -31.1, 0.29053, 121, -140.93, 196.49, 0.00422, 7, 112, 167.16, 138.9, 0.01431, 113, 147.34, 4.94, 0.28801, 114, 35.17, -33.69, 0.31523, 115, -61.1, 10.84, 0.21734, 116, -91.95, 40.29, 0.13981, 121, -54.17, 193.65, 0.02493, 122, -222.68, 120.2, 3.7E-4, 7, 112, 178.82, 86.45, 0.0381, 113, 102.82, -25.12, 0.42564, 114, -16.58, -19.28, 0.27883, 115, -89.17, 56.64, 0.12407, 116, -104.98, 92.41, 0.04523, 121, -4.54, 173.1, 0.07719, 122, -168.97, 119.58, 0.01094, 9, 112, 196.72, 5.87, 0.06758, 113, 34.41, -71.32, 0.47736, 114, -96.11, 2.87, 0.1849, 115, -132.31, 127.02, 0.04703, 116, -125, 172.49, 0.00835, 121, 71.73, 141.51, 0.1609, 122, -86.43, 118.63, 0.0449, 123, -216.05, 30.26, 0.00894, 124, -288.19, -12.93, 5.0E-5, 2, 107, 63.69, 2.44, 0.26538, 108, 5.07, 9.06, 0.73462, 3, 107, 135.81, -89.36, 2.0E-4, 108, 121.42, -0.41, 0.78278, 109, -7.43, 4.06, 0.21702, 3, 109, 155.57, -3.49, 0.99987, 117, -154.45, -51.01, 1.3E-4, 111, -128.29, 66.47, 0, 3, 109, 289.95, 61.4, 1.1E-4, 117, -11.63, -7.77, 0.23416, 111, 2.8, -4.82, 0.76574, 6, 117, 76.15, 70.84, 0.04979, 118, -40.7, 61.93, 0.01448, 119, -150.47, -8, 0, 111, 120.42, -12.08, 0.35365, 112, -0.68, -13.83, 0.40285, 121, -25.43, -31.45, 0.17923, 2, 112, 110.74, 4.22, 0.67954, 113, 1.35, 8.07, 0.32046, 3, 112, 145.85, 81.81, 0.0012, 113, 86.42, 3.85, 0.88002, 114, -5.16, 12, 0.11878, 2, 114, 93.38, -0.48, 0.2763, 115, 4.14, -4.5, 0.7237, 3, 114, 118.02, 29.38, 3.0E-5, 115, 42.52, 0.58, 0.32834, 116, 3.81, -0.6, 0.67163, 2, 115, 78.77, 16.65, 0.00503, 116, 43.22, 3.85, 0.99497, 5, 117, 90.57, 108.84, 9.0E-4, 118, -37.48, 102.45, 5.7E-4, 119, -167.46, 28.91, 0, 111, 157.59, 4.35, 4.0E-5, 121, 2.42, -1.86, 0.99848, 3, 118, 43.41, 157.39, 4.0E-5, 121, 99.9, -9.61, 0.7353, 122, -4.05, -11.17, 0.26466, 2, 122, 92.98, -5.73, 0.25481, 123, -0.71, -5.45, 0.74519, 2, 123, 69.32, 2.18, 0.5363, 124, -1.83, 2.08, 0.4637 ],
+					"hull": 47,
+					"edges": [ 58, 56, 56, 54, 54, 52, 52, 50, 48, 50, 48, 46, 46, 44, 44, 42, 40, 42, 40, 38, 38, 36, 36, 34, 34, 32, 32, 30, 30, 28, 28, 26, 26, 24, 24, 22, 22, 20, 20, 18, 18, 16, 16, 14, 14, 12, 12, 10, 10, 8, 8, 6, 6, 4, 4, 2, 2, 0, 0, 92, 90, 92, 88, 90, 88, 86, 86, 84, 84, 82, 82, 80, 80, 78, 78, 76, 76, 74, 74, 72, 72, 70, 70, 68, 68, 66, 66, 64, 64, 62, 58, 60, 62, 60 ],
+					"width": 868,
+					"height": 418
+				}
+			},
+			"mulan_23": {
+				"mulan_23": { "x": 233.91, "y": 9.26, "rotation": 49.88, "width": 514, "height": 387 }
+			},
+			"mulan_24": {
+				"mulan_24": {
+					"type": "mesh",
+					"uvs": [ 0.62343, 0.14933, 0.64935, 0.30319, 0.5058, 0.33353, 0.49982, 0.50473, 0.48785, 0.65426, 0.44598, 0.71927, 0.58156, 0.75828, 0.67727, 0.72143, 0.84076, 0.59574, 0.90855, 0.47222, 1, 0.39637, 1, 0.48306, 0.87864, 0.66509, 0.72113, 0.80378, 0.52972, 0.81245, 0.39415, 0.79728, 0.31639, 0.82545, 0.27053, 1, 0.13526, 1, 0.04523, 0.94464, 0.03925, 0.78428, 0.07314, 0.54373, 0.04323, 0.40721, 0, 0.3552, 0, 0.23384, 0.06118, 0.28152, 0.08909, 0.12765, 0.2486, 0.06698, 0.35028, 0, 0.40611, 0, 0.28449, 0.49172, 0.16286, 0.85146, 0.0871, 0.83196, 0.10903, 0.40504, 0.20075, 0.22734, 0.31439, 0.21217, 0.51178, 0.20567, 0.36025, 0.09515, 0.18878, 0.16233, 0.1199, 0.31647, 0.20271, 0.30545, 0.27708, 0.30361, 0.39031, 0.29443 ],
+					"triangles": [ 12, 9, 11, 27, 28, 37, 38, 26, 27, 35, 27, 37, 38, 27, 35, 34, 38, 35, 34, 25, 26, 34, 26, 38, 41, 34, 35, 41, 35, 42, 40, 34, 41, 39, 25, 34, 40, 39, 34, 23, 24, 25, 25, 22, 23, 25, 39, 22, 33, 39, 40, 37, 28, 29, 36, 37, 29, 0, 36, 29, 42, 35, 37, 36, 42, 37, 36, 0, 1, 2, 42, 36, 2, 36, 1, 9, 10, 11, 12, 8, 9, 7, 8, 12, 13, 7, 12, 13, 14, 6, 13, 6, 7, 5, 30, 4, 14, 5, 6, 15, 5, 14, 15, 16, 5, 3, 42, 2, 30, 42, 3, 4, 30, 3, 33, 22, 39, 30, 41, 42, 21, 22, 33, 5, 16, 30, 31, 20, 21, 32, 20, 31, 40, 41, 30, 30, 33, 40, 30, 21, 33, 30, 31, 21, 30, 16, 31, 19, 20, 32, 31, 19, 32, 18, 19, 31, 17, 31, 16, 18, 31, 17 ],
+					"vertices": [ 4, 6, 311.05, -322.9, 0.05219, 100, -547.5, 30.23, 0, 101, -453.96, -229.31, 0, 21, -105.23, 162.26, 0.94781, 4, 6, 195.51, -260.34, 0.11582, 100, -433.74, 95.99, 0, 101, -340.2, -163.55, 0, 21, 8.53, 228.01, 0.88418, 5, 7, -82.7, 131.7, 0.01104, 6, 257.8, -142.24, 0.41574, 100, -365.66, -18.87, 1.0E-5, 101, -272.12, -278.41, 0, 21, 76.61, 113.16, 0.57321, 5, 7, 54.57, 174.93, 1.0E-5, 6, 149.17, -47.85, 0.98785, 100, -228.39, 24.36, 3.2E-4, 101, -134.85, -235.18, 0, 21, 213.88, 156.38, 0.01182, 4, 6, 58.14, 39.39, 0.73067, 100, -106.43, 56.32, 0.268, 101, -12.89, -203.23, 0.00129, 21, 335.84, 188.34, 4.0E-5, 5, 7, 240.81, 189.26, 0.0022, 6, 39.55, 103.4, 0.1558, 100, -42.15, 38.68, 0.78706, 101, 51.39, -220.86, 0.05492, 21, 400.12, 170.71, 1.0E-5, 3, 100, -52.92, 166.28, 0.39642, 101, 40.62, -93.27, 0.60358, 21, 389.35, 298.3, 0, 3, 100, -111.45, 238.15, 0.00971, 101, -17.91, -21.39, 0.97529, 102, 135.01, -129.26, 0.015, 3, 101, -167.55, 83.67, 0.01147, 102, -14.63, -24.2, 0.95527, 99, -48.45, 159.09, 0.03326, 1, 98, 87.66, -56.19, 1, 2, 99, 28.72, -48.82, 0.82, 98, 103.5, -160.02, 0.18, 2, 102, -152.67, 80.88, 0.0264, 99, -35.16, -13.88, 0.9736, 2, 101, -124.32, 135.84, 0.0397, 102, 28.6, 27.96, 0.9603, 3, 100, -59.78, 299.13, 6.6E-4, 101, 33.76, 39.59, 0.98485, 102, 186.68, -68.28, 0.01449, 3, 100, 5.85, 137.01, 0.61985, 101, 99.4, -122.53, 0.38015, 21, 448.12, 269.04, 0, 3, 7, 318.45, 166.72, 0.03589, 100, 35.49, 16.15, 0.94856, 101, 129.03, -243.39, 0.01555, 2, 7, 364.61, 107.83, 0.62268, 100, 81.65, -42.75, 0.37732, 2, 7, 516.77, 117.71, 0.99089, 100, 233.81, -32.86, 0.00911, 1, 7, 558.31, 1.41, 1, 1, 7, 542.16, -91.64, 1, 2, 7, 417.14, -142.09, 0.99948, 20, 528.24, -25.65, 5.2E-4, 2, 7, 216.45, -180.91, 0.8655, 20, 327.54, -64.46, 0.1345, 2, 7, 117.63, -245.2, 0.56512, 20, 228.73, -128.75, 0.43488, 2, 7, 89.76, -297.06, 0.46123, 20, 200.86, -180.62, 0.53877, 2, 7, -6.24, -331.35, 0.40504, 20, 104.86, -214.9, 0.59496, 2, 7, 12.69, -265.28, 0.37766, 20, 123.79, -148.83, 0.62234, 2, 7, -117.6, -284.75, 0.06151, 20, -6.5, -168.3, 0.93849, 2, 21, -55.27, -183.29, 0.21712, 20, -103.48, -48.3, 0.78288, 2, 21, -139.47, -114.79, 0.62605, 20, -187.69, 20.21, 0.37395, 2, 21, -156.62, -66.79, 0.73245, 20, -204.83, 68.21, 0.26755, 2, 7, 110.41, -13.89, 0.99051, 20, 221.5, 102.56, 0.00949, 1, 7, 432.33, -16.83, 1, 1, 7, 440.16, -87.48, 1, 2, 7, 95.71, -189.24, 0.61965, 20, 206.81, -72.79, 0.38035, 2, 7, -73.02, -160.58, 0.14481, 20, 38.07, -44.14, 0.85519, 3, 7, -119.92, -67.15, 0.11609, 21, 39.39, -85.7, 0.28188, 20, -8.83, 49.29, 0.60203, 4, 6, 338.07, -213.81, 0.07465, 100, -468.64, -49.85, 0, 101, -375.1, -309.39, 0, 21, -26.37, 82.18, 0.92534, 2, 21, -67.27, -79.33, 0.62663, 20, -115.48, 55.66, 0.37337, 3, 7, -120.78, -189.24, 0.02937, 21, 38.53, -207.78, 0.00544, 20, -9.68, -72.79, 0.9652, 2, 7, 22.31, -204.91, 0.41048, 20, 133.4, -88.46, 0.58952, 2, 7, -11.84, -136.82, 0.3906, 20, 99.26, -20.38, 0.6094, 3, 7, -36.13, -73.4, 0.39744, 21, 123.18, -91.95, 0.13883, 20, 74.97, 43.04, 0.46373, 6, 7, -78.17, 21.36, 0.15176, 6, 349.48, -80.66, 0.18893, 100, -361.13, -129.21, 0, 101, -267.59, -388.75, 0, 21, 81.14, 2.81, 0.37186, 20, 32.93, 137.81, 0.28745 ],
+					"hull": 30,
+					"edges": [ 30, 32, 32, 34, 34, 36, 36, 38, 38, 40, 40, 42, 42, 44, 44, 46, 46, 48, 48, 50, 50, 52, 52, 54, 54, 56, 56, 58, 58, 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 14, 16, 16, 18, 18, 20, 20, 22, 22, 24, 24, 26, 26, 28, 28, 30, 50, 78, 78, 80, 80, 82, 82, 84, 84, 4 ],
+					"width": 913,
+					"height": 840
+				}
+			},
+			"mulan_25": {
+				"mulan_25": {
+					"type": "mesh",
+					"uvs": [ 0.89237, 0.05092, 0.8317, 0.37975, 0.73705, 0.46024, 0.75698, 0.61036, 1, 0.84726, 1, 0.95706, 0.5685, 1, 0.4163, 1, 0.07947, 1, 0.10941, 0.67535, 0, 0.41743, 0.26136, 0.09031, 0.59628, 0, 0.32648, 0.66302, 0.36391, 0.39748, 0.43127, 0.13326, 0.39884, 0.92971, 0.14434, 0.41031, 0.55602, 0.36453 ],
+					"triangles": [ 15, 11, 12, 0, 18, 15, 0, 15, 12, 1, 18, 0, 14, 11, 15, 14, 15, 18, 17, 11, 14, 17, 10, 11, 2, 18, 1, 13, 17, 14, 9, 10, 17, 9, 17, 13, 3, 13, 2, 2, 14, 18, 2, 13, 14, 6, 16, 3, 16, 13, 3, 4, 6, 3, 6, 7, 16, 9, 13, 16, 16, 8, 9, 7, 8, 16, 4, 5, 6 ],
+					"vertices": [ 3, 28, 486.12, -274.26, 0.00669, 29, 354.89, -223.41, 0.11525, 30, 257.05, -152.87, 0.87806, 3, 28, 300.98, -220.92, 0.06184, 29, 163.84, -198.54, 0.25429, 30, 67.41, -186.9, 0.68387, 3, 28, 260.59, -175.52, 0.22205, 29, 117.07, -159.73, 0.33926, 30, 11.1, -164.04, 0.43869, 3, 28, 173.13, -170.48, 0.47861, 29, 29.85, -167.9, 0.31686, 30, -69.57, -198.19, 0.20453, 3, 28, 22.07, -248.28, 0.74859, 29, -107.79, -267.54, 0.18577, 30, -170.65, -334.78, 0.06564, 3, 28, -41, -238.68, 0.91843, 29, -171.58, -267.54, 0.07377, 30, -231.46, -354.06, 0.0078, 2, 28, -39.05, -60.03, 0.98886, 29, -196.53, -90.62, 0.01114, 2, 28, -29.66, 1.66, 0.92185, 29, -196.53, -28.22, 0.07815, 3, 28, -8.88, 138.19, 0.73842, 29, -196.53, 109.88, 0.24005, 30, -369.32, -1.83, 0.02153, 3, 28, 175.75, 97.68, 0.44101, 29, -7.91, 97.6, 0.40482, 30, -185.8, 43.48, 0.15416, 3, 28, 330.64, 119.48, 0.1829, 29, 141.95, 142.46, 0.41919, 30, -56.52, 131.53, 0.39791, 3, 28, 502.41, -15.04, 0.0359, 29, 332, 35.3, 0.25464, 30, 157.04, 86.83, 0.70947, 3, 28, 533.63, -158.69, 3.8E-4, 29, 384.47, -102.01, 0.11977, 30, 248.55, -28.21, 0.87985, 2, 28, 169.44, 8.62, 0.32081, 29, -0.74, 8.6, 0.67919, 2, 29, 153.53, -6.74, 0.57325, 30, -0.38, -7.19, 0.42675, 1, 30, 154.31, 12.88, 1, 1, 28, 11.79, 2.6, 1, 2, 29, 146.08, 83.28, 0.75327, 30, -34.69, 76.37, 0.24673, 3, 28, 326.73, -110.51, 8.6E-4, 29, 172.68, -85.51, 0.28637, 30, 41.68, -76.49, 0.71277 ],
+					"hull": 13,
+					"edges": [ 22, 20, 22, 24, 24, 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 12, 10, 12, 14, 20, 18, 14, 16, 18, 16 ],
+					"width": 410,
+					"height": 581
+				}
+			},
+			"mulan_26": {
+				"mulan_26": {
+					"type": "mesh",
+					"uvs": [ 0.42141, 0.23435, 0.5342, 0.38239, 0.67422, 0.5329, 0.8259, 0.56004, 1, 0.49096, 1, 0.64134, 1, 0.79173, 0.91511, 0.80873, 0.81332, 0.86311, 0.71555, 0.93108, 0.61242, 1, 0.5, 1, 0.40164, 0.8869, 0.3119, 0.74585, 0.23665, 0.57277, 0.17164, 0.37928, 0.06477, 0.1919, 0.02019, 0.20598, 0.03515, 0, 0.2989, 0, 0.87278, 0.75156, 0.73787, 0.73976, 0.64327, 0.70434, 0.50836, 0.62367, 0.39206, 0.50168, 0.32538, 0.37182, 0.19202, 0.11407 ],
+					"triangles": [ 26, 18, 19, 16, 18, 26, 17, 18, 16, 26, 19, 0, 25, 26, 0, 15, 16, 26, 15, 26, 25, 25, 0, 1, 24, 25, 1, 14, 15, 25, 14, 25, 24, 23, 24, 1, 23, 1, 2, 3, 4, 5, 22, 23, 2, 21, 2, 3, 22, 2, 21, 13, 14, 24, 13, 24, 23, 20, 3, 5, 21, 3, 20, 20, 5, 6, 7, 20, 6, 8, 21, 20, 8, 20, 7, 12, 13, 23, 9, 22, 21, 9, 21, 8, 22, 11, 12, 22, 12, 23, 10, 11, 22, 9, 10, 22 ],
+					"vertices": [ 7, 89, 212, 162.69, 0.53758, 90, -12.21, 164.21, 0.1566, 91, -103.76, 203.47, 0.17293, 92, -222.88, 239.02, 0.08828, 93, -330.39, 291.63, 0.04017, 94, -361.63, 396.46, 0.00437, 95, -459.36, 418.09, 5.0E-5, 7, 89, 376.41, 191.97, 0.25115, 90, 154.02, 180.15, 0.15097, 91, 59.86, 170.08, 0.23544, 92, -65.99, 181.83, 0.1639, 93, -183.8, 211.65, 0.10984, 94, -240.16, 281.88, 0.05685, 95, -343.3, 298.02, 0.03186, 7, 89, 558.11, 243.38, 0.07118, 90, 339.27, 216.76, 0.08953, 91, 247.71, 150.89, 0.16496, 92, 116.97, 135.09, 0.21087, 93, -9.87, 138.11, 0.17935, 94, -90.61, 166.59, 0.12051, 95, -199.23, 175.96, 0.1636, 7, 89, 663.49, 360.6, 0.00232, 90, 453.76, 325.1, 0.028, 91, 388.89, 221.01, 0.08048, 92, 266.95, 183.58, 0.13859, 93, 145.67, 163.66, 0.16884, 94, 66.32, 151.79, 0.18042, 95, -43.14, 153.95, 0.40134, 6, 90, 521.59, 500.13, 5.0E-5, 91, 504.95, 368.53, 0.007, 92, 403.54, 312.33, 0.06297, 93, 299.95, 270.57, 0.09919, 94, 242.7, 216.02, 0.1441, 95, 136.01, 209.98, 0.68669, 4, 92, 456.9, 202.66, 0.00167, 93, 336.33, 154.16, 0.02962, 94, 248.32, 94.19, 0.09545, 95, 136.01, 88.01, 0.87326, 4, 92, 510.25, 92.98, 1.1E-4, 93, 372.71, 37.75, 0.00742, 94, 253.94, -27.65, 0.14323, 95, 136.01, -33.95, 0.84924, 5, 91, 578.65, 106.59, 9.5E-4, 92, 437.73, 42.38, 0.01266, 93, 293.45, -1.46, 0.07009, 94, 167.32, -45.44, 0.28155, 95, 48.66, -47.74, 0.63475, 5, 91, 517.21, 10.98, 0.01006, 92, 362.84, -43.1, 0.06513, 93, 206.63, -74.8, 0.18448, 94, 64.72, -94.33, 0.4223, 95, -56.09, -91.84, 0.31803, 5, 91, 465.41, -91.38, 0.04033, 92, 296.48, -136.69, 0.17072, 93, 127.04, -157.42, 0.31791, 94, -33.23, -154.03, 0.36678, 95, -156.69, -146.96, 0.10425, 6, 90, 595.9, -69.05, 3.7E-4, 91, 409.5, -197.49, 0.12083, 92, 225.51, -233.37, 0.2976, 93, 42.42, -242.43, 0.3531, 94, -136.67, -214.76, 0.22652, 95, -262.82, -202.86, 0.00159, 5, 90, 523.81, -159.52, 0.01808, 91, 314.1, -262.91, 0.26655, 92, 121.48, -283.98, 0.35606, 93, -67.99, -276.93, 0.28565, 94, -252.22, -220.09, 0.07366, 6, 89, 639.75, -149.59, 0.00452, 90, 389, -181.51, 0.12121, 91, 178.75, -244.5, 0.39114, 92, -9.66, -245.77, 0.30796, 93, -191.96, -219.57, 0.15798, 94, -357.56, -133.13, 0.0172, 6, 89, 493.3, -162.35, 0.10447, 90, 241.99, -182.44, 0.23927, 91, 37.9, -202.38, 0.41241, 92, -142.73, -183.3, 0.17993, 93, -314.21, -137.93, 0.06093, 94, -455.07, -23.12, 0.00298, 6, 89, 333.61, -148.25, 0.31553, 90, 83.96, -155.52, 0.32265, 91, -105.34, -130.41, 0.27876, 92, -273.77, -90.96, 0.06901, 93, -429.99, -27.05, 0.01397, 94, -538.9, 113.53, 8.0E-5, 5, 89, 166.07, -116.17, 0.62866, 90, -80.46, -110.05, 0.23521, 91, -249.26, -38.82, 0.12391, 92, -402.58, 20.89, 0.01141, 93, -540.65, 102.78, 8.2E-4, 3, 89, -21.4, -122.59, 0.86205, 90, -267.83, -101.34, 0.11677, 91, -425.89, 24.32, 0.02118, 2, 89, -37.53, -167.02, 0.98432, 90, -287.49, -144.33, 0.01568, 4, 89, -167.54, -61, 0.95543, 90, -408.54, -28.18, 0.03359, 91, -539.04, 135.44, 0.01098, 92, -663.43, 236.05, 1.0E-5, 5, 89, -16.06, 164.18, 0.80206, 90, -239.41, 184.06, 0.09507, 91, -315.21, 288.91, 0.08846, 92, -419.39, 354.77, 0.01433, 93, -507.41, 435.43, 8.0E-5, 2, 94, 121.67, -1.14, 0.29161, 95, 5.1, -1.37, 0.70839, 1, 93, 102.68, -2.47, 1, 4, 91, 300.08, 18.22, 2.3E-4, 92, 149.16, -3.86, 0.44231, 93, 1.21, -4.09, 0.55729, 94, -116, 26.23, 1.8E-4, 3, 91, 148.59, -6.34, 0.65884, 92, -4.29, -5.76, 0.34108, 93, -150.81, 16.95, 8.0E-5, 2, 90, 138.53, 5.47, 0.74314, 91, -6.06, 7.58, 0.25686, 3, 89, 249.35, 18.47, 0.16008, 90, 13.41, 17.44, 0.83172, 91, -122.21, 55.63, 0.0082, 1, 89, -0.68, 21.28, 1 ],
+					"hull": 20,
+					"edges": [ 36, 34, 34, 32, 32, 30, 30, 28, 28, 26, 26, 24, 24, 22, 20, 22, 20, 18, 18, 16, 16, 14, 14, 12, 36, 38, 38, 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12 ],
+					"width": 1029,
+					"height": 811
+				}
+			},
+			"mulan_27": {
+				"mulan_27": {
+					"type": "mesh",
+					"uvs": [ 0.41223, 0.08536, 1, 0.89975, 1, 1, 0.34192, 1, 0.55285, 0.8445, 0, 0.14782, 0, 0, 0.13768, 0, 0.77718, 0.86852, 0.21803, 0.21749 ],
+					"triangles": [ 2, 3, 8, 3, 4, 8, 8, 1, 2, 0, 1, 8, 5, 9, 4, 9, 0, 4, 8, 4, 0, 5, 7, 9, 9, 7, 0, 5, 6, 7 ],
+					"vertices": [ 1, 44, 48.83, 133.76, 1, 2, 44, 738.52, 83.86, 0.88889, 45, -94.05, 72.63, 0.11111, 2, 44, 802.96, 44.35, 0.70767, 45, -62.09, 141.13, 0.29233, 2, 44, 616.86, -259.16, 0.52645, 45, 260.53, -9.43, 0.47355, 2, 44, 576.55, -100.59, 0.59888, 45, 107.54, -67.42, 0.40112, 2, 44, -27.6, -80.97, 0.96286, 45, 156.43, -669.92, 0.03714, 1, 44, -122.62, -22.71, 1, 1, 44, -83.68, 40.79, 1, 1, 45, 5.23, 0.31, 1, 1, 44, 78.84, -7.87, 1 ],
+					"hull": 8,
+					"edges": [ 10, 12, 10, 8, 4, 6, 8, 6, 4, 2, 2, 0, 12, 14, 0, 14 ],
+					"width": 541,
+					"height": 754
+				}
+			},
+			"mulan_28": {
+				"mulan_28": { "x": 183.38, "y": -2.05, "rotation": 141.77, "width": 380, "height": 314 }
+			},
+			"mulan_29": {
+				"mulan_29": { "x": 270.97, "y": 22.38, "rotation": 95.08, "width": 219, "height": 679 }
+			},
+			"mulan_30": {
+				"mulan_30": { "x": 202.38, "y": 6.38, "rotation": 163.06, "width": 462, "height": 324 }
+			},
+			"mulan_31": {
+				"mulan_31": {
+					"type": "mesh",
+					"uvs": [ 1, 0.24751, 0.8954, 0.56141, 0.64175, 0.80665, 0.54147, 1, 0.31141, 1, 0, 1, 0, 0.66545, 0.12855, 0.53199, 0, 0.33089, 0, 0.24261, 0.4058, 0.34561, 0.60636, 0.24751, 0.78922, 0, 1, 0 ],
+					"triangles": [ 3, 4, 2, 7, 2, 4, 7, 4, 6, 6, 4, 5, 7, 10, 2, 2, 10, 1, 1, 10, 11, 1, 11, 0, 7, 8, 10, 10, 8, 9, 11, 12, 0, 12, 13, 0 ],
+					"vertices": [ 4, 103, 25.54, 26.5, 0.71923, 104, -45.03, 3.83, 0.23357, 105, -93.18, -16.94, 0.02177, 106, -120.18, 73.32, 0.02542, 4, 103, 83.06, 33.79, 0.41219, 104, 0.49, 39.74, 0.41228, 105, -56.61, 28.04, 0.06625, 106, -63.59, 85.95, 0.10929, 4, 103, 137.82, 16.02, 0.16368, 104, 56.58, 52.74, 0.43402, 105, -4.72, 52.99, 0.12403, 106, -7.41, 73.37, 0.27828, 4, 103, 175.3, 15.62, 0.02628, 104, 88.9, 71.71, 0.32746, 105, 22.67, 78.57, 0.13826, 106, 29.94, 76.47, 0.508, 3, 104, 116.36, 51.58, 0.16124, 105, 53.87, 64.92, 0.11436, 106, 45.96, 46.43, 0.72441, 3, 104, 153.52, 24.32, 0.0582, 105, 96.09, 46.45, 0.1688, 106, 67.65, 5.76, 0.773, 3, 104, 118.31, -23.7, 0.03023, 105, 72.22, -8.11, 0.34517, 106, 15.11, -22.26, 0.62461, 3, 104, 88.92, -31.61, 0.04307, 105, 45.27, -22.25, 0.62982, 106, -14.81, -16.66, 0.32711, 4, 103, 96.38, -104.29, 0.00439, 104, 83.09, -71.72, 0.13189, 105, 48.36, -62.67, 0.75431, 106, -37.44, -50.29, 0.10941, 4, 103, 81.88, -110.36, 0.08627, 104, 73.8, -84.39, 0.23245, 105, 42.06, -77.06, 0.67849, 106, -51.3, -57.68, 0.00278, 3, 103, 75.6, -47.88, 0.27926, 104, 36.21, -34.09, 0.31105, 105, -5.62, -36.2, 0.40969, 3, 103, 48.04, -27.24, 0.57458, 104, 1.95, -30.62, 0.25244, 105, -39.81, -40.29, 0.17298, 3, 103, -3.06, -19.29, 0.82603, 104, -45.93, -50.14, 0.13754, 105, -82.26, -69.81, 0.03643, 3, 103, -15.1, 9.49, 0.88155, 104, -71.09, -31.7, 0.11833, 106, -159.05, 52.58, 1.2E-4 ],
+					"hull": 14,
+					"edges": [ 8, 10, 6, 8, 6, 4, 4, 2, 0, 26, 2, 0, 24, 26, 24, 22, 22, 20, 20, 18, 16, 18, 16, 14, 10, 12, 14, 12 ],
+					"width": 148,
+					"height": 178
+				}
+			},
+			"mulan_32": {
+				"mulan_32": {
+					"type": "mesh",
+					"uvs": [ 0.36395, 0.09042, 0.45801, 0.26085, 0.4827, 0.30722, 0.50739, 0.35359, 0.63673, 0.45885, 0.83426, 0.52151, 0.92362, 0.55159, 1, 0.64934, 1, 0.8323, 0.90951, 0.92253, 0.72609, 1, 0.26954, 1, 0.11199, 0.94509, 0, 0.75962, 0.06966, 0.52653, 0, 0.27589, 0, 0.13804, 0, 0.07789, 0.09614, 0, 0.19228, 0, 0.34043, 0.66438, 0.63673, 0.712, 0.90011, 0.68693, 0.25107, 0.49394, 0.18993, 0.28592, 0.2158, 0.81977, 0.86013, 0.82729, 0.14338, 0.14436, 0.22804, 0.2217, 0.28609, 0.31322, 0.37679, 0.3854, 0.4421, 0.34415, 0.38888, 0.30935, 0.3139, 0.21783, 0.2498, 0.1508, 0.14459, 0.07991 ],
+					"triangles": [ 18, 35, 27, 35, 19, 34, 35, 18, 19, 34, 19, 0, 28, 34, 33, 32, 33, 1, 33, 0, 1, 33, 34, 0, 10, 26, 9, 10, 21, 26, 9, 26, 8, 26, 22, 8, 22, 7, 8, 26, 21, 22, 21, 5, 22, 22, 6, 7, 22, 5, 6, 27, 35, 34, 28, 27, 34, 24, 28, 29, 14, 24, 23, 24, 27, 28, 15, 16, 27, 27, 16, 17, 27, 17, 18, 14, 15, 24, 15, 27, 24, 29, 28, 33, 30, 31, 3, 30, 3, 4, 20, 23, 30, 23, 29, 30, 23, 24, 29, 30, 32, 31, 30, 29, 32, 31, 2, 3, 2, 31, 1, 29, 33, 32, 31, 32, 1, 12, 25, 11, 11, 25, 20, 12, 13, 25, 4, 20, 30, 13, 14, 25, 20, 14, 23, 20, 25, 14, 10, 11, 21, 11, 20, 21, 21, 20, 4, 21, 4, 5 ],
+					"vertices": [ 8, 3, 510.44, -758.11, 0.06882, 4, 651.35, -395.61, 0.01957, 5, 440.75, -353.35, 0.11903, 8, -271.56, 875.78, 0.0251, 25, 322.46, -125.55, 0.11047, 24, 125.39, -136.5, 0.17681, 23, -40.72, -185.81, 0.15145, 22, -193.48, -213.83, 0.32875, 8, 3, 344.08, -552.65, 0.15897, 4, 387, -398.94, 0.04521, 5, 178.06, -383.07, 0.27214, 8, -174.07, 630.04, 0.05798, 25, 59.77, -155.27, 0.08238, 24, -137.3, -166.22, 0.12159, 23, -302.29, -147.43, 0.09229, 22, -455.05, -175.45, 0.16945, 4, 3, 300.08, -496.56, 0.29766, 4, 315.72, -398.73, 0.08464, 5, 107.11, -389.98, 0.50913, 8, -148.81, 563.39, 0.10856, 5, 3, 256.09, -440.47, 0.30212, 4, 244.44, -398.52, 0.08031, 5, 36.17, -396.9, 0.3937, 6, -364.99, -314.08, 0.06581, 8, -123.56, 496.73, 0.15806, 5, 3, 52.95, -328.63, 0.31575, 4, 30.8, -488.72, 0.06321, 5, -167.39, -507.98, 0.21583, 6, -590.17, -369.48, 0.00726, 8, 36.97, 329.37, 0.39795, 5, 3, -237.85, -287.54, 0.19688, 4, -181.6, -691.55, 0.03151, 5, -358.46, -731.02, 0.07391, 6, -831.87, -536.31, 3.6E-4, 8, 302.27, 203.4, 0.69734, 4, 3, -369.74, -266.66, 0.08194, 4, -279.69, -782.16, 0.0075, 5, -447, -830.98, 0.01104, 8, 421.93, 144.12, 0.89953, 4, 3, -496.76, -153.56, 0.00767, 4, -447.15, -811.82, 8.0E-5, 5, -610.67, -877.22, 2.0E-4, 8, 509.42, -1.72, 0.99205, 2, 3, -533.05, 88.36, 0.02223, 8, 471.89, -243.45, 0.97777, 3, 3, -423.43, 226.79, 0.10989, 4, -700.32, -518.64, 0.04426, 8, 325.96, -342.87, 0.84585, 4, 3, -180.31, 367.99, 0.23238, 4, -660.56, -240.32, 0.16481, 5, -880.11, -329.9, 1.0E-4, 8, 51.79, -405.11, 0.6027, 4, 3, 463.08, 464.5, 0.32029, 4, -337.78, 324.55, 0.38189, 5, -615.38, 264.39, 0.00635, 8, -591.09, -305.28, 0.29147, 5, 3, 696, 425.2, 0.27537, 4, -162.65, 483.06, 0.562, 5, -456.96, 439.6, 0.06991, 6, -628.07, 620.64, 0.00225, 8, -801.69, -198.29, 0.09047, 5, 3, 890.6, 203.64, 0.16117, 4, 131.83, 498.58, 0.5896, 5, -165.51, 484.47, 0.14593, 6, -334.83, 589.57, 0.10287, 8, -921.33, 71.24, 4.4E-4, 4, 3, 838.67, -119.28, 0.0516, 4, 353.16, 257.78, 0.42413, 5, 78.78, 266.99, 0.20967, 6, -154.2, 316.89, 0.3146, 4, 3, 986.54, -435.95, 0.00844, 4, 693.36, 177.71, 0.19985, 5, 425.27, 221.3, 0.15877, 6, 169.12, 184.21, 0.63294, 3, 4, 853.38, 86.27, 0.0517, 5, 593.63, 146.31, 0.08345, 6, 312.74, 68.7, 0.86485, 4, 3, 1025.81, -697.75, 0, 4, 923.21, 46.36, 8.0E-5, 5, 667.09, 113.58, 0.02251, 6, 375.41, 18.29, 0.9774, 9, 3, 905.77, -821.06, 0.00956, 4, 945.65, -124.25, 0.00539, 5, 706.47, -53.94, 0.08349, 6, 370.68, -153.73, 0.04, 8, -630.11, 1053.8, 0.00215, 25, 588.18, 173.86, 0.04835, 24, 391.11, 162.91, 0.12206, 23, 292.66, 35.79, 0.19922, 22, 139.9, 7.77, 0.48977, 8, 3, 770.29, -841.38, 0.02385, 4, 877.68, -243.2, 0.00714, 5, 650.72, -179.08, 0.05252, 8, -494.73, 1032.78, 0.00852, 25, 532.43, 48.72, 0.09348, 24, 335.36, 37.76, 0.17033, 23, 206.79, -70.96, 0.18434, 22, 54.04, -98.98, 0.45981, 2, 3, 429.74, 5.75, 0.27527, 4, 1.7, 14.21, 0.72473, 1, 3, 2.74, 6.08, 1, 1, 8, 361.05, -29.55, 1, 2, 4, 262.73, 11.71, 0.16857, 5, 13.38, 13.12, 0.83143, 1, 6, -10.95, -18.28, 1, 3, 3, 574.56, 237.56, 0.34069, 4, -90.57, 271.49, 0.65673, 5, -364.1, 236.29, 0.00258, 1, 8, 275.96, -206.24, 1, 1, 6, 178.1, -85.21, 1, 9, 3, 675.93, -555.81, 0.03769, 4, 595.05, -140.38, 0.02793, 5, 359.23, -105.01, 0.40844, 6, 21.92, -114.41, 0.14211, 8, -489.87, 732.06, 0.00497, 25, 240.94, 122.79, 0.00933, 24, 43.87, 111.83, 0.04169, 23, -56.1, 75.12, 0.11184, 22, -208.86, 47.1, 0.216, 5, 3, 575.97, -447.07, 0.06637, 4, 447.77, -151.49, 0.04917, 5, 213.8, -130.79, 0.7171, 6, -125.27, -102.17, 0.15861, 8, -426.9, 598.45, 0.00874, 5, 3, 433.83, -370.81, 0.15435, 4, 299.85, -215.83, 0.0989, 5, 73.05, -209.58, 0.60334, 6, -281.48, -142.4, 0.06905, 8, -313.99, 483.26, 0.07436, 5, 3, 349.98, -439.15, 0.21855, 4, 301.56, -323.99, 0.08402, 5, 85.56, -317.03, 0.49918, 6, -296.84, -249.48, 0.106, 8, -213.57, 523.47, 0.09225, 5, 3, 431.87, -473.92, 0.15882, 4, 379.58, -281.24, 0.06559, 5, 158.91, -266.7, 0.57317, 6, -213.06, -219.56, 0.15925, 8, -281.36, 581.09, 0.04317, 2, 25, 195.87, 8.91, 6.6E-4, 24, -1.2, -2.04, 0.99934, 2, 24, 117.83, 44.93, 5.3E-4, 23, -1.69, -8.46, 0.99947, 2, 25, 462.49, 154.27, 6.1E-4, 22, 13.38, 20.94, 0.99939 ],
+					"hull": 20,
+					"edges": [ 30, 28, 28, 26, 26, 24, 24, 22, 20, 22, 20, 18, 18, 16, 16, 14, 14, 12, 38, 0, 0, 2, 6, 8, 8, 10, 10, 12, 36, 38, 36, 34, 30, 32, 32, 34, 36, 54, 54, 56, 56, 58, 58, 60, 60, 62, 2, 4, 4, 6, 62, 4 ],
+					"width": 1425,
+					"height": 1337
+				}
+			},
+			"mulan_33": {
+				"mulan_33": { "x": 293.85, "y": 45.08, "rotation": 87.82, "width": 302, "height": 750 }
+			},
+			"mulan_34": {
+				"mulan_34": { "x": 199.88, "y": 2.6, "rotation": -143.75, "width": 452, "height": 421 }
+			},
+			"mulan_35": {
+				"mulan_35": {
+					"type": "mesh",
+					"uvs": [ 1, 0.14866, 0.90502, 0.30691, 0.83738, 0.41961, 0.63605, 0.65804, 0.38528, 0.89648, 0.14509, 1, 0, 1, 0, 0.86758, 0.18571, 0.74836, 0.38704, 0.64721, 0.58837, 0.51354, 0.7844, 0.26426, 0.94511, 0, 1, 0, 0.2515, 0.82818, 0.56469, 0.62919 ],
+					"triangles": [ 3, 10, 11, 0, 1, 12, 12, 13, 0, 1, 11, 12, 2, 11, 1, 3, 11, 2, 15, 9, 10, 14, 8, 9, 4, 14, 9, 4, 9, 15, 4, 15, 3, 5, 6, 7, 8, 5, 7, 5, 8, 14, 5, 14, 4, 15, 10, 3 ],
+					"vertices": [ 1, 98, 6.22, 33.37, 1, 2, 26, -317.45, 403.49, 0.11143, 98, -5.78, 98.17, 0.88857, 2, 26, -277.3, 379.19, 0.31714, 98, -14.33, 144.32, 0.68286, 2, 26, -181.81, 298.28, 0.50571, 98, -17.38, 269.44, 0.49429, 2, 26, -77.38, 192.31, 0.79143, 98, -7.66, 417.91, 0.20857, 1, 26, -8.28, 79.78, 1, 1, 26, 17.98, 6.27, 1, 1, 26, -14.82, -5.45, 1, 1, 26, -77.95, 78.1, 1, 2, 26, -139.44, 171.16, 0.80857, 98, 49.4, 385.62, 0.19143, 2, 26, -208.97, 261.34, 0.53143, 98, 28.28, 273.72, 0.46857, 2, 26, -306.18, 338.61, 0.24286, 98, 35.19, 149.73, 0.75714, 1, 98, 54.69, 40.52, 1, 1, 98, 40.52, 14.61, 1, 1, 26, -70.09, 118.49, 1, 2, 26, -176.04, 259.57, 0.52, 98, 7.71, 299.49, 0.48 ],
+					"hull": 14,
+					"edges": [ 10, 12, 10, 8, 8, 6, 6, 4, 0, 26, 24, 26, 24, 22, 22, 20, 20, 18, 18, 16, 12, 14, 16, 14, 0, 2, 2, 4 ],
+					"width": 538,
+					"height": 263
+				}
+			},
+			"mulan_36": {
+				"mulan_36": { "x": 145.9, "y": -19.47, "rotation": 40.35, "width": 311, "height": 287 }
+			},
+			"mulan_37": {
+				"mulan_37": { "x": 219.97, "y": -28.82, "rotation": 79.19, "width": 391, "height": 679 }
+			},
+			"mulan_38": {
+				"mulan_38": { "x": 216.12, "y": 16.91, "rotation": 139.83, "width": 374, "height": 256 }
+			},
+			"mulan_39": {
+				"mulan_39": {
+					"type": "mesh",
+					"uvs": [ 0.88076, 0.27054, 0.92257, 0.26965, 1, 0.5, 1, 1, 0.77349, 1, 0.67162, 1, 0.5126, 0.93988, 0.30389, 0.7975, 0.08027, 0.59955, 0.06039, 0.35299, 0.23928, 0.17241, 0.43309, 0.15505, 0.56229, 0.38077, 0.52005, 0.23492, 0.5772, 0.07865, 0.65174, 0, 0.87287, 0, 0.76106, 0.27312, 0.6741, 0.22797, 0.68404, 0.15505, 0.78094, 0.12726, 0.71137, 0.48843, 0.68404, 0.59608, 0.38091, 0.46759, 0.57223, 0.79403, 0.72876, 0.81486, 0.82815, 0.51968, 0.71883, 0.33563 ],
+					"triangles": [ 20, 15, 16, 19, 15, 20, 14, 15, 19, 18, 14, 19, 13, 14, 18, 0, 20, 16, 17, 19, 20, 17, 20, 0, 18, 19, 17, 27, 18, 17, 12, 13, 18, 12, 18, 27, 23, 10, 11, 23, 11, 12, 9, 10, 23, 21, 12, 27, 26, 17, 0, 27, 17, 26, 21, 27, 26, 22, 12, 21, 8, 9, 23, 24, 12, 22, 23, 12, 24, 7, 8, 23, 7, 23, 24, 26, 22, 21, 25, 22, 26, 24, 22, 25, 6, 7, 24, 5, 24, 25, 6, 24, 5, 3, 4, 25, 5, 25, 4, 26, 0, 1, 1, 2, 26, 3, 26, 2, 3, 25, 26 ],
+					"vertices": [ 6, 82, 294.83, 7.94, 0.03597, 83, 89.59, -107.87, 0.36259, 84, -99.05, -59.28, 0.11235, 85, 83.15, -192.59, 0.04195, 86, 128.64, -143.5, 0.13132, 87, 139.14, -45.54, 0.31582, 7, 81, 216.16, 297.3, 0.0018, 82, 305.04, -20.25, 0.2269, 83, 72.99, -132.84, 0.47397, 84, -127.54, -68.61, 0.03601, 85, 95.85, -219.74, 0.0017, 86, 156.64, -154.21, 0.01945, 87, 162.26, -26.45, 0.24016, 6, 81, 290.14, 189.72, 0.07828, 82, 211.42, -111.26, 0.4286, 83, -55.84, -111.64, 0.40081, 84, -215.59, 27.8, 0.00292, 86, 164.3, -284.55, 1.5E-4, 87, 279.43, -84.05, 0.08924, 6, 80, 479, 168.73, 0, 81, 331.83, -63.37, 0.26529, 82, -31.06, -194.88, 0.51649, 83, -267.21, 33.67, 0.18965, 84, -291.61, 272.77, 2.9E-4, 87, 439.67, -284.34, 0.02827, 6, 79, 462.88, -222.24, 3.0E-4, 80, 374.89, 44.08, 0.04477, 81, 171.58, -89.76, 0.51475, 82, -84.01, -41.34, 0.38596, 83, -175.2, 167.51, 0.0517, 87, 312.84, -385.8, 0.00252, 4, 79, 390.44, -231.59, 0.04172, 80, 328.06, -11.98, 0.15952, 81, 99.51, -101.63, 0.61486, 82, -107.82, 27.71, 0.1839, 4, 79, 273.41, -215.59, 0.19298, 80, 231.3, -79.71, 0.27553, 81, -18.01, -89.73, 0.4939, 82, -115.83, 145.55, 0.03758, 4, 79, 115.65, -162.3, 0.45476, 80, 79.31, -147.74, 0.30203, 81, -177.53, -41.98, 0.24264, 82, -95.56, 310.83, 5.7E-4, 4, 79, -56.36, -82.11, 0.74212, 80, -101.41, -205.69, 0.18854, 81, -352.24, 32.16, 0.06605, 84, 399.09, 272.03, 0.00328, 3, 79, -86.68, 41.51, 0.89432, 80, -207.62, -135.54, 0.08342, 84, 450.19, 155.45, 0.02226, 7, 79, 28.67, 149.81, 0.8323, 80, -196.49, 22.29, 0.05371, 81, -275.35, 266.9, 0.00105, 82, 192.49, 459.16, 8.2E-4, 83, 391.64, 242.61, 0.00516, 84, 355.15, 28.96, 0.10635, 85, -59.31, 247.62, 6.0E-4, 7, 79, 165.35, 176.42, 0.55887, 80, -114.25, 134.65, 0.09349, 81, -139.69, 298.27, 0.01874, 82, 246.21, 330.7, 0.03275, 83, 320.26, 123.06, 0.06161, 84, 225.07, -20.73, 0.17432, 85, 5.74, 124.5, 0.06022, 8, 79, 272.04, 73.43, 0.16713, 80, 34.01, 131.51, 0.13687, 81, -29.46, 199.07, 0.04727, 82, 166.94, 205.37, 0.08399, 83, 172.36, 112.32, 0.15295, 84, 102.28, 62.4, 0.24865, 85, -61.96, -7.44, 0.15969, 86, -104.37, -111.2, 0.00345, 8, 79, 232.43, 143.76, 0.06309, 80, -42.83, 156.23, 0.07201, 81, -71.51, 267.98, 0.01874, 82, 227.8, 258.39, 0.03275, 83, 251.17, 94.89, 0.06161, 84, 153.38, -0.08, 0.16073, 85, -6.1, 50.84, 0.46939, 86, -104.7, -30.48, 0.12168, 9, 79, 262.81, 228.52, 0.00774, 80, -78.09, 239.07, 0.03096, 81, -44.11, 353.74, 0.00105, 82, 316.95, 245.79, 8.2E-4, 83, 294.02, 15.71, 0.00516, 84, 138.01, -88.79, 0.08948, 85, 83.81, 46.29, 0.51607, 86, -36.88, 28.73, 0.23761, 87, -92.32, -104.63, 0.11111, 8, 79, 310.65, 275.37, 2.0E-5, 80, -74.79, 305.96, 1.5E-4, 82, 372.51, 208.42, 2.0E-4, 83, 296.99, -51.19, 0.07321, 84, 98.92, -143.16, 0.01451, 85, 142.51, 14.06, 0.31227, 86, 27.72, 46.34, 0.34219, 87, -75.79, -39.74, 0.25744, 6, 82, 424.2, 58.52, 0.00112, 83, 207.16, -181.84, 0.19808, 84, -52.51, -190.16, 0.03542, 85, 207.45, -130.58, 0.10892, 86, 174.94, -12.54, 0.24556, 87, 48.02, 59.31, 0.41089, 6, 82, 265.61, 88.64, 0.00112, 83, 137.12, -36.41, 0.28838, 84, -17.47, -32.58, 0.27668, 85, 46.8, -114.83, 0.10029, 86, 48.47, -112.86, 0.09742, 87, 72.95, -100.18, 0.23611, 6, 82, 267.18, 155.13, 2.0E-4, 83, 191.53, 1.85, 0.16701, 84, 48.94, -36.22, 0.34718, 85, 42.39, -48.47, 0.16423, 86, -0.82, -68.2, 0.16119, 87, 9.79, -121.05, 0.1602, 6, 82, 304.87, 160.59, 2.0E-4, 83, 218.32, -25.21, 0.12536, 84, 53.23, -74.07, 0.27507, 85, 79.44, -39.64, 0.16653, 86, 19.69, -36.11, 0.21907, 87, -8.02, -87.38, 0.21378, 6, 82, 340.99, 99.56, 0.00112, 83, 190.71, -90.54, 0.20507, 84, -8.91, -108.27, 0.17523, 85, 120.89, -97.19, 0.10214, 86, 89.49, -48.68, 0.17585, 87, 37.33, -32.85, 0.34058, 7, 79, 385.12, 32.34, 0.07076, 80, 144.92, 178.14, 0.15576, 81, 84.98, 161.95, 0.07668, 82, 149.57, 86.31, 0.13834, 83, 66.29, 55.53, 0.24459, 84, -16.18, 83.47, 0.25304, 85, -68.56, -127.57, 0.06083, 7, 79, 372.76, -24.94, 0.07076, 80, 174.74, 127.7, 0.15576, 81, 74.62, 104.27, 0.07668, 82, 90.98, 86.84, 0.13834, 83, 31.88, 102.97, 0.24459, 84, -13.83, 142.02, 0.25304, 85, -126.97, -132.31, 0.06083, 4, 79, 148.76, 12.62, 0.96828, 80, -15.18, 3.15, 0.02003, 83, 209.33, 244.72, 3.0E-5, 84, 213.28, 143.49, 0.01166, 1, 81, 12.02, -8.95, 1, 1, 81, 124.5, -1.26, 1, 3, 82, 161.71, 1.93, 0.15963, 83, 5.64, -4.38, 0.83919, 87, 189.52, -168.9, 0.00118, 5, 80, 88.19, 232.49, 0.00234, 81, 77.51, 240.16, 5.4E-4, 82, 225.42, 106.82, 8.9E-4, 83, 127.86, 6.72, 0.5571, 84, 1.95, 7.02, 0.43913 ],
+					"hull": 17,
+					"edges": [ 18, 16, 16, 14, 14, 12, 12, 10, 6, 8, 8, 10, 6, 4, 4, 2, 34, 36, 36, 38, 38, 40, 2, 0, 0, 34, 40, 0, 0, 32, 30, 32, 30, 28, 28, 26, 26, 24, 24, 42, 42, 44, 44, 24, 24, 22, 22, 20, 20, 18 ],
+					"width": 717,
+					"height": 513
+				}
+			},
+			"mulan_40": {
+				"mulan_40": {
+					"x": 60.66,
+					"y": -8.16,
+					"scaleX": 1.0555,
+					"scaleY": 1.0555,
+					"rotation": -118.67,
+					"width": 106,
+					"height": 104
+				}
+			},
+			"mulan_41": {
+				"mulan_41": { "x": 98.96, "y": -9.75, "rotation": -145.3, "width": 226, "height": 221 }
+			},
+			"mulan_42": {
+				"mulan_42": { "x": 186.68, "y": -2.11, "rotation": 109.22, "width": 140, "height": 212 }
+			},
+			"mulan_43": {
+				"mulan_43": {
+					"type": "mesh",
+					"uvs": [ 0.05193, 0.09971, 0.2709, 0.1874, 0.43149, 0.2526, 0.6456, 0.26047, 0.86135, 0.33586, 1, 0.35544, 1, 0.38564, 0.95046, 0.38539, 0.86295, 0.3685, 0.6569, 0.36774, 0.44088, 0.37465, 0.25255, 0.35852, 0.07541, 0.32931, 0.18807, 1, 0.12712, 1, 0, 0.14914, 0, 0, 0.03408, 0, 0.25986, 0.25939, 0.05786, 0.22001, 0.4303, 0.29876, 0.63651, 0.30752, 0.87273, 0.3583 ],
+					"triangles": [ 22, 4, 5, 8, 4, 22, 9, 4, 8, 7, 22, 5, 8, 22, 7, 7, 5, 6, 21, 20, 2, 3, 21, 2, 21, 3, 4, 9, 21, 4, 10, 20, 21, 10, 21, 9, 20, 18, 2, 11, 18, 20, 11, 20, 10, 18, 1, 2, 18, 19, 1, 19, 0, 1, 15, 19, 12, 0, 15, 16, 0, 16, 17, 11, 12, 18, 13, 14, 12, 14, 15, 12, 15, 0, 19, 12, 19, 18 ],
+					"vertices": [ 1, 133, 1755.34, -39.03, 1, 4, 133, 1542.17, -335.24, 0.17026, 134, 284.78, 152.63, 0.41849, 135, -24.54, 155.08, 0.23543, 136, -274.75, 154.54, 0.17582, 6, 133, 1383.99, -552.26, 0.05061, 134, 545.99, 90.23, 0.23079, 135, 230.87, 72.08, 0.28822, 136, -19.18, 72.04, 0.31928, 137, -389.4, 71, 0.09518, 138, -655.35, 126.25, 0.01593, 5, 134, 846.33, 164.51, 0.08514, 135, 536.18, 122.22, 0.18349, 136, 286.03, 122.79, 0.39804, 137, -84.38, 122.83, 0.19037, 138, -347.06, 152.39, 0.14296, 4, 135, 873.9, 35.57, 0.07876, 136, 623.92, 36.79, 0.25457, 137, 253.82, 38.05, 0.28555, 138, -17.14, 39.62, 0.38111, 4, 135, 1078.06, 38.57, 0, 136, 828.07, 40.2, 0.11111, 137, 457.96, 42.19, 0.19037, 138, 186.63, 26.67, 0.69852, 2, 137, 471.76, -19.16, 0.15535, 138, 195.26, -35.61, 0.84465, 3, 136, 771.75, -36.13, 0.05935, 137, 401.91, -34.35, 0.1721, 138, 124.38, -44.91, 0.76855, 4, 135, 890.7, -30.34, 0.03831, 136, 640.85, -29.08, 0.1915, 137, 270.98, -27.76, 0.28403, 138, -5.54, -27.39, 0.48617, 6, 133, 1113.03, -852.01, 0.00752, 134, 926.96, -44.39, 0.03432, 135, 599.92, -92.43, 0.14581, 136, 350.19, -91.74, 0.32373, 137, -19.45, -91.47, 0.27562, 138, -300.28, -66.59, 0.213, 6, 133, 1129.8, -540.41, 0.11974, 134, 632.93, -148.91, 0.07477, 135, 298.51, -173.22, 0.25359, 136, 48.94, -173.13, 0.33726, 137, -320.4, -173.93, 0.16369, 138, -607.07, -123.59, 0.05095, 5, 133, 1190.31, -273.36, 0.34308, 134, 363.18, -195.92, 0.11522, 135, 25.87, -198.61, 0.28475, 136, -223.65, -199.05, 0.20519, 137, -592.89, -200.83, 0.05176, 4, 133, 1276.31, -25.08, 0.99429, 134, 100.94, -212.17, 0.00147, 135, -236.83, -193.94, 0.00301, 136, -486.36, -194.89, 0.00124, 1, 133, -129.32, -47.59, 1, 3, 133, -120.54, 39.92, 0.99143, 134, 578.89, -1526.31, 0.00856, 135, 135.01, -1541.95, 2.0E-5, 1, 133, 1660.41, 45.78, 1, 1, 133, 1969.37, 14.82, 1, 1, 133, 1964.47, -34.12, 1, 2, 134, 313.18, 4.6, 0.64599, 135, -8.01, 5.26, 0.35401, 1, 133, 1505.26, -22.58, 1, 2, 135, 249.78, -22.17, 0.50246, 136, -0.08, -22.17, 0.49754, 2, 135, 544.35, 23.74, 0, 136, 294.39, 24.32, 1, 2, 137, 280.09, -3.93, 0.39676, 138, 5.53, -4.41, 0.60324 ],
+					"hull": 18,
+					"edges": [ 24, 26, 26, 28, 30, 32, 28, 30, 32, 34, 34, 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 24, 22, 22, 20, 20, 18, 18, 16, 16, 14, 10, 12, 14, 12 ],
+					"width": 1443,
+					"height": 2082
+				}
+			},
+			"mulan_44": {
+				"mulan_44": {
+					"type": "mesh",
+					"uvs": [ 0.06761, 0.09778, 0.28567, 0.18764, 0.43805, 0.23715, 0.57729, 0.24448, 0.73493, 0.27749, 0.85841, 0.30316, 1, 0.33067, 1, 0.37834, 0.85053, 0.37284, 0.72442, 0.35634, 0.58518, 0.36551, 0.45644, 0.37468, 0.30669, 0.36734, 0.08863, 0.32883, 0.19634, 1, 0.1438, 1, 0, 0.13996, 0, 0, 0.04134, 0, 0.85315, 0.33984, 0.72179, 0.30866, 0.58518, 0.29399, 0.4617, 0.27932, 0.30143, 0.25548, 0.06761, 0.21881 ],
+					"triangles": [ 8, 19, 7, 19, 6, 7, 19, 5, 6, 8, 9, 19, 9, 20, 19, 19, 20, 5, 20, 4, 5, 10, 20, 9, 10, 21, 20, 20, 21, 4, 21, 3, 4, 10, 11, 21, 11, 12, 22, 22, 23, 2, 21, 11, 22, 22, 3, 21, 22, 2, 3, 13, 23, 12, 22, 12, 23, 24, 1, 23, 23, 1, 2, 24, 0, 1, 16, 0, 24, 13, 24, 23, 16, 24, 13, 15, 16, 13, 14, 15, 13, 0, 16, 17, 0, 17, 18 ],
+					"vertices": [ 1, 126, 1078.74, -33.3, 1, 2, 127, 199.19, 86.08, 0.9894, 129, -163.16, 85.17, 0.0106, 2, 127, 351.41, 51.31, 0.09942, 129, -12.48, 44.21, 0.90058, 2, 129, 116.66, 56.5, 0.67678, 130, -8.68, 56.4, 0.32322, 2, 130, 143.28, 39.57, 0.45163, 131, 1.96, 39.79, 0.54837, 2, 131, 121.56, 34.91, 0.599, 132, -2.08, 35, 0.401, 1, 132, 134.23, 27.17, 1, 1, 132, 147.71, -34.84, 1, 2, 131, 137.29, -56.79, 0.44073, 132, 10.47, -57.19, 0.55927, 2, 130, 152.58, -65.43, 0.36855, 131, 18.33, -64.34, 0.63145, 2, 129, 151.17, -101.02, 0.37825, 130, 27.54, -100.73, 0.62175, 3, 127, 406.47, -124.1, 0.07454, 129, 35.37, -133.31, 0.89638, 130, -87.9, -134.27, 0.02908, 3, 126, 698.64, -216.54, 0.03144, 127, 268.4, -143.71, 0.59665, 129, -103.4, -147.25, 0.37191, 1, 126, 770.86, -20.45, 1, 1, 126, -128.03, -26.26, 1, 1, 126, -122.91, 22.29, 1, 2, 126, 1029.51, 35.05, 0.9912, 127, -73.61, 92.52, 0.0088, 1, 126, 1214.76, 15.51, 1, 1, 126, 1210.74, -22.68, 1, 2, 131, 128.84, -13.61, 0.41353, 132, 3.52, -13.74, 0.58647, 2, 130, 138.75, -3.45, 0.48955, 131, 0.35, -3.43, 0.51045, 2, 129, 135.04, -7.21, 0.23378, 130, 10.39, -7.1, 0.76622, 2, 127, 384.65, 1.02, 0.0011, 129, 18.68, -7.4, 0.9989, 2, 127, 232.43, 0.85, 0.95245, 129, -133.43, -1.35, 0.04755, 1, 126, 918.55, -16.4, 1 ],
+					"hull": 19,
+					"edges": [ 32, 34, 32, 30, 28, 30, 26, 28, 26, 24, 24, 22, 22, 20, 20, 18, 18, 16, 16, 14, 34, 36, 36, 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 14, 12, 10, 12 ],
+					"width": 929,
+					"height": 1331
+				}
+			},
+			"mulan_45": {
+				"mulan_45": {
+					"type": "mesh",
+					"uvs": [ 0.07497, 0.10067, 0.20579, 0.13724, 0.3479, 0.23005, 0.50353, 0.29473, 0.62308, 0.3552, 0.77421, 0.41004, 0.90052, 0.44661, 1, 0.47192, 1, 0.49864, 0.8915, 0.50004, 0.77195, 0.4916, 0.60278, 0.45504, 0.39527, 0.43676, 0.2103, 0.4002, 0.08173, 0.33973, 0.1697, 1, 0.12143, 1, 0, 0.1058, 0, 0, 0.03662, 0, 0.15391, 0.25395, 0.32309, 0.3088, 0.50128, 0.36926, 0.66143, 0.42129, 0.8103, 0.45786, 0.92465, 0.473 ],
+					"triangles": [ 20, 17, 0, 17, 19, 0, 17, 18, 19, 14, 17, 20, 16, 17, 14, 15, 16, 14, 14, 20, 13, 9, 25, 8, 9, 6, 25, 25, 7, 8, 25, 6, 7, 10, 24, 9, 9, 24, 6, 10, 5, 24, 24, 5, 6, 11, 23, 10, 10, 23, 5, 12, 22, 11, 11, 4, 23, 11, 22, 4, 12, 21, 22, 23, 4, 5, 22, 3, 4, 22, 21, 3, 13, 21, 12, 13, 20, 21, 21, 2, 3, 21, 20, 2, 20, 1, 2, 20, 0, 1 ],
+					"vertices": [ 1, 164, 1068.07, -36.24, 1, 2, 165, 61.65, 147.62, 0.89383, 166, -216.3, 151.33, 0.10617, 3, 165, 206.36, 96.94, 0.67879, 166, -72.47, 98.19, 0.31082, 167, -312.92, 143.67, 0.01039, 3, 165, 344.77, 80.78, 0.3571, 166, 65.65, 79.67, 0.511, 167, -179.32, 104.06, 0.1319, 4, 165, 456.94, 56.89, 0.1277, 166, 177.4, 53.87, 0.50779, 167, -72.89, 61.32, 0.28001, 168, -217, 70.15, 0.0845, 4, 165, 587.02, 49.68, 0.00941, 166, 307.33, 44.44, 0.30314, 167, 54.03, 31.96, 0.40734, 168, -91.37, 35.68, 0.28012, 3, 166, 411.06, 46.52, 0.10072, 167, 156.84, 18, 0.31244, 168, 10.79, 17.58, 0.58684, 2, 167, 236.58, 10.99, 0.19136, 168, 90.18, 7.35, 0.80864, 3, 166, 504.95, 23.21, 0.01441, 167, 246.01, -19.52, 0.1773, 168, 98.37, -23.51, 0.80828, 3, 166, 433.07, -13.8, 0.13994, 167, 169.28, -44.99, 0.27436, 168, 20.67, -45.86, 0.58571, 5, 165, 629.82, -37.9, 0.01756, 166, 348.63, -43.86, 0.35884, 167, 81.21, -61.66, 0.34394, 168, -68, -58.96, 0.27948, 164, 560.83, -516.42, 1.7E-4, 5, 165, 497.7, -56.26, 0.1246, 166, 216.21, -59.96, 0.55589, 167, -52.1, -57.13, 0.22028, 168, -201.02, -49.05, 0.08422, 164, 614.47, -394.29, 0.015, 5, 165, 350.06, -107.07, 0.24282, 166, 67.73, -108.24, 0.53072, 167, -206.26, -81.92, 0.09662, 168, -356.05, -67.58, 7.0E-5, 164, 648.63, -241.94, 0.12976, 3, 165, 207.46, -130.77, 0.32593, 166, -75.26, -129.51, 0.31879, 164, 703.21, -108.08, 0.35528, 1, 164, 782.91, -18.39, 1, 1, 164, -8.82, -20.54, 1, 1, 164, -5.94, 15.31, 1, 1, 164, 1066.43, 19.92, 1, 2, 165, -149.45, 224.02, 0.00286, 164, 1192.46, 9.8, 0.99714, 1, 164, 1190.28, -17.4, 1, 1, 165, 90.61, 5.81, 1, 1, 165, 232.66, 4.71, 1, 2, 165, 383.75, 0.68, 3.0E-5, 166, 103.25, -1.08, 0.99997, 1, 166, 237.75, -4.54, 1, 3, 166, 356.58, 4.92, 0.01323, 167, 96.59, -14.69, 0.98595, 168, -50.73, -12.65, 8.1E-4, 2, 167, 183.33, -6.83, 0.00642, 168, 36.26, -8.3, 0.99358 ],
+					"hull": 20,
+					"edges": [ 34, 36, 34, 32, 30, 32, 28, 30, 36, 38, 38, 0, 0, 2, 2, 4, 4, 6, 6, 8, 8, 10, 10, 12, 12, 14, 28, 26, 26, 24, 24, 22, 22, 20, 20, 18, 14, 16, 18, 16 ],
+					"width": 745,
+					"height": 1195
+				}
+			},
+			"mulan_46": {
+				"mulan_46": {
+					"type": "mesh",
+					"uvs": [ 0.37559, 0.04913, 0.53145, 0.13735, 0.76768, 0.16926, 1, 0.25936, 1, 0.30816, 0.88017, 0.3139, 0.73298, 0.27556, 0.53603, 0.28994, 0.29762, 0.25638, 0.06407, 0.19831, 0.15578, 1, 0.07789, 1, 0, 0.15034, 0, 0.10544, 0, 0, 0.07117, 0, 0.92841, 0.23308, 0.90406, 0.26686, 0.76281, 0.22932, 0.53632, 0.19554, 0.3488, 0.16926, 0.0663, 0.12046 ],
+					"triangles": [ 10, 11, 9, 12, 13, 21, 13, 14, 15, 9, 12, 21, 12, 9, 11, 2, 3, 16, 17, 16, 3, 4, 17, 3, 5, 17, 4, 17, 18, 16, 5, 18, 17, 6, 18, 5, 19, 1, 2, 18, 19, 2, 18, 2, 16, 6, 19, 18, 7, 19, 6, 8, 9, 20, 20, 0, 1, 20, 1, 19, 7, 20, 19, 8, 20, 7, 21, 13, 15, 21, 15, 0, 20, 21, 0, 9, 21, 20 ],
+					"vertices": [ 4, 159, 315.33, 138.38, 0.50369, 160, 4.83, 138.64, 0.34267, 161, -197.66, 136.22, 0.13091, 162, -441.37, 89.5, 0.02273, 5, 159, 489.39, 56.39, 0.22468, 160, 181.73, 62.97, 0.35573, 161, -19.84, 62.73, 0.21314, 162, -256.7, 35.47, 0.07702, 163, -408.17, 46.52, 0.12943, 5, 159, 727.98, 61.09, 0.04259, 160, 419.99, 76.27, 0.15867, 161, 218.24, 78.96, 0.2599, 162, -21.73, 77.08, 0.15276, 163, -172.16, 81.76, 0.38608, 4, 160, 671.53, 15.52, 0.05054, 161, 470.51, 21.33, 0.17767, 162, 235.26, 46.77, 0.19053, 163, 83.91, 44.52, 0.58126, 3, 161, 485.58, -39.84, 0.13221, 162, 256.79, -12.44, 0.24565, 163, 103.84, -15.25, 0.62214, 4, 160, 571.42, -80.15, 0.04313, 161, 371.59, -75.57, 0.19984, 162, 147.27, -60.16, 0.30964, 163, -6.93, -59.99, 0.44739, 5, 159, 720.44, -80.21, 0.06002, 160, 417.55, -65.22, 0.13735, 161, 217.54, -62.54, 0.33375, 162, -7.28, -63.68, 0.28173, 163, -161.53, -59.34, 0.18715, 5, 159, 531.69, -136.06, 0.23115, 160, 230.93, -127.82, 0.23157, 161, 31.71, -127.44, 0.33581, 162, -185.1, -148.1, 0.16346, 163, -341.56, -138.92, 0.03802, 4, 159, 290.57, -139.09, 0.51339, 160, -9.92, -139.54, 0.23954, 161, -208.98, -142.13, 0.20189, 162, -422.84, -188.45, 0.04518, 1, 158, 903.55, -18.16, 1, 1, 158, -135.22, -39.92, 1, 1, 158, -130.03, 37.41, 1, 1, 158, 969.6, 41.3, 1, 1, 158, 1027.44, 37.42, 1, 1, 158, 1163.26, 28.31, 1, 3, 159, 5.89, 142.47, 0.78024, 160, -304.56, 131.59, 0.1985, 161, -506.94, 125.35, 0.02126, 4, 160, 594.46, 32.38, 0.06738, 161, 393.23, 37.23, 0.23689, 162, 156.73, 54.31, 0.18095, 163, 5.61, 54.18, 0.51478, 2, 162, 148.86, 5.04, 0.60414, 163, -3.58, 5.14, 0.39586, 2, 161, 232.08, 2.52, 0.49465, 162, 0.22, 2.55, 0.50535, 2, 160, 203.52, -9.08, 0.40891, 161, 2.84, -9.04, 0.59109, 2, 159, 318.95, -18.94, 0.1972, 160, 14.11, -18.44, 0.8028, 1, 159, 30.99, -11.08, 1 ],
+					"hull": 16,
+					"edges": [ 18, 20, 20, 22, 24, 22, 18, 16, 16, 14, 14, 12, 12, 10, 10, 8, 28, 30, 30, 0, 0, 2, 2, 4, 4, 32, 8, 6, 32, 6, 24, 26, 26, 28, 4, 6 ],
+					"width": 995,
+					"height": 1291
+				}
+			},
+			"mulan_47": {
+				"mulan_47": {
+					"type": "mesh",
+					"uvs": [ 0.4467, 0.27062, 0.5487, 0.32964, 0.66052, 0.35781, 0.78018, 0.35647, 0.88415, 0.38195, 1, 0.42622, 1, 0.45707, 0.95674, 0.45976, 0.85865, 0.43964, 0.77822, 0.43427, 0.67425, 0.45305, 0.58205, 0.45707, 0.48593, 0.43561, 0.37019, 0.42622, 0.55263, 1, 0.5, 1, 0.25149, 0.2303, 0.51143, 0.36452, 0.69191, 0.39403, 0.78999, 0.40208, 0.87435, 0.41012, 0.34665, 0.34976 ],
+					"triangles": [ 6, 7, 5, 20, 5, 7, 7, 8, 20, 20, 4, 5, 9, 19, 8, 8, 19, 20, 20, 19, 4, 19, 3, 4, 10, 11, 18, 10, 18, 9, 18, 11, 2, 9, 18, 19, 18, 3, 19, 18, 2, 3, 12, 17, 11, 11, 17, 2, 2, 17, 1, 17, 0, 1, 12, 13, 17, 15, 16, 13, 15, 13, 14, 16, 21, 13, 13, 21, 17, 21, 16, 0, 21, 0, 17 ],
+					"vertices": [ 4, 152, 1369.17, -214.16, 0.11111, 153, 148.78, 210.83, 0.61739, 154, -130.71, 209.53, 0.21511, 155, -340.77, 238.1, 0.05639, 4, 153, 323.48, 104.88, 0.42792, 154, 45.04, 105.34, 0.3482, 155, -174.09, 119.93, 0.18866, 156, -380.38, 51.79, 0.03522, 5, 153, 502.19, 69.42, 0.17441, 154, 224.1, 71.66, 0.3231, 155, 1.63, 71.77, 0.32094, 156, -198.84, 36.3, 0.13956, 157, -342.4, -35.35, 0.04199, 5, 153, 682.43, 101.01, 0.03202, 154, 404.02, 105.05, 0.18854, 155, 183.67, 90.38, 0.34045, 156, -23.19, 87.63, 0.2439, 157, -181.18, 51.23, 0.19508, 4, 154, 570.25, 75.3, 0.05473, 155, 346.92, 47.18, 0.20817, 156, 145.19, 74.76, 0.27781, 157, -13.78, 73.5, 0.45929, 3, 155, 531.86, -36.31, 0.07589, 156, 342.2, 26.2, 0.17347, 157, 189.01, 66.78, 0.75064, 2, 156, 360.47, -40.33, 0.12168, 157, 220.65, 5.47, 0.87832, 3, 155, 472.35, -116.67, 0.0525, 156, 298.26, -63.62, 0.16374, 157, 164.62, -30.19, 0.78377, 4, 154, 553.25, -58.36, 0.03306, 155, 319.09, -84.65, 0.18304, 156, 141.73, -59.94, 0.27491, 157, 10.72, -59, 0.50899, 6, 152, 906.71, -634.86, 0, 153, 706.69, -71.28, 0.00157, 154, 429.99, -66.99, 0.16486, 155, 195.54, -83.2, 0.32439, 156, 19.97, -80.92, 0.28097, 157, -104.06, -104.74, 0.22821, 6, 152, 898.35, -470.65, 0.00668, 153, 556.25, -137.63, 0.05445, 154, 280.22, -134.84, 0.34978, 155, 40.73, -138.62, 0.36075, 156, -122.22, -163.5, 0.16979, 157, -226.07, -214.96, 0.05855, 5, 152, 918.57, -330.84, 0.11283, 153, 418.42, -168.57, 0.11883, 154, 142.71, -167.16, 0.4687, 155, -98.96, -159.62, 0.24102, 156, -255.78, -209.49, 0.05862, 4, 152, 995.79, -196.9, 0.33009, 153, 265.75, -144.17, 0.18008, 154, -10.2, -144.28, 0.39016, 155, -249.49, -124.36, 0.09967, 1, 152, 1052.77, -28.05, 1, 1, 152, -260.14, -36.86, 1, 1, 152, -243.57, 41.89, 1, 1, 152, 1518.84, 59.35, 1, 2, 153, 279.39, 18.94, 0.46675, 154, 1.81, 18.96, 0.53325, 2, 154, 284.89, -0.21, 1.4E-4, 155, 56.36, -4.82, 0.99986, 2, 155, 207.32, -9.94, 0.11554, 156, 18.27, -6.74, 0.88446, 2, 156, 147.4, 10.05, 0.43123, 157, 1.78, 10.65, 0.56877, 1, 152, 1227.49, -28.03, 1 ],
+					"hull": 17,
+					"edges": [ 32, 30, 28, 30, 26, 28, 26, 24, 24, 22, 22, 20, 20, 18, 18, 16, 16, 14, 14, 12, 32, 0, 0, 2, 2, 4, 4, 6, 6, 8, 12, 10, 8, 10 ],
+					"width": 1529,
+					"height": 2236
+				}
+			},
+			"mulan_48": {
+				"mulan_48": {
+					"type": "mesh",
+					"uvs": [ 0.11808, 0.12175, 0.32982, 0.19351, 0.57877, 0.31448, 0.739, 0.38009, 0.88494, 0.4252, 1, 0.4457, 1, 0.5, 0.87063, 0.49901, 0.72184, 0.46621, 0.55015, 0.45185, 0.34699, 0.4334, 0.15528, 0.38009, 0.29263, 1, 0.22681, 1, 0, 0, 0.08374, 0, 0.72184, 0.42315, 0.56732, 0.38419, 0.35844, 0.29603, 0.12953, 0.25707 ],
+					"triangles": [ 7, 8, 4, 7, 4, 5, 7, 5, 6, 17, 2, 3, 16, 17, 3, 16, 3, 4, 9, 17, 16, 8, 9, 16, 8, 16, 4, 17, 18, 2, 10, 18, 17, 9, 10, 17, 2, 18, 1, 19, 1, 18, 19, 0, 1, 11, 19, 18, 10, 11, 18, 12, 13, 11, 13, 14, 11, 14, 19, 11, 19, 14, 0, 14, 15, 0 ],
+					"vertices": [ 1, 146, 1063.47, -35.92, 1, 5, 146, 939.11, -219.88, 8.0E-4, 147, 172.15, 150.19, 0.64045, 148, -85.92, 144.62, 0.20084, 149, -306.35, 129.66, 0.13011, 150, -454.38, 188.05, 0.0278, 6, 146, 745.04, -428.8, 4.0E-4, 147, 444.05, 64.27, 0.31599, 148, 191.25, 77.63, 0.28008, 149, -26.21, 76.43, 0.23683, 150, -183.12, 100.16, 0.10003, 151, -284.9, 172.54, 0.06667, 5, 147, 614.42, 24.51, 0.10264, 148, 363.96, 49.69, 0.1839, 149, 147.67, 57.05, 0.29674, 150, -13.03, 59.15, 0.17227, 151, -129.36, 92.41, 0.24445, 4, 148, 514.45, 42.39, 0.08771, 149, 298.33, 57.18, 0.19003, 150, 136.46, 40.41, 0.18892, 151, 11.44, 38.8, 0.53334, 3, 149, 409.22, 75.58, 0.08332, 150, 248.78, 44.77, 0.15772, 151, 121.6, 16.44, 0.75896, 3, 149, 437.73, 9.65, 0.04743, 150, 268.81, -24.22, 0.1902, 151, 124.72, -55.33, 0.76237, 4, 148, 536.04, -53.81, 0.04977, 149, 324.65, -37.83, 0.15619, 150, 150.66, -57.16, 0.25049, 151, 2.13, -59.35, 0.54355, 6, 146, 526.02, -532.33, 0.00552, 147, 631.39, -89.32, 0.02613, 148, 388.73, -62.7, 0.17901, 149, 177.95, -53.98, 0.26496, 150, 3.1, -54.8, 0.27313, 151, -140.67, -22.12, 0.25125, 6, 146, 569.54, -374.35, 0.11406, 147, 470, -117.64, 0.05988, 148, 229.67, -102.07, 0.30871, 149, 21.03, -101.15, 0.27887, 150, -158.5, -81.95, 0.16841, 151, -304.1, -10.21, 0.07007, 5, 146, 622.95, -187.71, 0.33371, 147, 278.46, -149.29, 0.09364, 148, 40.76, -146.83, 0.33886, 149, -165.44, -155.19, 0.1701, 150, -350.26, -112.2, 0.06368, 1, 146, 720.29, -18.8, 1, 1, 146, -110.11, -22.79, 1, 1, 146, -100.62, 38.88, 1, 1, 146, 1239.69, 50.23, 1, 1, 146, 1227.62, -28.24, 1, 2, 149, 155.34, -1.7, 0.8863, 150, -12.78, -0.1, 0.1137, 2, 148, 213.47, -12.54, 0.4859, 149, 0.44, -12.53, 0.5141, 2, 147, 236.91, 27.97, 0.66876, 148, -12.89, 27.15, 0.33124, 1, 146, 884.87, -19.42, 1 ],
+					"hull": 16,
+					"edges": [ 22, 20, 20, 18, 18, 16, 16, 14, 14, 12, 28, 26, 24, 26, 28, 30, 30, 0, 0, 2, 2, 4, 4, 6, 6, 8, 12, 10, 8, 10, 22, 24 ],
+					"width": 948,
+					"height": 1323
+				}
+			},
+			"mulan_49": {
+				"mulan_49": {
+					"type": "mesh",
+					"uvs": [ 0.386, 0.16496, 0.57689, 0.25964, 0.74415, 0.31554, 0.8605, 0.35547, 0.92777, 0.36573, 1, 0.36915, 1, 0.40338, 0.93323, 0.41022, 0.84414, 0.41707, 0.69196, 0.39767, 0.50652, 0.38056, 0.34472, 0.32809, 0.16383, 0.29305, 0.29014, 1, 0.23226, 1, 0.04874, 0, 0.11329, 0, 0.36054, 0.23797, 0.56598, 0.31326, 0.75506, 0.36345, 0.86596, 0.37942, 0.93686, 0.38627, 0.13329, 0.16724 ],
+					"triangles": [ 7, 21, 6, 21, 5, 6, 21, 4, 5, 8, 20, 7, 7, 20, 21, 20, 4, 21, 20, 3, 4, 9, 19, 8, 20, 19, 3, 20, 8, 19, 9, 2, 19, 19, 2, 3, 10, 18, 9, 9, 18, 2, 10, 11, 18, 18, 1, 2, 11, 17, 18, 18, 17, 1, 17, 0, 1, 17, 22, 0, 15, 22, 12, 11, 12, 17, 12, 14, 15, 13, 14, 12, 12, 22, 17, 15, 16, 22, 22, 16, 0 ],
+					"vertices": [ 5, 139, 1815.67, -414.01, 0.00207, 140, 370.12, 190.02, 0.62321, 141, -90.15, 185.57, 0.18963, 142, -371.84, 235.51, 0.11803, 143, -609.47, 313.2, 0.06707, 6, 139, 1552.51, -685.21, 6.7E-4, 140, 740.71, 116.07, 0.30506, 141, 283.79, 131.07, 0.24995, 142, -8.05, 133.22, 0.19906, 143, -261.11, 166.75, 0.19623, 144, -453.12, 260.48, 0.04903, 6, 140, 1034.96, 110.94, 0.09731, 141, 577.91, 141.3, 0.16203, 142, 284.93, 105.42, 0.20611, 143, 26.19, 102.97, 0.32539, 144, -183.86, 141.7, 0.15663, 145, -292.55, 150.69, 0.05253, 5, 141, 783.81, 146.19, 0.07412, 142, 489.74, 83.7, 0.12507, 143, 226.75, 56.12, 0.3204, 144, 3.64, 56.5, 0.26424, 145, -107.73, 59.81, 0.21617, 4, 142, 595.94, 100.42, 0.04404, 143, 334.2, 59.6, 0.19124, 144, 109.7, 38.88, 0.2738, 145, -2.26, 38.96, 0.49092, 3, 143, 444.55, 81.46, 0.06209, 144, 222.19, 38.71, 0.22142, 145, 110.17, 35.37, 0.71649, 3, 143, 467.22, -0.15, 0.0621, 144, 228.45, -45.76, 0.21806, 145, 113.85, -49.25, 0.71984, 4, 142, 646.11, 2.04, 0.04834, 143, 371.84, -44.24, 0.18697, 144, 126.29, -70.31, 0.26372, 145, 10.98, -70.68, 0.50097, 5, 141, 838.12, 1.48, 0.05819, 142, 524.92, -66.81, 0.14961, 143, 243.07, -97.58, 0.31184, 144, -10.43, -97.42, 0.2575, 145, -126.5, -93.61, 0.22287, 7, 139, 1194.53, -828.39, 0.00516, 140, 1055.19, -106.97, 0.03093, 141, 609.49, -75.26, 0.1914, 142, 288.3, -113.4, 0.25087, 143, 2.51, -114.59, 0.31251, 144, -249.67, -67.02, 0.15325, 145, -364.7, -55.93, 0.05588, 6, 139, 1265.83, -546.17, 0.11212, 140, 779.43, -200.18, 0.07088, 141, 338.97, -182.73, 0.3249, 142, 6.18, -185.07, 0.25545, 143, -286.31, -150.86, 0.18764, 144, -540, -46.05, 0.04901, 5, 139, 1420.49, -309.34, 0.3302, 140, 496.57, -198.74, 0.11082, 141, 56.42, -196.06, 0.34202, 142, -275.73, -161.83, 0.15419, 143, -563.18, -92.98, 0.06277, 1, 139, 1535.21, -38.65, 1, 1, 139, -225.35, -56.58, 1, 1, 139, -216.25, 32.86, 1, 1, 139, 2274.89, 65.71, 1, 1, 139, 2264.74, -34.03, 1, 2, 140, 417.06, 11.11, 0.96967, 141, -33.93, 9.35, 0.03033, 2, 141, 335.54, 7.7, 0.09479, 142, 27.35, 4.21, 0.90521, 1, 143, 74.25, -6.75, 1, 2, 143, 250.78, 1.26, 0.17322, 144, 16.47, -2, 0.82678, 2, 144, 127.53, -10.76, 0.2853, 145, 14.05, -11.2, 0.7147, 1, 139, 1849.8, -23, 1 ],
+					"hull": 17,
+					"edges": [ 30, 28, 26, 28, 24, 26, 24, 22, 22, 20, 20, 18, 18, 16, 16, 14, 14, 12, 30, 32, 32, 0, 0, 2, 2, 4, 4, 6, 6, 8, 12, 10, 8, 10 ],
+					"width": 1553,
+					"height": 2475
+				}
+			},
+			"mulan_50": {
+				"mulan_50": { "x": 17, "y": 1218.63, "width": 1358, "height": 2438 }
+			}
+		}
+	}
+],
+"animations": {
+	"Idle": {
+		"bones": {
+			"All2": {
+				"rotate": [
+					{
+						"value": 0.91,
+						"curve": [ 0.169, 0.46, 0.334, 0 ]
+					},
+					{
+						"time": 0.5,
+						"curve": [ 0.833, 0, 1.167, 1.82 ]
+					},
+					{
+						"time": 1.5,
+						"value": 1.82,
+						"curve": [ 1.668, 1.82, 1.836, 1.37 ]
+					},
+					{ "time": 2, "value": 0.91 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 0, 0.333, 0, 0.667, -118.03 ]
+					},
+					{
+						"time": 1,
+						"y": -118.03,
+						"curve": [ 1.333, 0, 1.667, 0, 1.333, -118.03, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"All3": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, -2.4 ]
+					},
+					{
+						"time": 1,
+						"value": -2.4,
+						"curve": [ 1.333, -2.4, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"All4": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 1.81 ]
+					},
+					{
+						"time": 1,
+						"value": 1.81,
+						"curve": [ 1.333, 1.81, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"All5": {
+				"rotate": [
+					{
+						"value": 0.47,
+						"curve": [ 0.113, 0.21, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.667, 0, 1, 1.81 ]
+					},
+					{
+						"time": 1.3333,
+						"value": 1.81,
+						"curve": [ 1.557, 1.81, 1.78, 1.01 ]
+					},
+					{ "time": 2, "value": 0.47 }
+				]
+			},
+			"All6": {
+				"rotate": [
+					{
+						"value": 1.34,
+						"curve": [ 0.224, 0.8, 0.446, 0 ]
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 1, 0, 1.333, 1.81 ]
+					},
+					{
+						"time": 1.6667,
+						"value": 1.81,
+						"curve": [ 1.779, 1.81, 1.891, 1.61 ]
+					},
+					{ "time": 2, "value": 1.34 }
+				]
+			},
+			"All7": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, -7.62 ]
+					},
+					{
+						"time": 1,
+						"value": -7.62,
+						"curve": [ 1.333, -7.62, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"All8": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 4 ]
+					},
+					{
+						"time": 1,
+						"value": 4,
+						"curve": [ 1.333, 4, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_30": {
+				"rotate": [
+					{
+						"value": 1.25,
+						"curve": [ 0.113, 0.55, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.667, 0, 1, 4.78 ]
+					},
+					{
+						"time": 1.3333,
+						"value": 4.78,
+						"curve": [ 1.557, 4.78, 1.78, 2.67 ]
+					},
+					{ "time": 2, "value": 1.25 }
+				]
+			},
+			"mulan_29": {
+				"rotate": [
+					{
+						"value": 4.43,
+						"curve": [ 0.113, 3.99, 0.224, 3.19 ]
+					},
+					{
+						"time": 0.3333,
+						"value": 2.39,
+						"curve": [ 0.502, 1.2, 0.668, 0 ]
+					},
+					{
+						"time": 0.8333,
+						"curve": [ 1.167, 0, 1.5, 4.78 ]
+					},
+					{
+						"time": 1.8333,
+						"value": 4.78,
+						"curve": [ 1.889, 4.78, 1.945, 4.65 ]
+					},
+					{ "time": 2, "value": 4.43 }
+				]
+			},
+			"mulan_34": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, -6.68 ]
+					},
+					{
+						"time": 1,
+						"value": -6.68,
+						"curve": [ 1.333, -6.68, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_33": {
+				"rotate": [
+					{
+						"value": -3.67,
+						"curve": [ 0.18, -1.9, 0.357, 0 ]
+					},
+					{
+						"time": 0.5333,
+						"curve": [ 0.867, 0, 1.2, -6.68 ]
+					},
+					{
+						"time": 1.5333,
+						"value": -6.68,
+						"curve": [ 1.69, -6.68, 1.847, -5.23 ]
+					},
+					{ "time": 2, "value": -3.67 }
+				]
+			},
+			"mulan_37": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 5.58 ]
+					},
+					{
+						"time": 1,
+						"value": 5.58,
+						"curve": [ 1.333, 5.58, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_38": {
+				"rotate": [
+					{
+						"value": 3.07,
+						"curve": [ 0.18, 1.59, 0.357, 0 ]
+					},
+					{
+						"time": 0.5333,
+						"curve": [ 0.867, 0, 1.2, 5.58 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 5.58,
+						"curve": [ 1.69, 5.58, 1.847, 4.37 ]
+					},
+					{ "time": 2, "value": 3.07 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.667, 0, 1.333, 0, 0.667, 0, 1.333, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_39": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 7.6 ]
+					},
+					{
+						"time": 1,
+						"value": 7.6,
+						"curve": [ 1.333, 7.6, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_36": {
+				"rotate": [
+					{
+						"value": 4.55,
+						"curve": [ 0.191, 2.44, 0.379, 0 ]
+					},
+					{
+						"time": 0.5667,
+						"curve": [ 0.9, 0, 1.233, 7.6 ]
+					},
+					{
+						"time": 1.5667,
+						"value": 7.6,
+						"curve": [ 1.712, 7.6, 1.858, 6.18 ]
+					},
+					{ "time": 2, "value": 4.55 }
+				],
+				"translate": [
+					{
+						"curve": [ 0.667, 0, 1.333, 0, 0.667, 0, 1.333, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"All11": {
+				"translate": [
+					{
+						"curve": [ 0.167, 0, 0.333, 5.96, 0.167, 0, 0.333, -40.85 ]
+					},
+					{
+						"time": 0.5,
+						"x": 5.96,
+						"y": -40.85,
+						"curve": [ 0.667, 5.96, 0.833, 0, 0.667, -40.85, 0.833, 0 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.167, 0, 1.333, 5.96, 1.167, 0, 1.333, -40.85 ]
+					},
+					{
+						"time": 1.5,
+						"x": 5.96,
+						"y": -40.85,
+						"curve": [ 1.667, 5.96, 1.833, 0, 1.667, -40.85, 1.833, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"All13": {
+				"translate": [
+					{
+						"x": 4.23,
+						"y": -9.92,
+						"curve": [ 0.057, 1.87, 0.112, 0, 0.057, -4.38, 0.112, 0 ]
+					},
+					{
+						"time": 0.1667,
+						"curve": [ 0.333, 0, 0.5, 16.2, 0.333, 0, 0.5, -37.98 ]
+					},
+					{
+						"time": 0.6667,
+						"x": 16.2,
+						"y": -37.98,
+						"curve": [ 0.833, 16.2, 1, 0, 0.833, -37.98, 1, 0 ]
+					},
+					{
+						"time": 1.1667,
+						"curve": [ 1.333, 0, 1.5, 16.2, 1.333, 0, 1.5, -37.98 ]
+					},
+					{
+						"time": 1.6667,
+						"x": 16.2,
+						"y": -37.98,
+						"curve": [ 1.778, 16.2, 1.89, 9.03, 1.778, -37.98, 1.89, -21.18 ]
+					},
+					{ "time": 2, "x": 4.23, "y": -9.92 }
+				]
+			},
+			"All17": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, 1.34 ]
+					},
+					{
+						"time": 1,
+						"value": 1.34,
+						"curve": [ 1.333, 1.34, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"All18": {
+				"rotate": [
+					{
+						"value": 0.35,
+						"curve": [ 0.113, 0.15, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.667, 0, 1, 1.34 ]
+					},
+					{
+						"time": 1.3333,
+						"value": 1.34,
+						"curve": [ 1.557, 1.34, 1.78, 0.75 ]
+					},
+					{ "time": 2, "value": 0.35 }
+				]
+			},
+			"All19": {
+				"rotate": [
+					{
+						"value": 0.99,
+						"curve": [ 0.224, 0.59, 0.446, 0 ]
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 1, 0, 1.333, 1.34 ]
+					},
+					{
+						"time": 1.6667,
+						"value": 1.34,
+						"curve": [ 1.779, 1.34, 1.891, 1.19 ]
+					},
+					{ "time": 2, "value": 0.99 }
+				]
+			},
+			"All20": {
+				"rotate": [
+					{
+						"value": -0.99,
+						"curve": [ 0.113, -0.44, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.667, 0, 1, -3.8 ]
+					},
+					{
+						"time": 1.3333,
+						"value": -3.8,
+						"curve": [ 1.557, -3.8, 1.78, -2.12 ]
+					},
+					{ "time": 2, "value": -0.99 }
+				]
+			},
+			"All21": {
+				"rotate": [
+					{
+						"value": -2.83,
+						"curve": [ 0.113, -2.27, 0.223, -1.56 ]
+					},
+					{
+						"time": 0.3333,
+						"value": -0.99,
+						"curve": [ 0.447, -0.44, 0.557, 0 ]
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 1, 0, 1.333, -3.8 ]
+					},
+					{
+						"time": 1.6667,
+						"value": -3.8,
+						"curve": [ 1.778, -3.8, 1.89, -3.39 ]
+					},
+					{ "time": 2, "value": -2.83 }
+				]
+			},
+			"mulan_28": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, -1.89 ]
+					},
+					{
+						"time": 1,
+						"value": -1.89,
+						"curve": [ 1.333, -1.89, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_27": {
+				"rotate": [
+					{
+						"value": -0.49,
+						"curve": [ 0.113, -0.22, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.667, 0, 1, -1.89 ]
+					},
+					{
+						"time": 1.3333,
+						"value": -1.89,
+						"curve": [ 1.557, -1.89, 1.78, -1.05 ]
+					},
+					{ "time": 2, "value": -0.49 }
+				]
+			},
+			"mulan_32": {
+				"rotate": [
+					{},
+					{ "time": 1, "value": -12.41 },
+					{ "time": 2 }
+				]
+			},
+			"mulan_07": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, -4.43 ]
+					},
+					{
+						"time": 1,
+						"value": -4.43,
+						"curve": [ 1.333, -4.43, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_04": {
+				"rotate": [
+					{
+						"value": -1.16,
+						"curve": [ 0.113, -0.51, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.667, 0, 1, -4.43 ]
+					},
+					{
+						"time": 1.3333,
+						"value": -4.43,
+						"curve": [ 1.557, -4.43, 1.78, -2.47 ]
+					},
+					{ "time": 2, "value": -1.16 }
+				]
+			},
+			"mulan_05": {
+				"rotate": [
+					{
+						"value": -3.27,
+						"curve": [ 0.224, -1.96, 0.446, 0 ]
+					},
+					{
+						"time": 0.6667,
+						"curve": [ 1, 0, 1.333, -4.43 ]
+					},
+					{
+						"time": 1.6667,
+						"value": -4.43,
+						"curve": [ 1.779, -4.43, 1.891, -3.94 ]
+					},
+					{ "time": 2, "value": -3.27 }
+				]
+			},
+			"mulan_022": {
+				"rotate": [
+					{
+						"value": 12.44,
+						"curve": [ 0.112, 7.45, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.5, 0, 0.667, 16.84 ]
+					},
+					{
+						"time": 0.8333,
+						"value": 16.84,
+						"curve": [ 1, 16.84, 1.167, 0 ]
+					},
+					{
+						"time": 1.3333,
+						"curve": [ 1.5, 0, 1.667, 16.84 ]
+					},
+					{
+						"time": 1.8333,
+						"value": 16.84,
+						"curve": [ 1.889, 16.84, 1.946, 14.97 ]
+					},
+					{ "time": 2, "value": 12.44 }
+				]
+			},
+			"mulan_50": {
+				"rotate": [
+					{
+						"curve": [ 0.167, 0, 0.333, 24.18 ]
+					},
+					{
+						"time": 0.5,
+						"value": 24.18,
+						"curve": [ 0.667, 24.18, 0.833, 0 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.167, 0, 1.333, 24.18 ]
+					},
+					{
+						"time": 1.5,
+						"value": 24.18,
+						"curve": [ 1.667, 24.18, 1.833, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_56": {
+				"rotate": [
+					{
+						"value": -0.76,
+						"curve": [ 0.058, -0.33, 0.112, 0 ]
+					},
+					{
+						"time": 0.1667,
+						"curve": [ 0.5, 0, 0.833, -9.63 ]
+					},
+					{
+						"time": 1.1667,
+						"value": -9.63,
+						"curve": [ 1.446, -9.63, 1.724, -2.96 ]
+					},
+					{ "time": 2, "value": -0.76 }
+				]
+			},
+			"mulan_57": {
+				"rotate": [
+					{
+						"value": -4.85,
+						"curve": [ 0.056, -4.05, 0.112, -3.23 ]
+					},
+					{
+						"time": 0.1667,
+						"value": -2.52,
+						"curve": [ 0.28, -1.11, 0.39, 0 ]
+					},
+					{
+						"time": 0.5,
+						"curve": [ 0.833, 0, 1.167, -9.63 ]
+					},
+					{
+						"time": 1.5,
+						"value": -9.63,
+						"curve": [ 1.668, -9.63, 1.835, -7.25 ]
+					},
+					{ "time": 2, "value": -4.85 }
+				]
+			},
+			"mulan_58": {
+				"rotate": [
+					{
+						"value": -8.92,
+						"curve": [ 0.056, -8.48, 0.112, -7.84 ]
+					},
+					{
+						"time": 0.1667,
+						"value": -7.11,
+						"curve": [ 0.391, -4.26, 0.612, 0 ]
+					},
+					{
+						"time": 0.8333,
+						"curve": [ 1.167, 0, 1.5, -9.63 ]
+					},
+					{
+						"time": 1.8333,
+						"value": -9.63,
+						"curve": [ 1.889, -9.63, 1.945, -9.37 ]
+					},
+					{ "time": 2, "value": -8.92 }
+				]
+			},
+			"All24": {
+				"translate": [
+					{
+						"x": -29.06,
+						"y": 9.23,
+						"curve": [ 0.112, -17.41, 0.223, 0, 0.112, 5.53, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.5, 0, 0.667, -39.35, 0.5, 0, 0.667, 12.5 ]
+					},
+					{
+						"time": 0.8333,
+						"x": -39.35,
+						"y": 12.5,
+						"curve": [ 1, -39.35, 1.167, 0, 1, 12.5, 1.167, 0 ]
+					},
+					{
+						"time": 1.3333,
+						"curve": [ 1.5, 0, 1.667, -39.35, 1.5, 0, 1.667, 12.5 ]
+					},
+					{
+						"time": 1.8333,
+						"x": -39.35,
+						"y": 12.5,
+						"curve": [ 1.889, -39.35, 1.946, -34.98, 1.889, 12.5, 1.946, 11.11 ]
+					},
+					{ "time": 2, "x": -29.06, "y": 9.23 }
+				]
+			},
+			"mulan_60": {
+				"rotate": [
+					{
+						"curve": [ 0.333, 0, 0.667, -22.74 ]
+					},
+					{
+						"time": 1,
+						"value": -22.74,
+						"curve": [ 1.333, -22.74, 1.667, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_64": {
+				"rotate": [
+					{
+						"curve": [ 0.169, 0, 0.331, 12.99 ]
+					},
+					{
+						"time": 0.5,
+						"value": 12.99,
+						"curve": [ 0.669, 12.99, 0.833, 0 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.169, 0, 1.331, 12.99 ]
+					},
+					{
+						"time": 1.5,
+						"value": 12.99,
+						"curve": [ 1.669, 12.99, 1.831, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"qi": {
+				"translate": [
+					{
+						"y": -7.84,
+						"curve": [ 0.113, 0, 0.223, 0, 0.113, -3.46, 0.223, 0 ]
+					},
+					{
+						"time": 0.3333,
+						"curve": [ 0.667, 0, 1, 0, 0.667, 0, 1, -30 ]
+					},
+					{
+						"time": 1.3333,
+						"y": -30,
+						"curve": [ 1.557, 0, 1.78, 0, 1.557, -30, 1.78, -16.73 ]
+					},
+					{ "time": 2, "y": -7.84 }
+				]
+			},
+			"mulan_83": {
+				"rotate": [
+					{
+						"curve": [ 0.178, 0, 0.356, 17.66 ]
+					},
+					{
+						"time": 0.5333,
+						"value": 17.66,
+						"curve": [ 0.689, 17.66, 0.844, 0 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.178, 0, 1.356, 17.66 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 17.66,
+						"curve": [ 1.689, 17.66, 1.844, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_90": {
+				"rotate": [
+					{
+						"value": 5.19,
+						"curve": [ 0.056, 2.3, 0.111, 0 ]
+					},
+					{
+						"time": 0.1667,
+						"curve": [ 0.344, 0, 0.522, 17.66 ]
+					},
+					{
+						"time": 0.7,
+						"value": 17.66,
+						"curve": [ 0.856, 17.66, 1.011, 0 ]
+					},
+					{
+						"time": 1.1667,
+						"curve": [ 1.344, 0, 1.522, 17.66 ]
+					},
+					{
+						"time": 1.7,
+						"value": 17.66,
+						"curve": [ 1.8, 17.66, 1.9, 10.4 ]
+					},
+					{ "time": 2, "value": 5.19 }
+				]
+			},
+			"mulan_96": {
+				"rotate": [
+					{
+						"curve": [ 0.178, 0, 0.356, 17.66 ]
+					},
+					{
+						"time": 0.5333,
+						"value": 17.66,
+						"curve": [ 0.689, 17.66, 0.844, 0 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.178, 0, 1.356, 17.66 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 17.66,
+						"curve": [ 1.689, 17.66, 1.844, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_103": {
+				"rotate": [
+					{
+						"curve": [ 0.178, 0, 0.356, 17.66 ]
+					},
+					{
+						"time": 0.5333,
+						"value": 17.66,
+						"curve": [ 0.689, 17.66, 0.844, 0 ]
+					},
+					{
+						"time": 1,
+						"curve": [ 1.178, 0, 1.356, 17.66 ]
+					},
+					{
+						"time": 1.5333,
+						"value": 17.66,
+						"curve": [ 1.689, 17.66, 1.844, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_115": {
+				"rotate": [
+					{
+						"value": 8.83,
+						"curve": [ 0.079, 4.44, 0.156, 0 ]
+					},
+					{
+						"time": 0.2333,
+						"curve": [ 0.411, 0, 0.589, 17.66 ]
+					},
+					{
+						"time": 0.7667,
+						"value": 17.66,
+						"curve": [ 0.922, 17.66, 1.078, 0 ]
+					},
+					{
+						"time": 1.2333,
+						"curve": [ 1.411, 0, 1.589, 17.66 ]
+					},
+					{
+						"time": 1.7667,
+						"value": 17.66,
+						"curve": [ 1.845, 17.66, 1.923, 13.27 ]
+					},
+					{ "time": 2, "value": 8.83 }
+				]
+			},
+			"mulan_121": {
+				"rotate": [
+					{
+						"value": 5.19,
+						"curve": [ 0.056, 2.3, 0.111, 0 ]
+					},
+					{
+						"time": 0.1667,
+						"curve": [ 0.344, 0, 0.522, 17.66 ]
+					},
+					{
+						"time": 0.7,
+						"value": 17.66,
+						"curve": [ 0.856, 17.66, 1.011, 0 ]
+					},
+					{
+						"time": 1.1667,
+						"curve": [ 1.344, 0, 1.522, 17.66 ]
+					},
+					{
+						"time": 1.7,
+						"value": 17.66,
+						"curve": [ 1.8, 17.66, 1.9, 10.4 ]
+					},
+					{ "time": 2, "value": 5.19 }
+				]
+			}
+		}
+	},
+	"Start": {
+		"bones": {
+			"All2": {
+				"rotate": [
+					{ "value": 0.91 }
+				],
+				"translate": [
+					{ "x": 1758, "y": -1569.76, "curve": "stepped" },
+					{
+						"time": 1.6667,
+						"x": 1758,
+						"y": -1569.76,
+						"curve": [ 1.767, 1138, 1.867, -102, 1.767, -1113.76, 1.867, -334.74 ]
+					},
+					{
+						"time": 1.9667,
+						"x": -102,
+						"y": -201.76,
+						"curve": [ 2.078, -102, 2.189, -76, 2.078, -54, 2.189, -49.25 ]
+					},
+					{ "time": 2.3 }
+				]
+			},
+			"All5": {
+				"rotate": [
+					{ "value": 0.47 }
+				]
+			},
+			"All6": {
+				"rotate": [
+					{ "value": 1.34 }
+				]
+			},
+			"mulan_30": {
+				"rotate": [
+					{ "value": 1.25 }
+				]
+			},
+			"mulan_29": {
+				"rotate": [
+					{ "value": 4.43 }
+				]
+			},
+			"mulan_33": {
+				"rotate": [
+					{ "value": -3.67 }
+				]
+			},
+			"mulan_38": {
+				"rotate": [
+					{ "value": 3.07 }
+				]
+			},
+			"mulan_36": {
+				"rotate": [
+					{ "value": 4.55 }
+				]
+			},
+			"All13": {
+				"translate": [
+					{ "x": 4.23, "y": -9.92 }
+				]
+			},
+			"All18": {
+				"rotate": [
+					{ "value": 0.35, "curve": "stepped" },
+					{ "time": 1.6667, "value": 0.35 },
+					{ "time": 1.9667, "value": 5.94 },
+					{ "time": 2.3, "value": 0.35 }
+				]
+			},
+			"All19": {
+				"rotate": [
+					{ "value": 0.99 }
+				]
+			},
+			"All20": {
+				"rotate": [
+					{ "value": -0.99 }
+				]
+			},
+			"All21": {
+				"rotate": [
+					{ "value": -2.83 }
+				]
+			},
+			"mulan_28": {
+				"rotate": [
+					{ "time": 1.6667 },
+					{ "time": 1.9667, "value": 11.04 },
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_27": {
+				"rotate": [
+					{ "value": -0.49 }
+				]
+			},
+			"mulan_07": {
+				"rotate": [
+					{ "time": 1.6667 },
+					{ "time": 1.9667, "value": 13.91 },
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_04": {
+				"rotate": [
+					{ "value": -1.16 }
+				]
+			},
+			"mulan_05": {
+				"rotate": [
+					{ "value": -3.27 }
+				]
+			},
+			"mulan_022": {
+				"rotate": [
+					{ "value": 12.44 }
+				]
+			},
+			"mulan_25": {
+				"rotate": [
+					{ "time": 1.6667 },
+					{ "time": 1.9667, "value": 15.74 },
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_26": {
+				"rotate": [
+					{ "time": 1.6667 },
+					{ "time": 1.9667, "value": 13.76 },
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_56": {
+				"rotate": [
+					{ "value": -0.76, "curve": "stepped" },
+					{ "time": 1.6667, "value": -0.76 },
+					{ "time": 1.9667, "value": 4.34 },
+					{ "time": 2.3, "value": -0.76 }
+				]
+			},
+			"mulan_57": {
+				"rotate": [
+					{ "value": -4.85 }
+				]
+			},
+			"mulan_58": {
+				"rotate": [
+					{ "value": -8.92 }
+				]
+			},
+			"All24": {
+				"translate": [
+					{ "x": -29.06, "y": 9.23 }
+				]
+			},
+			"qi": {
+				"translate": [
+					{ "y": -1789.84, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"y": -1789.84,
+						"curve": [ 0.878, 0, 1.156, 0, 0.878, -1751.84, 0.986, -1732.41 ]
+					},
+					{
+						"time": 1.4333,
+						"y": -1675.84,
+						"curve": [ 1.611, 0, 1.789, 0, 1.872, -1620.45, 1.789, -7.84 ]
+					},
+					{ "time": 1.9667, "y": -7.84 }
+				],
+				"scale": [
+					{ "x": 1.469, "y": 1.469, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"x": 1.469,
+						"y": 1.469,
+						"curve": [ 0.878, 1.469, 1.156, 1.478, 0.878, 1.469, 1.156, 1.478 ]
+					},
+					{
+						"time": 1.4333,
+						"x": 1.469,
+						"y": 1.469,
+						"curve": [ 1.872, 1.453, 1.789, 1, 1.872, 1.453, 1.789, 1 ]
+					},
+					{ "time": 1.9667 }
+				]
+			},
+			"mulan_82": {
+				"rotate": [
+					{ "value": -88.84, "curve": "stepped" },
+					{
+						"time": 1.0333,
+						"value": -88.84,
+						"curve": [ 1.171, -88.84, 1.296, -1.84 ]
+					},
+					{ "time": 1.4333, "value": -1.84, "curve": "stepped" },
+					{
+						"time": 1.6667,
+						"value": -1.84,
+						"curve": [ 1.948, -1.84, 2.019, 0 ]
+					},
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_89": {
+				"rotate": [
+					{ "value": -88.84, "curve": "stepped" },
+					{
+						"time": 0.9667,
+						"value": -88.84,
+						"curve": [ 1.104, -88.84, 1.229, -1.84 ]
+					},
+					{ "time": 1.3667, "value": -1.84, "curve": "stepped" },
+					{
+						"time": 1.6667,
+						"value": -1.84,
+						"curve": [ 1.948, -1.84, 2.019, 0 ]
+					},
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_90": {
+				"rotate": [
+					{ "value": 5.19 }
+				]
+			},
+			"mulan_95": {
+				"rotate": [
+					{ "value": -88.84, "curve": "stepped" },
+					{
+						"time": 0.8,
+						"value": -88.84,
+						"curve": [ 0.938, -88.84, 1.096, -1.84 ]
+					},
+					{ "time": 1.2333, "value": -1.84, "curve": "stepped" },
+					{
+						"time": 1.6667,
+						"value": -1.84,
+						"curve": [ 1.948, -1.84, 2.019, 0 ]
+					},
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_102": {
+				"rotate": [
+					{ "value": -88.84, "curve": "stepped" },
+					{
+						"time": 0.6,
+						"value": -88.84,
+						"curve": [ 0.738, -88.84, 0.896, -1.84 ]
+					},
+					{ "time": 1.0333, "value": -1.84, "curve": "stepped" },
+					{
+						"time": 1.6667,
+						"value": -1.84,
+						"curve": [ 1.948, -1.84, 2.019, 0 ]
+					},
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_108": {
+				"rotate": [
+					{ "value": -88.84, "curve": "stepped" },
+					{
+						"time": 0.6667,
+						"value": -88.84,
+						"curve": [ 0.804, -88.84, 0.929, -1.84 ]
+					},
+					{ "time": 1.0667, "value": -1.84, "curve": "stepped" },
+					{
+						"time": 1.6667,
+						"value": -1.84,
+						"curve": [ 1.948, -1.84, 2.019, 0 ]
+					},
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_114": {
+				"rotate": [
+					{ "value": -88.84, "curve": "stepped" },
+					{
+						"time": 0.8667,
+						"value": -88.84,
+						"curve": [ 1.004, -88.84, 1.162, -1.84 ]
+					},
+					{ "time": 1.3, "value": -1.84, "curve": "stepped" },
+					{
+						"time": 1.6667,
+						"value": -1.84,
+						"curve": [ 1.948, -1.84, 2.019, 0 ]
+					},
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_115": {
+				"rotate": [
+					{ "value": 8.83 }
+				]
+			},
+			"mulan_120": {
+				"rotate": [
+					{ "value": -88.84, "curve": "stepped" },
+					{
+						"time": 0.7333,
+						"value": -88.84,
+						"curve": [ 0.871, -88.84, 0.996, -1.84 ]
+					},
+					{ "time": 1.1333, "value": -1.84, "curve": "stepped" },
+					{
+						"time": 1.6667,
+						"value": -1.84,
+						"curve": [ 1.948, -1.84, 2.019, 0 ]
+					},
+					{ "time": 2.3 }
+				]
+			},
+			"mulan_121": {
+				"rotate": [
+					{ "value": 5.19 }
+				]
+			},
+			"eff": {
+				"translate": [
+					{ "x": 114, "y": -1788, "curve": "stepped" },
+					{
+						"time": 1.4333,
+						"x": 114,
+						"y": -1788,
+						"curve": [ 1.622, 76, 1.811, 0, 1.622, -1192, 1.811, 0 ]
+					},
+					{ "time": 2 }
+				]
+			},
+			"mulan_03": {
+				"translate": [
+					{ "x": -1722, "y": 36, "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"x": -1722,
+						"y": 36,
+						"curve": [ 0.8, -1722, 1.433, 510, 0.8, 36, 1.433, -30 ]
+					},
+					{ "time": 2.0667, "x": 510, "y": -30 }
+				],
+				"scale": [
+					{ "x": 3.885, "y": 3.885 }
+				]
+			},
+			"mulan_038": {
+				"translate": [
+					{
+						"x": -216.7,
+						"y": 215.73,
+						"curve": [ 0.619, -223.08, 1.281, -1830, 0.619, 213.25, 1.281, -6 ]
+					},
+					{ "time": 1.9, "x": -1830, "y": -6 }
+				],
+				"scale": [
+					{ "x": -3.885, "y": 3.885 }
+				]
+			}
+		},
+		"attachments": {
+			"default": {
+				"All": {
+					"All": {
+						"deform": [
+							{
+								"offset": 1,
+								"vertices": [ -1376.6125, 0, 1062.0002, 0, 1062.0002, 0, -1376.6125 ],
+								"curve": [ 0.2, 0, 0.4, 1 ]
+							},
+							{ "time": 0.6 }
+						]
+					}
+				}
+			}
+		}
+	}
+}
+}

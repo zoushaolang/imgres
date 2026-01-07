@@ -1,0 +1,157 @@
+mulan.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.7
+mulan_06
+	bounds: 1089, 7, 473, 118
+	offsets: 0, 0, 474, 118
+mulan_08
+	bounds: 1992, 2010, 53, 36
+mulan_11
+	bounds: 1992, 1977, 35, 31
+	offsets: 0, 0, 36, 32
+mulan_12
+	bounds: 2, 2, 14, 18
+	rotate: 90
+mulan_13
+	bounds: 1564, 86, 42, 39
+	offsets: 1, 0, 43, 39
+mulan_14
+	bounds: 612, 25, 20, 11
+mulan_15
+	bounds: 1564, 73, 13, 11
+mulan_16
+	bounds: 1992, 1966, 11, 9
+mulan_19
+	bounds: 1067, 316, 20, 21
+	offsets: 2, 0, 22, 21
+mulan_21
+	bounds: 1039, 313, 24, 26
+	offsets: 1, 0, 25, 27
+	rotate: 90
+mulan_22
+	bounds: 2, 18, 608, 293
+mulan_25
+	bounds: 1615, 50, 287, 407
+	rotate: 90
+mulan_33
+	bounds: 1089, 127, 210, 524
+	offsets: 0, 0, 211, 525
+	rotate: 90
+mulan_37
+	bounds: 612, 38, 273, 475
+	offsets: 1, 0, 274, 475
+	rotate: 90
+mulan_49
+	bounds: 2, 313, 1035, 1733
+	offsets: 52, 0, 1087, 1733
+mulan_50
+	bounds: 1039, 339, 951, 1707
+
+mulan_2.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.7
+mulan_02
+	bounds: 2, 1014, 1554, 1021
+	offsets: 4, 36, 1558, 1112
+mulan_03
+	bounds: 1558, 900, 1135, 353
+	offsets: 0, 0, 1135, 376
+	rotate: 90
+mulan_07
+	bounds: 1913, 1456, 139, 75
+	rotate: 90
+mulan_09
+	bounds: 1461, 20, 878, 562
+	offsets: 0, 0, 878, 589
+	rotate: 90
+mulan_17
+	bounds: 1461, 922, 74, 90
+	offsets: 0, 1, 74, 91
+mulan_20
+	bounds: 1913, 1873, 103, 162
+mulan_31
+	bounds: 1913, 1597, 104, 125
+mulan_40
+	bounds: 1913, 1381, 74, 73
+mulan_42
+	bounds: 1913, 1724, 98, 147
+	offsets: 0, 1, 98, 148
+mulan_43
+	bounds: 2, 2, 1010, 1457
+	rotate: 90
+
+mulan_3.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.7
+mulan_01
+	bounds: 2, 1181, 1401, 865
+	offsets: 4, 3, 1408, 872
+mulan_04
+	bounds: 1861, 361, 185, 141
+mulan_05
+	bounds: 1631, 62, 279, 183
+mulan_18
+	bounds: 1861, 504, 177, 324
+	offsets: 0, 13, 177, 337
+mulan_23
+	bounds: 476, 105, 359, 271
+	offsets: 0, 0, 360, 271
+mulan_29
+	bounds: 1154, 93, 152, 475
+	offsets: 1, 0, 153, 475
+	rotate: 90
+mulan_34
+	bounds: 837, 81, 315, 295
+	offsets: 1, 0, 316, 295
+mulan_35
+	bounds: 1861, 830, 377, 184
+	rotate: 90
+mulan_39
+	bounds: 2, 17, 472, 359
+	offsets: 30, 0, 502, 359
+mulan_44
+	bounds: 1209, 247, 650, 932
+mulan_45
+	bounds: 1405, 1209, 522, 837
+mulan_47
+	bounds: 2, 378, 801, 1205
+	offsets: 269, 0, 1070, 1565
+	rotate: 90
+
+mulan_4.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.7
+mulan_10
+	bounds: 266, 51, 148, 151
+mulan_24
+	bounds: 1271, 479, 639, 588
+	rotate: 90
+mulan_26
+	bounds: 701, 402, 706, 568
+	offsets: 14, 0, 720, 568
+	rotate: 90
+mulan_27
+	bounds: 701, 21, 379, 528
+	rotate: 90
+mulan_28
+	bounds: 1668, 1603, 263, 217
+	offsets: 3, 2, 266, 220
+mulan_30
+	bounds: 1668, 1822, 323, 224
+	offsets: 0, 3, 323, 227
+mulan_32
+	bounds: 2, 1110, 998, 936
+mulan_36
+	bounds: 1668, 1400, 218, 201
+mulan_38
+	bounds: 2, 23, 262, 179
+mulan_41
+	bounds: 1888, 1446, 158, 155
+mulan_46
+	bounds: 2, 204, 697, 904
+mulan_48
+	bounds: 1002, 1120, 664, 926
