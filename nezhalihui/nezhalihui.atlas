@@ -1,0 +1,105 @@
+nezhalihui.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.6
+nezhalihui_04
+	bounds: 1230, 44, 136, 127
+	offsets: 0, 0, 136, 130
+nezhalihui_05
+	bounds: 1933, 1757, 55, 284
+nezhalihui_06
+	bounds: 248, 28, 143, 244
+	rotate: 90
+nezhalihui_07
+	bounds: 2, 2, 169, 244
+	rotate: 90
+nezhalihui_09
+	bounds: 1800, 1565, 476, 131
+	rotate: 90
+nezhalihui_10
+	bounds: 1800, 1130, 55, 180
+	offsets: 0, 0, 56, 180
+	rotate: 90
+nezhalihui_11
+	bounds: 494, 42, 217, 129
+nezhalihui_14
+	bounds: 1933, 1596, 51, 74
+nezhalihui_15
+	bounds: 1368, 40, 136, 131
+nezhalihui_16
+	bounds: 713, 34, 199, 137
+	offsets: 0, 3, 199, 143
+nezhalihui_18
+	bounds: 1700, 641, 484, 247
+	rotate: 90
+nezhalihui_19
+	bounds: 1596, 106, 89, 65
+	offsets: 0, 1, 89, 66
+nezhalihui_20
+	bounds: 2, 1127, 1796, 914
+nezhalihui_21
+	bounds: 914, 62, 109, 163
+	rotate: 90
+nezhalihui_23
+	bounds: 1079, 55, 116, 149
+	rotate: 90
+nezhalihui_24
+	bounds: 1933, 1672, 83, 60
+	rotate: 90
+nezhalihui_25
+	bounds: 1506, 85, 88, 86
+nezhalihui_30
+	bounds: 1800, 1187, 207, 376
+nezhalihui_31
+	bounds: 1700, 160, 303, 479
+nezhalihui_77
+	bounds: 2, 173, 952, 1696
+	rotate: 90
+
+nezhalihui_2.png
+	size: 2048, 2048
+	filter: Linear, Linear
+	scale: 0.6
+nezhalihui_01
+	bounds: 1392, 118, 551, 562
+nezhalihui_02
+	bounds: 906, 76, 484, 575
+nezhalihui_03
+	bounds: 1037, 682, 350, 627
+	rotate: 90
+nezhalihui_08
+	bounds: 2, 2, 649, 902
+	rotate: 90
+nezhalihui_32
+	bounds: 1666, 684, 292, 348
+nezhalihui_34
+	bounds: 1037, 1034, 903, 944
+	offsets: 0, 1, 903, 946
+nezhalihui_35
+	bounds: 2, 653, 1033, 1325
+	offsets: 0, 2, 1034, 1328
+
+nezhalihui_3.png
+	size: 1024, 1024
+	filter: Linear, Linear
+	scale: 0.6
+nezhalihui_12
+	bounds: 760, 548, 214, 201
+nezhalihui_13
+	bounds: 760, 751, 266, 231
+	rotate: 90
+nezhalihui_17
+	bounds: 365, 194, 353, 340
+	rotate: 90
+nezhalihui_22
+	bounds: 365, 2, 211, 190
+nezhalihui_26
+	bounds: 707, 236, 264, 310
+	offsets: 0, 0, 264, 311
+nezhalihui_28
+	bounds: 2, 44, 361, 503
+nezhalihui_29
+	bounds: 2, 549, 414, 468
+	offsets: 0, 0, 414, 469
+nezhalihui_33
+	bounds: 418, 566, 340, 451
